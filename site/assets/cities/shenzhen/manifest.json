@@ -1,0 +1,495 @@
+{
+  "format": 1,
+  "method": "TripoSplat",
+  "sourceCount": 262144,
+  "partitionedCount": 262144,
+  "sourceSha256": "a4d588b1148cd8f5720bfd180d13d507daa8709e78c0a675bc76074fe68df61f",
+  "seed": 42,
+  "storageScale": 64,
+  "normalization": {
+    "rotation": "Rx(pi)",
+    "factor": 20.353184529655906,
+    "offset": [
+      -0.005593612790107727,
+      -0.24551334977149963,
+      0.00011587142944335938
+    ]
+  },
+  "bounds": {
+    "min": [
+      -10,
+      0,
+      -6.655548805418291
+    ],
+    "max": [
+      10,
+      8.995972937054885,
+      6.655548805418291
+    ]
+  },
+  "particles": "./assets/cities/shenzhen/particles.bin",
+  "particleCount": 120000,
+  "regions": [
+    {
+      "id": "dragon-column",
+      "core": {
+        "center": [
+          7.1,
+          2.9,
+          -3.8
+        ],
+        "size": [
+          1.6,
+          4.7,
+          1.35
+        ]
+      },
+      "center": [
+        7.100209712982178,
+        2.9092268347740173,
+        -3.8002066612243652
+      ],
+      "size": [
+        1.679020004272461,
+        4.7599432039260865,
+        1.4287434387207032
+      ],
+      "ground": false,
+      "count": 1542,
+      "bytes": 25669,
+      "url": "./assets/cities/shenzhen/dragon-column.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "lanterns",
+      "core": {
+        "center": [
+          7.1,
+          4.6,
+          2.4
+        ],
+        "size": [
+          1.8,
+          1.5,
+          1.6
+        ]
+      },
+      "center": [
+        6.684178590774536,
+        4.720150947570801,
+        2.3995397090911865
+      ],
+      "size": [
+        1.0400911140441895,
+        1.3395233917236329,
+        1.6764694023132325
+      ],
+      "ground": false,
+      "count": 839,
+      "bytes": 14195,
+      "url": "./assets/cities/shenzhen/lanterns.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "vessels",
+      "core": {
+        "center": [
+          8.6,
+          1.6,
+          -4.2
+        ],
+        "size": [
+          2,
+          3.1,
+          1.8
+        ]
+      },
+      "center": [
+        8.600202083587646,
+        1.3621223866939545,
+        -4.2009888887405396
+      ],
+      "size": [
+        2.0764075088500977,
+        2.3699330258369447,
+        1.874696569442749
+      ],
+      "ground": false,
+      "count": 3775,
+      "bytes": 61166,
+      "url": "./assets/cities/shenzhen/vessels.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "doorway",
+      "core": {
+        "center": [
+          6.7,
+          2.8,
+          0
+        ],
+        "size": [
+          2.4,
+          5.6,
+          12.6
+        ]
+      },
+      "center": [
+        6.700014591217041,
+        2.809850632213056,
+        0.00003266334533691406
+      ],
+      "size": [
+        2.4799462127685548,
+        5.6602279729396106,
+        12.679804401397705
+      ],
+      "ground": true,
+      "count": 29904,
+      "bytes": 460394,
+      "url": "./assets/cities/shenzhen/doorway.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "ridge",
+      "core": {
+        "center": [
+          3.8,
+          7.7,
+          0
+        ],
+        "size": [
+          2.5,
+          2.6,
+          10.5
+        ]
+      },
+      "center": [
+        4.729990005493164,
+        6.829271078109741,
+        0.00604557991027832
+      ],
+      "size": [
+        0.719357566833496,
+        0.9381089973449707,
+        10.56508882522583
+      ],
+      "ground": false,
+      "count": 2886,
+      "bytes": 46898,
+      "url": "./assets/cities/shenzhen/ridge.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "front-hall",
+      "core": {
+        "center": [
+          4.1,
+          4,
+          0
+        ],
+        "size": [
+          7.2,
+          8.7,
+          13.4
+        ]
+      },
+      "center": [
+        4.11153444647789,
+        4.121587030007504,
+        0.04570460319519043
+      ],
+      "size": [
+        7.303010361194611,
+        8.320579144330695,
+        13.551343517303467
+      ],
+      "ground": true,
+      "count": 67717,
+      "bytes": 1039118,
+      "url": "./assets/cities/shenzhen/front-hall.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "inner-court",
+      "core": {
+        "center": [
+          -1.1,
+          2.8,
+          0
+        ],
+        "size": [
+          3.8,
+          6,
+          13.4
+        ]
+      },
+      "center": [
+        -1.2631376683712006,
+        4.17694927752018,
+        -0.0071811676025390625
+      ],
+      "size": [
+        3.605135338306427,
+        8.162388371229172,
+        13.493890838623047
+      ],
+      "ground": true,
+      "count": 43943,
+      "bytes": 680777,
+      "url": "./assets/cities/shenzhen/inner-court.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "rear-hall",
+      "core": {
+        "center": [
+          -6.35,
+          4.6,
+          0
+        ],
+        "size": [
+          6.6,
+          9.6,
+          13.4
+        ]
+      },
+      "center": [
+        -6.544564485549927,
+        4.933449238538742,
+        -0.8895728588104248
+      ],
+      "size": [
+        7.116925792694092,
+        9.672816412448883,
+        10.333077030181885
+      ],
+      "ground": true,
+      "count": 92757,
+      "bytes": 1430492,
+      "url": "./assets/cities/shenzhen/rear-hall.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "approach",
+      "core": {
+        "center": [
+          9,
+          0.3,
+          0
+        ],
+        "size": [
+          2.5,
+          1,
+          13.4
+        ]
+      },
+      "center": [
+        9.006486654281616,
+        1.0309934988617897,
+        0.058211565017700195
+      ],
+      "size": [
+        2.6451612281799317,
+        2.370287420153618,
+        13.533986644744873
+      ],
+      "ground": true,
+      "count": 18781,
+      "bytes": 283992,
+      "url": "./assets/cities/shenzhen/approach.spz",
+      "splatScale": 1
+    }
+  ],
+  "hotspots": {
+    "doorway": {
+      "id": "doorway",
+      "regions": [
+        "doorway"
+      ],
+      "position": [
+        7,
+        2.9,
+        0
+      ],
+      "volume": {
+        "center": [
+          6.7,
+          2.8,
+          0
+        ],
+        "size": [
+          2.4,
+          5.6,
+          12.6
+        ]
+      }
+    },
+    "dragon-column": {
+      "id": "dragon-column",
+      "regions": [
+        "dragon-column"
+      ],
+      "position": [
+        7.1,
+        3,
+        -3.8
+      ],
+      "volume": {
+        "center": [
+          7.1,
+          2.9,
+          -3.8
+        ],
+        "size": [
+          1.6,
+          4.7,
+          1.35
+        ]
+      }
+    },
+    "ridge": {
+      "id": "ridge",
+      "regions": [
+        "ridge",
+        "front-hall"
+      ],
+      "position": [
+        3.8,
+        8.2,
+        0
+      ],
+      "volume": {
+        "center": [
+          3.8,
+          7.7,
+          0
+        ],
+        "size": [
+          2.5,
+          2.6,
+          10.5
+        ]
+      }
+    },
+    "stone-panels": {
+      "id": "stone-panels",
+      "regions": [
+        "doorway"
+      ],
+      "position": [
+        7,
+        2.8,
+        4.8
+      ],
+      "volume": {
+        "center": [
+          6.7,
+          2.8,
+          0
+        ],
+        "size": [
+          2.4,
+          5.6,
+          12.6
+        ]
+      }
+    },
+    "lanterns": {
+      "id": "lanterns",
+      "regions": [
+        "lanterns"
+      ],
+      "position": [
+        7.1,
+        4.6,
+        2.4
+      ],
+      "volume": {
+        "center": [
+          7.1,
+          4.6,
+          2.4
+        ],
+        "size": [
+          1.8,
+          1.5,
+          1.6
+        ]
+      }
+    },
+    "gables": {
+      "id": "gables",
+      "regions": [
+        "front-hall",
+        "rear-hall"
+      ],
+      "position": [
+        3.5,
+        5.8,
+        6.3
+      ],
+      "volume": {
+        "center": [
+          4.1,
+          4,
+          0
+        ],
+        "size": [
+          7.2,
+          8.7,
+          13.4
+        ]
+      }
+    },
+    "vessels": {
+      "id": "vessels",
+      "regions": [
+        "vessels",
+        "approach"
+      ],
+      "position": [
+        8.6,
+        1.7,
+        -4.2
+      ],
+      "volume": {
+        "center": [
+          8.6,
+          1.6,
+          -4.2
+        ],
+        "size": [
+          2,
+          3.1,
+          1.8
+        ]
+      }
+    },
+    "inner-court": {
+      "id": "inner-court",
+      "regions": [
+        "inner-court",
+        "rear-hall"
+      ],
+      "position": [
+        -1.1,
+        4,
+        0
+      ],
+      "volume": {
+        "center": [
+          -1.1,
+          2.8,
+          0
+        ],
+        "size": [
+          3.8,
+          6,
+          13.4
+        ]
+      }
+    }
+  },
+  "provenance": "User photography → ImageGen → Rodin GLB → Cycles reference render → TripoSplat CUDA inference. Not a survey. Hidden geometry inferred."
+}

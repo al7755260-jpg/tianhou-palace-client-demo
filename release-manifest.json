@@ -1,0 +1,1412 @@
+{
+  "version": "2026-09-28",
+  "fileCount": 281,
+  "totalBytes": 757957287,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 40,
+      "sha256": "ab55f515a2148e7dd9d6df5363629e20511cc826c1f7478e63d6387adcdcce6c"
+    },
+    {
+      "path": "licenses/meshoptimizer-LICENSE.md",
+      "bytes": 1079,
+      "sha256": "d1bc307ff896c7fc65e3ff4823cc478194f7a5bc6436f99534ebede4d9e2017a"
+    },
+    {
+      "path": "licenses/Node.js-LICENSE.txt",
+      "bytes": 157606,
+      "sha256": "148eacf7863ef4329224a29398623077200a27194aa075569faf4a0a85566ca5"
+    },
+    {
+      "path": "licenses/Spark-LICENSE.txt",
+      "bytes": 1088,
+      "sha256": "51829693e5dccd9ca1daa093991faac3aaa93238eb8fd5f5cb4130af85791d64"
+    },
+    {
+      "path": "licenses/Three.js-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "licenses/Water-Pro-LICENSE.md",
+      "bytes": 22688,
+      "sha256": "e3bc11353a6d17b74298a8ed9bfa761202ed3ead3443c4d986b328f9c1ab2264"
+    },
+    {
+      "path": "package.json",
+      "bytes": 267,
+      "sha256": "0991d4cc7bdcf445e6ce9719c6e93de1d06156069e402afc2335067b68179deb"
+    },
+    {
+      "path": "preview.mjs",
+      "bytes": 4461,
+      "sha256": "489b8310b4beda0f70dd124b468a87e686cebdc541059ed52d339e7853b50593"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2462,
+      "sha256": "012ea5e6e5af5c3f953671cda5a4d200141a11f564933f8619e978a66b1e3275"
+    },
+    {
+      "path": "runtime/node.exe",
+      "bytes": 92825416,
+      "sha256": "3602f2bb1a10f2cbab4c36886218a33c1ab3db87290e73b033c46c77147d0237"
+    },
+    {
+      "path": "site/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "site/assets/after-rain-sky.png",
+      "bytes": 1719361,
+      "sha256": "f436de100c2f4431be272c93742b187ad6b43ed9c6a9576e6b5782f2f00f81ef"
+    },
+    {
+      "path": "site/assets/after-rain-sky.prompt.txt",
+      "bytes": 1562,
+      "sha256": "29a720c5f2aceb5696b9feede9be52d0d9c85a20647ef5cb61e1de5ab2e9836b"
+    },
+    {
+      "path": "site/assets/bedchamber.webp",
+      "bytes": 153450,
+      "sha256": "8f00bd848edb2767310f0e06462fcb51107d7dc4bc33dd2c213a7a2891d2f80c"
+    },
+    {
+      "path": "site/assets/buildings/bedchamber-detail.spz",
+      "bytes": 2097054,
+      "sha256": "2e5b29f1ba3f9022a1b113aa0e675b0c4a980e60b7b2d8dffda1864ba4ffdc53"
+    },
+    {
+      "path": "site/assets/buildings/bedchamber-preview.spz",
+      "bytes": 408405,
+      "sha256": "4d5c43dbd19b26462b7e127c1c4d0cecaddd4092b84341109aeef9ae913924f3"
+    },
+    {
+      "path": "site/assets/buildings/bell-tower-detail.spz",
+      "bytes": 1062193,
+      "sha256": "9eeddacf3ef39de81cc95f2cf88d93cfd384de1abf0e3689fdf64cc77a33af4a"
+    },
+    {
+      "path": "site/assets/buildings/bell-tower-preview.spz",
+      "bytes": 211374,
+      "sha256": "8e9377396e717bbf13fea8e9b40cbb0c354ae83b895bc7a8013716109e7c5bdb"
+    },
+    {
+      "path": "site/assets/buildings/courtyard-detail.spz",
+      "bytes": 1055642,
+      "sha256": "f2438ffccd62c0819d1f095de79ca4eaeeebc86979d5e796f113f0a8d2fa67ac"
+    },
+    {
+      "path": "site/assets/buildings/courtyard-preview.spz",
+      "bytes": 208724,
+      "sha256": "5e8c8b293ce9c17282551ecea777908e322b73c498e590c80f172ef22c65c44d"
+    },
+    {
+      "path": "site/assets/buildings/gate-detail.spz",
+      "bytes": 3348039,
+      "sha256": "898acf97792fc0d30a9d629620ee69a09b62b2fa54e1f0fde635549932c4bc7e"
+    },
+    {
+      "path": "site/assets/buildings/gate-preview.spz",
+      "bytes": 651576,
+      "sha256": "f10abd84de2f2690d74c22f4b2863b2181e6027bcf3f5f3e784ca20f86e47e5d"
+    },
+    {
+      "path": "site/assets/buildings/hall-detail.spz",
+      "bytes": 3497883,
+      "sha256": "db8cdf2ec60967897d47493f450f1d876f2f849605c323bf4e649ee74b0d7412"
+    },
+    {
+      "path": "site/assets/buildings/hall-preview.spz",
+      "bytes": 675682,
+      "sha256": "74586f5f10240be8e207c37aa39e1f874d20e683c26f0aa78fac4a4d7630f086"
+    },
+    {
+      "path": "site/assets/buildings/tower-detail.spz",
+      "bytes": 2962798,
+      "sha256": "dbcf1bc09c740f7939df3eafec1c1846ad322e73d08ea3249a043fbfe1f3e74f"
+    },
+    {
+      "path": "site/assets/buildings/tower-preview.spz",
+      "bytes": 569412,
+      "sha256": "c306530f246f604e8fec8a4063dfbe09c0389fade39f04ac845455148c16e445"
+    },
+    {
+      "path": "site/assets/cities/macau/altar.spz",
+      "bytes": 214812,
+      "sha256": "da1113c599869a9b954a41404ccfe1c373901283a3076c220f044aaf2bbe3ddc"
+    },
+    {
+      "path": "site/assets/cities/macau/approach.spz",
+      "bytes": 145847,
+      "sha256": "d2b872d3ef1cf185cf071b51ea12dc590108e91a5f3e24a2dbfadcf5c4e1ea1f"
+    },
+    {
+      "path": "site/assets/cities/macau/courtyard.spz",
+      "bytes": 326402,
+      "sha256": "993d452f6a54f9fc838ff428faa29a99d15812479100a533c2972441168687f7"
+    },
+    {
+      "path": "site/assets/cities/macau/details/altar.glb",
+      "bytes": 12004340,
+      "sha256": "5aa5d93b3098f1f968a424cc324cf203440cea56b0d6a8181802bec8c15addae"
+    },
+    {
+      "path": "site/assets/cities/macau/details/altar.webp",
+      "bytes": 78250,
+      "sha256": "fa06b0fcb0182349a60a85872300e5b66e1875bbfce5a5505fed3511e79d1205"
+    },
+    {
+      "path": "site/assets/cities/macau/details/approach.glb",
+      "bytes": 10774496,
+      "sha256": "33c09796f9220fdb2ed88d7cad4b1b393f3520ed5fade459d26db9dfb157fe40"
+    },
+    {
+      "path": "site/assets/cities/macau/details/approach.webp",
+      "bytes": 67600,
+      "sha256": "392a65b3407df1136af993a9a309eaf4cd265843f6c702b72ac882118d4d135e"
+    },
+    {
+      "path": "site/assets/cities/macau/details/dressing-tower.glb",
+      "bytes": 12628284,
+      "sha256": "b3494f1da6c376e8e8a4b7fdcf6b183eb285251912e62f6bf701edba19cba09b"
+    },
+    {
+      "path": "site/assets/cities/macau/details/dressing-tower.webp",
+      "bytes": 97798,
+      "sha256": "5ce4919b222f5a5c8c7d6b04f2806ded0c6b64777b06c5e3a17102ffc2e4bacd"
+    },
+    {
+      "path": "site/assets/cities/macau/details/main-hall.glb",
+      "bytes": 13614444,
+      "sha256": "183b1390454b3d8026dc135e127c5fd564cbb9623037cdc453c01f1c8b6191f3"
+    },
+    {
+      "path": "site/assets/cities/macau/details/main-hall.webp",
+      "bytes": 121918,
+      "sha256": "48380b6d6c7cf11950518f30dd2d9751480ae42b4811b6f8c9a374d92450bb3f"
+    },
+    {
+      "path": "site/assets/cities/macau/details/mountain-gate.glb",
+      "bytes": 12201860,
+      "sha256": "a8e6d99723fae3fc80ae4a0852a3b10b79cb259457ac618e8085b9c498fd35a4"
+    },
+    {
+      "path": "site/assets/cities/macau/details/mountain-gate.webp",
+      "bytes": 96794,
+      "sha256": "58f6aea875ba973ed47f7bbc5b62c73c400f1d68db503965842684f97bae3531"
+    },
+    {
+      "path": "site/assets/cities/macau/details/roof-dragons.glb",
+      "bytes": 13872220,
+      "sha256": "795c67868257a5622f30358715d8aa64f2951e9bf21efb95926aa6e5d3031886"
+    },
+    {
+      "path": "site/assets/cities/macau/details/roof-dragons.webp",
+      "bytes": 118020,
+      "sha256": "d50f3c09762fc783a4c26db8d80b6403ac73e77bfcf6061f2d972f6d0a604de8"
+    },
+    {
+      "path": "site/assets/cities/macau/details/terrace.glb",
+      "bytes": 11681368,
+      "sha256": "3224d664fc670c2f8b0cfdc2cf692124e13f284ab48d87e6d3774735162da260"
+    },
+    {
+      "path": "site/assets/cities/macau/details/terrace.webp",
+      "bytes": 69716,
+      "sha256": "37588fd5c5a1e29883781619831a9299d4048e582fcee02130c7dd8553e142ca"
+    },
+    {
+      "path": "site/assets/cities/macau/details/twin-towers.glb",
+      "bytes": 13532060,
+      "sha256": "7fd993595f89a2d9787054522a3581c48f9bf99cdc10478c2be38281a8ad37f4"
+    },
+    {
+      "path": "site/assets/cities/macau/details/twin-towers.webp",
+      "bytes": 117056,
+      "sha256": "0cdc2913f12ed1640cf0da635013d0ae92f5cc302477d48ca7b7791926334825"
+    },
+    {
+      "path": "site/assets/cities/macau/dressing-tower.spz",
+      "bytes": 775328,
+      "sha256": "eddbd059138ce9490d09105ee10fda84d183b7aa3fa706d9f39c4de2a685a904"
+    },
+    {
+      "path": "site/assets/cities/macau/east-gallery.spz",
+      "bytes": 680813,
+      "sha256": "24655f0e2562c4d2aed75505256c9dc861c9bfe400c98e384a91ecdd72a46fca"
+    },
+    {
+      "path": "site/assets/cities/macau/east-tower.spz",
+      "bytes": 193269,
+      "sha256": "e8b99506e18cb1ce6837bb604dc1db97bac34378e6ea83f207631d4b4b22618e"
+    },
+    {
+      "path": "site/assets/cities/macau/main-hall.spz",
+      "bytes": 527526,
+      "sha256": "2446b9f7ce813c5d6a12bb728602b86a5fd0d1df7e2b2e596373822f95b8dd38"
+    },
+    {
+      "path": "site/assets/cities/macau/manifest.json",
+      "bytes": 9945,
+      "sha256": "39144189b145913855ea1349d661acb0092e1a4c1a1a87f08e50d920dc4240ad"
+    },
+    {
+      "path": "site/assets/cities/macau/mountain-gate.spz",
+      "bytes": 165482,
+      "sha256": "db1ded8aa81a8b9aa7c10dc823a72ab7c455f29fc9d6b1a2a1e710e02374ecec"
+    },
+    {
+      "path": "site/assets/cities/macau/particles.bin",
+      "bytes": 1920012,
+      "sha256": "ab88142002bc319651c13bb5624d3b039ce48ae8bb9210ce68c6819af0aa605b"
+    },
+    {
+      "path": "site/assets/cities/macau/terrace.spz",
+      "bytes": 114483,
+      "sha256": "7d829c2b1d065e4b0982781f85d7a6f6aa9ecea93e9bc454dd7838dbb2f8e9d8"
+    },
+    {
+      "path": "site/assets/cities/macau/west-gallery.spz",
+      "bytes": 658436,
+      "sha256": "94bd3f38aa1be381e8a6217e3d59d2d86a43264dd8e4db0e33892ba4db25a288"
+    },
+    {
+      "path": "site/assets/cities/macau/west-tower.spz",
+      "bytes": 174538,
+      "sha256": "4a2b6383c0d4048cd58e798f018c689b5e7102f601b63ea7a7d2aac53ef4960e"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/approach.spz",
+      "bytes": 283992,
+      "sha256": "3ee5b94fa92d15fa949da01c1696f4fc810e36e3a7677104b120e2f5d067de91"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/doorway.glb",
+      "bytes": 11264832,
+      "sha256": "d0d87113c261619c62b99c01034cafbe70585d3216c6714c3a602b31b5aade7d"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/doorway.webp",
+      "bytes": 73172,
+      "sha256": "6147537f440e54ffaa658357a525df7bdc89acda18b944a82c3899b0eedb8e92"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/dragon-column.glb",
+      "bytes": 13267168,
+      "sha256": "0c99e447c05799ba86b6f3e9308f83fe057a299c24aafbc1f440742128ec4bb5"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/dragon-column.webp",
+      "bytes": 39354,
+      "sha256": "0f60922ddc0d424aa04c4f5d67d904349af1030b27b91f5a24a739d5d7832b97"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/gables.glb",
+      "bytes": 12814120,
+      "sha256": "a774e217cffbc70aab9d9ea90c9e40c3f66697bf82acddca47c39501122dff2c"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/gables.webp",
+      "bytes": 84060,
+      "sha256": "d4aeca2bf1a5bc1515e8602b25aadaf78aacee46a70591afca6607f48beab1fc"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/inner-court.glb",
+      "bytes": 12205704,
+      "sha256": "0df1f2a95cf22a68ae7746dd24e8f84d9a8bffdc072948432a6191636769d9b5"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/inner-court.webp",
+      "bytes": 75384,
+      "sha256": "bcc4f6390ccec093cdbdb3438dbe7b3918aea6cc11777dafe9adcb7d2be62fcd"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/lanterns.glb",
+      "bytes": 9579696,
+      "sha256": "8a09f558238dc230d2c3f79e3549e3c2215539bd8ed4f331dab7cb4763d5c70e"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/lanterns.webp",
+      "bytes": 60274,
+      "sha256": "3742847f6062dd54dbe0a26210b788ed1b9266acdb30d9329bad22e2055e5b29"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/ridge.glb",
+      "bytes": 15528952,
+      "sha256": "174cf768d267d4a963d4a117bd9a246519ffff1da06b9c15d2f52601bab40dff"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/ridge.webp",
+      "bytes": 82688,
+      "sha256": "cb5aecc740ffe73dd320296da225a350094f09a036bfe175fbb78fe3a883ec1d"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/stone-panels.glb",
+      "bytes": 13261732,
+      "sha256": "50b7f9691bb45b517f5f57fb7e017bd32dee893caccac6c2e536b12d5ea3497b"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/stone-panels.webp",
+      "bytes": 75666,
+      "sha256": "e657d860e04daf6543d4c207a5f3c1bb9571d9e279191ca81b371ef442849d57"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/vessels.glb",
+      "bytes": 12376056,
+      "sha256": "7b97f087aa5f030fcd0c750320b342975a97259af3cc7520af9cb4e4713b1520"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/details/vessels.webp",
+      "bytes": 73972,
+      "sha256": "70b5e1992d111eb819bb2ecc0f87a05b59c185bb1f6512330e759334fd74f573"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/doorway.spz",
+      "bytes": 460394,
+      "sha256": "9a348ea1bcf085a437ce19e75b93bc09e8fb61d5fbadadcd3354db0f09423d9a"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/dragon-column.spz",
+      "bytes": 25669,
+      "sha256": "b6f45f4ee5871b6d7631985623324407f42ac2fccd7b0dc477f7cf41a5fdb42d"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/front-hall.spz",
+      "bytes": 1039118,
+      "sha256": "3ff98da99edc96a351e3027abb2e505aa4f0501267d070634d25467b6407e7af"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/inner-court.spz",
+      "bytes": 680777,
+      "sha256": "18eec12836401a1143af12a041faec81813a794a5d8ae24b6063e9808d93f449"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/lanterns.spz",
+      "bytes": 14195,
+      "sha256": "0a9d76f7c5f7564aa566f60b885d099cb60fdc6027574aa9e8a3c4e9fc57bf51"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/manifest.json",
+      "bytes": 8748,
+      "sha256": "1ae782ae84ec0a37eb09189393a435a40834e3d87131c3e268a8688c7436e4b9"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/particles.bin",
+      "bytes": 1920012,
+      "sha256": "04079185928cffd5d81e26b389110f0fa73df4a737521bc8cfae1391f07b1775"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/rear-hall.spz",
+      "bytes": 1430492,
+      "sha256": "baf1755172bb472c025233c537909f686d598536fee5f953e575ce69ed025e45"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/ridge.spz",
+      "bytes": 46898,
+      "sha256": "cedb2db5677204b1344115788e15b7de8344657ccdd3742b777eb261dca93062"
+    },
+    {
+      "path": "site/assets/cities/shenzhen/vessels.spz",
+      "bytes": 61166,
+      "sha256": "1036f99534ffb3bb2b38a48f7f1ae188c94f8385b2eefcaca3d43f83195b8dfc"
+    },
+    {
+      "path": "site/assets/city-palace-experience-Bbbx4E4e.css",
+      "bytes": 1903,
+      "sha256": "d304a7b6a2b081a2422b8b22012bb23bdeba3d2ddf71a3fc31d4be45cceb1d51"
+    },
+    {
+      "path": "site/assets/city-palace-experience-DBSBQ9fb.js",
+      "bytes": 27108,
+      "sha256": "df0ccb580166a3a69a701382be38b068083d166834bfe68cce798b47a25c5e32"
+    },
+    {
+      "path": "site/assets/courtyard.webp",
+      "bytes": 156140,
+      "sha256": "8464a7593c19fbde176f034b08ed14dec3eef29bea61db917b0d1f49727b0830"
+    },
+    {
+      "path": "site/assets/details/bedchamber.glb",
+      "bytes": 7999032,
+      "sha256": "7eeed8d0da7ae1b2bd4c991ae01111878d674712b9971136fe078c0bf3b48f59"
+    },
+    {
+      "path": "site/assets/details/bedchamber.webp",
+      "bytes": 12652,
+      "sha256": "78cffe8a84c8f4fa26a0fd89c27700f8a4c922e11ef78c1e8ff943b29163a6a7"
+    },
+    {
+      "path": "site/assets/details/bell-tower-rodin.webp",
+      "bytes": 73272,
+      "sha256": "0f32e61ed399c5aab4e7367675b9b39af7bffd02e620ab8309ebde8d5bf7c9f0"
+    },
+    {
+      "path": "site/assets/details/bell-tower.glb",
+      "bytes": 19527656,
+      "sha256": "5edd93891668715c8d5241d191f9f3f866ddf33b1c54f703350b516756ee404d"
+    },
+    {
+      "path": "site/assets/details/bell.glb",
+      "bytes": 7152196,
+      "sha256": "785bbdfe2a6bc86dfe558d2fc05c935fffa487be20fc66440309de13e4f76744"
+    },
+    {
+      "path": "site/assets/details/bell.webp",
+      "bytes": 26798,
+      "sha256": "d2d047653be1770193e6e5606bf83a0ee80eae3686e60e3cc63785ccf5e5021f"
+    },
+    {
+      "path": "site/assets/details/chi-window.glb",
+      "bytes": 8273376,
+      "sha256": "2c3cb845d76c43e130f1c939e0c45bb8c5c212275b14ed096afb45f419f054e1"
+    },
+    {
+      "path": "site/assets/details/chi-window.webp",
+      "bytes": 36856,
+      "sha256": "f760f49390df8460c94a9c56585ea9e6f86d68868234949ef6d5a4fde1ce7f57"
+    },
+    {
+      "path": "site/assets/details/courtyard.glb",
+      "bytes": 9431848,
+      "sha256": "3ed34a2cce4133ad54917dba4d7c61444b39e96e1ff307454c09c1fc923e2520"
+    },
+    {
+      "path": "site/assets/details/courtyard.webp",
+      "bytes": 21442,
+      "sha256": "b52ed6a19ae215749db8b8a9113b977d2af3deaed6a50a7b52414ee31696b41f"
+    },
+    {
+      "path": "site/assets/details/dragon-column.glb",
+      "bytes": 8248572,
+      "sha256": "e1d4fc248124e5180ed488d85ba712239a621694db8defbb6a1af416f32e851e"
+    },
+    {
+      "path": "site/assets/details/dragon-column.webp",
+      "bytes": 10600,
+      "sha256": "1c0e22a68e4267139c12dde3cab2373971c67a3bb94b48b4b163f0a516f98b11"
+    },
+    {
+      "path": "site/assets/details/gate.glb",
+      "bytes": 7704412,
+      "sha256": "df8203d32520919aedad80a04fed4003249f814bdf96a89e5f751dc6f09fc15a"
+    },
+    {
+      "path": "site/assets/details/gate.webp",
+      "bytes": 48826,
+      "sha256": "14dfdfd0800b5ea406db798e4f34a80dea57b841b56bced4dc8c123764cc4dcd"
+    },
+    {
+      "path": "site/assets/details/hall.glb",
+      "bytes": 9389892,
+      "sha256": "ced7cf0e193427678b57dbc9a48f0804217b358a8f62ce9b044f49265f542871"
+    },
+    {
+      "path": "site/assets/details/hall.webp",
+      "bytes": 28448,
+      "sha256": "9b76d733c2a7fd45da7db318496f5d22c83c75e268746a7da99bafa24b236e7d"
+    },
+    {
+      "path": "site/assets/details/stone-relief.glb",
+      "bytes": 8616216,
+      "sha256": "1c8afacdad65b55e1dfb4efc71951e1d0f1c8f2ba4219fd7b12bcbf425e3d05a"
+    },
+    {
+      "path": "site/assets/details/stone-relief.webp",
+      "bytes": 33008,
+      "sha256": "253a279a884a09e18c0f783245c1df9c6526f5bb13913f799589f708733b21d8"
+    },
+    {
+      "path": "site/assets/details/timber-bracket.glb",
+      "bytes": 5566744,
+      "sha256": "86f424795d378c1c9b2f4eaa1e9659003ed9cd85777c661d3e94ff21f6f19840"
+    },
+    {
+      "path": "site/assets/details/timber-bracket.webp",
+      "bytes": 18018,
+      "sha256": "53ce6b9e75cfdbaf136096d91c01fc9621901a00979d4c5bba6a3b08fdbd44ae"
+    },
+    {
+      "path": "site/assets/details/tower.glb",
+      "bytes": 7340132,
+      "sha256": "b8b5b18f556a6003802b96e0e4b652dad9896e670475f1f5a0af7438802f3bdd"
+    },
+    {
+      "path": "site/assets/details/tower.webp",
+      "bytes": 25846,
+      "sha256": "3c4f6a674bf4ab7f9115cd5386ea938e85e1ec63665a7d9f22cb36c6950b43c4"
+    },
+    {
+      "path": "site/assets/entry/daylight/architecture-solid.glb",
+      "bytes": 15620108,
+      "sha256": "a1b414113fdea453ea171861103ce4758698418e740a9e4adfda7a8cec680242"
+    },
+    {
+      "path": "site/assets/entry/daylight/bake-report.json",
+      "bytes": 2447,
+      "sha256": "da9adb4af8f97fbf1bdedd0d12b037300524e29f9d6e93cd99db47a955ef677c"
+    },
+    {
+      "path": "site/assets/entry/daylight/environment-particles.glb",
+      "bytes": 16283856,
+      "sha256": "c1b3020eeec6213cbf637748d61be9a7832271d53d57de362aa422e19dfc60df"
+    },
+    {
+      "path": "site/assets/entry/daylight/environment.glb",
+      "bytes": 32009748,
+      "sha256": "0ffd10fe437aa1e94c55d2b8269ef576149b321efe7ee1d8f3eaee1e92fd06fe"
+    },
+    {
+      "path": "site/assets/entry/daylight/flora-coastal-trees.glb",
+      "bytes": 9110780,
+      "sha256": "1abb2b03f105d7de82076c400d70634f72968fab375605d85f67f3c415d83d97"
+    },
+    {
+      "path": "site/assets/entry/daylight/lazy-cloud-cycles.hdr",
+      "bytes": 3002667,
+      "sha256": "28744699baa9b75b75ca2b9eaadef2b3346ffd6a592d21b5787c76f37ea6aea8"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-00.png",
+      "bytes": 1009696,
+      "sha256": "1d7a53371b0c36702bc3a49c2e371b5d02cc4eadae1fc68c505b09063c60d692"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-01.png",
+      "bytes": 1332367,
+      "sha256": "3820383f613129c483b7f142bca84681f9ce899c6936220ecce58dfb7e5b17ec"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-02.png",
+      "bytes": 20953397,
+      "sha256": "95d2629e7b9d7f9946eaad6ebdd89c702e88756b40f78bab1624aa2890cd4457"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-03.png",
+      "bytes": 1547666,
+      "sha256": "73a63761b4510dc16c8ad3a65c25ad9f5cc949e28a2ee6eaabf7769ea8d91c31"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-04.png",
+      "bytes": 1514480,
+      "sha256": "15e73baf40093e553544fc63239e7e257cd7b6082e2572e5a44f8212d47abe3a"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-05.png",
+      "bytes": 1554613,
+      "sha256": "59261f2bde2fd52eadd7027449229a6a1c661a3754895c489162175255eb25d6"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-06.png",
+      "bytes": 6368381,
+      "sha256": "5519d165a08493d1716739fbdfa63411c649ef18b786d127d7bf29a5f6e04edb"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-07.png",
+      "bytes": 7147615,
+      "sha256": "5136fe8c7ff655c9539658b2bee757bceba728290b6924a4fbe2ca417edeecc0"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-08.png",
+      "bytes": 1437039,
+      "sha256": "d7907725e4df0e04f3d7be418361ff31d95a23390157ce35c22b7112ba4b48a8"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-09.png",
+      "bytes": 1480427,
+      "sha256": "10722413f8007cd96f5e0c1063632417f835ac5d122f5c31249a9882fffbc4b6"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-10.png",
+      "bytes": 606266,
+      "sha256": "8eb85a878d9c019882dce73d7015ccf9cfa709e8c716b9226539037076935582"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-11.png",
+      "bytes": 6404920,
+      "sha256": "97580be7719a9b4238b375517d5c4bc51c7c365105f6a072b14e49df6e993aa4"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-12.png",
+      "bytes": 7093467,
+      "sha256": "2c5e74fd82aae30859d85cf9021b15132d6a0850e6b055a56856922745eb4b86"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-13.png",
+      "bytes": 1454902,
+      "sha256": "97196daca56e4139ab111fa627995af5b2e83a5252d9d6a39486b233da0171e7"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-14.png",
+      "bytes": 1470766,
+      "sha256": "645e54f011237c568253b66b0ffbef20cccafb5cdd291c42e15ef5eafe9cdf4e"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-15.png",
+      "bytes": 516496,
+      "sha256": "339e194a573cad242c484d332db2add2aafc2423a84762bd3f1a066acb906f33"
+    },
+    {
+      "path": "site/assets/entry/daylight/light-16.png",
+      "bytes": 958564,
+      "sha256": "3e649ed2167d581d5d0c82bcca05c42f00573ba6ca885c1475fbe0e458b215ab"
+    },
+    {
+      "path": "site/assets/entry/daylight/scene-manifest.json",
+      "bytes": 908,
+      "sha256": "646373ad2b9743eb9374d8eed915ea3620f076415e53201e0ea8e4b4e7db2c88"
+    },
+    {
+      "path": "site/assets/entry/daylight/temple-grains.bin",
+      "bytes": 6880012,
+      "sha256": "4abe881973306d8b622f8be13baf01f2897483126bf9dc6496908d86c2170063"
+    },
+    {
+      "path": "site/assets/entry/daylight/temple-grains.json",
+      "bytes": 912,
+      "sha256": "1349a34314bcc33abad2a6dc8a349ae37b07c75f6a657e86b8e7e7a2950cf3eb"
+    },
+    {
+      "path": "site/assets/entry/daylight/terrace-clean.glb",
+      "bytes": 11318500,
+      "sha256": "e5ac7859deadca32b922dcf58e45329bff70415dbbd5d4f5e70262c1bd784b8d"
+    },
+    {
+      "path": "site/assets/entry/daylight/terrace-cycles.png",
+      "bytes": 3124677,
+      "sha256": "7996274ad7f0eeda7aa8416b1c7e2be7a769c3133771b3e59a59eab72f2de332"
+    },
+    {
+      "path": "site/assets/entry/daylight/terrace-expanded-cycles.png",
+      "bytes": 13521931,
+      "sha256": "981875ac6c1287d3a1dd7b2c3fa8aa5a90b3c5fe76613d377a0dbc38ae5d6433"
+    },
+    {
+      "path": "site/assets/entry/daylight/terrace-expanded.glb",
+      "bytes": 4761292,
+      "sha256": "61cc10b29aad70403b3b85c7d9eac8c76f35e172c8c7984835997ebcbdef04fb"
+    },
+    {
+      "path": "site/assets/entry/daylight/terrace.glb",
+      "bytes": 2628604,
+      "sha256": "f206ec78d25a5e2c7d96f5d139b6eec8ad4e3b139d2b53a4df87c12a28bd4b59"
+    },
+    {
+      "path": "site/assets/entry/entry-background-clean.webp",
+      "bytes": 416856,
+      "sha256": "885b43034b9e5853a8ba04902a5c7e2587389a5dac809ff0c345515f909428fb"
+    },
+    {
+      "path": "site/assets/entry/entry-base.webp",
+      "bytes": 370496,
+      "sha256": "1525004cc4c29c800512bf4a62efbfa04ca9837e78ed4bda520c8751002683c0"
+    },
+    {
+      "path": "site/assets/entry/entry-bokeh.png",
+      "bytes": 31273,
+      "sha256": "96f7a0b351aeed0569e44002a0166a89f7490c2a9e978d2ce8de7deb07c484b4"
+    },
+    {
+      "path": "site/assets/entry/entry-cta-cleanup.png",
+      "bytes": 77124,
+      "sha256": "1aa8bd6ff1b60c08313f06a06c59a32c9ec38a5ac9e804bdc16eec9a33613447"
+    },
+    {
+      "path": "site/assets/entry/entry-cta-frame.png",
+      "bytes": 56846,
+      "sha256": "5471adeb492ff1c7c82ed0cb4f10f7b7fa10d65f3adadb87a176d5f412e533a2"
+    },
+    {
+      "path": "site/assets/entry/entry-cta-text.png",
+      "bytes": 3197,
+      "sha256": "d2489fb941e6e26f48348d76a570f5840553e65657c62a340af4786dfb047209"
+    },
+    {
+      "path": "site/assets/entry/entry-cta-wing-left.png",
+      "bytes": 14695,
+      "sha256": "cd6d810786563b536833e27abc03a9f566c1ba9a4ccf25c48cab4014d387171c"
+    },
+    {
+      "path": "site/assets/entry/entry-cta-wing-right.png",
+      "bytes": 14643,
+      "sha256": "7fcdc2ebf34c5c4ef09897d5463f73e42b3b899375b79c376d52800ad8b7e209"
+    },
+    {
+      "path": "site/assets/entry/entry-four-logos-reference.png",
+      "bytes": 181770,
+      "sha256": "94f270a39c6d67663e0667b2af46f4c00f9e0c0720c49f00a4cac6a7628587d1"
+    },
+    {
+      "path": "site/assets/entry/entry-laptop-rodin.glb",
+      "bytes": 11235268,
+      "sha256": "034f409934185cfacea2ea7a6b86f2d050f737e5a6e713b0247d1b3199dc683d"
+    },
+    {
+      "path": "site/assets/entry/entry-laptop.png",
+      "bytes": 211179,
+      "sha256": "7dc881aeaf1c453a5741f93dbf818bc917f2617ba410c205e5c481d7ef690034"
+    },
+    {
+      "path": "site/assets/entry/entry-palace-logo.png",
+      "bytes": 10695,
+      "sha256": "fc0835523dee0a9776a5c06f61de61f4840cd60f3b7608e40d08f5b18b3410a5"
+    },
+    {
+      "path": "site/assets/entry/entry-partner-name.png",
+      "bytes": 1488,
+      "sha256": "1cd86b5c0fe3c42dafe07f9b6ea148835ad638af1681e742fb4e9ce31ad7b952"
+    },
+    {
+      "path": "site/assets/entry/entry-plus-left.png",
+      "bytes": 343,
+      "sha256": "9487465aef2f81db17ae79fd082adab2bf782b1d96a12f2b9d248840a4578b6d"
+    },
+    {
+      "path": "site/assets/entry/entry-plus-right.png",
+      "bytes": 343,
+      "sha256": "9487465aef2f81db17ae79fd082adab2bf782b1d96a12f2b9d248840a4578b6d"
+    },
+    {
+      "path": "site/assets/entry/entry-rog-logo.png",
+      "bytes": 2561,
+      "sha256": "c9fb47800f8caabf4935409daa44cb3fba6947327d51275d4c5277a5a22cff34"
+    },
+    {
+      "path": "site/assets/entry/entry-sunflare.png",
+      "bytes": 116827,
+      "sha256": "f1b54012d1fce75ff0687251339be5e3fc1aa921adc02362e132632db1091f5a"
+    },
+    {
+      "path": "site/assets/entry/entry-title.png",
+      "bytes": 198274,
+      "sha256": "b98ef43ef3eb29245948bb1c3fcfb4f3e588c4eae0b2e9bc488fddbfebfaecdd"
+    },
+    {
+      "path": "site/assets/entry-environment-BGt_TmLH.js",
+      "bytes": 51416,
+      "sha256": "febdbccb4499a40a565c76bf5ed648520b0e6f2db5b4155092c6df4b510c6a45"
+    },
+    {
+      "path": "site/assets/entry-parallax-BHxjFeC6.js",
+      "bytes": 930,
+      "sha256": "9c1378570f0c4818399f5ce20b5f2af8d703bebf26ccf119b7396da2b9d58cd0"
+    },
+    {
+      "path": "site/assets/gate.webp",
+      "bytes": 142470,
+      "sha256": "a485a29e17b91d5535709ad12284a012617fa7576a1d31fb038359ec48ef9838"
+    },
+    {
+      "path": "site/assets/GLTFLoader-2DzYOFat.js",
+      "bytes": 46377,
+      "sha256": "43fa7c0d3d7d66488b0432d78498a1c93e7335030808953780b2a3d6f85cfc15"
+    },
+    {
+      "path": "site/assets/hall.webp",
+      "bytes": 230226,
+      "sha256": "3baa1549a7ed619ddb88a380f295df929512ce6cd72f6d736413aa469d0d345d"
+    },
+    {
+      "path": "site/assets/harbor/macau-particles.bin",
+      "bytes": 1920012,
+      "sha256": "21d790fe74e640fc4d562bed4e7a846f0d77d3e342ae081fa1767d898275aecc"
+    },
+    {
+      "path": "site/assets/harbor/macau-particles.meta.json",
+      "bytes": 57241,
+      "sha256": "6507af47bd096f773b8b7f2fa5ee2961d464b2985f2e2259676468b05708f0d5"
+    },
+    {
+      "path": "site/assets/harbor/model-sources.json",
+      "bytes": 6911,
+      "sha256": "14b5d383e97bdae180a926f5d0040558e0a4d443fe94fd18f1e642ea4a4a2a4e"
+    },
+    {
+      "path": "site/assets/harbor/photos/macau-aerial.webp",
+      "bytes": 430658,
+      "sha256": "1709b49f7cfffa70eb2f939db8bdae796d4d965db879332a4512c2b8572751ee"
+    },
+    {
+      "path": "site/assets/harbor/photos/macau-front.webp",
+      "bytes": 394558,
+      "sha256": "47ac665a619485ab61d04472441bb696a4a6ce766eb106e33f218f7dfc030029"
+    },
+    {
+      "path": "site/assets/harbor/photos/macau-rear.webp",
+      "bytes": 400900,
+      "sha256": "649bbe3cb84b5ba094a19a30e50f00df4e374e74eb0f08c04be57f3788e4448c"
+    },
+    {
+      "path": "site/assets/harbor/photos/shenzhen-angle.webp",
+      "bytes": 327428,
+      "sha256": "784021fe4baef0abbf77430f80000037bdb4c33a81342fda327dec054a0ae3b5"
+    },
+    {
+      "path": "site/assets/harbor/photos/shenzhen-front.webp",
+      "bytes": 300486,
+      "sha256": "c805d164b9db3e64737819ed134b0f6ac18c35d3c4b59541b89d4b9c3b146aa5"
+    },
+    {
+      "path": "site/assets/harbor/photos/shenzhen-side.webp",
+      "bytes": 306584,
+      "sha256": "8ab5ef9ae7bb7e7184943bb242c31954fd73f2d5afacf9c0ea4d4d48718acf28"
+    },
+    {
+      "path": "site/assets/harbor/shenzhen-particles.bin",
+      "bytes": 1280012,
+      "sha256": "206244f6ec1fb804c64b3c903fae5e12b4f2475e3c9d8fba84b1320c574279f7"
+    },
+    {
+      "path": "site/assets/harbor/shenzhen-particles.meta.json",
+      "bytes": 23797,
+      "sha256": "89c08c6bac5c408da0a615021019ee3abfa0484aede2fdc7797e0ec4a926fefa"
+    },
+    {
+      "path": "site/assets/harbor/sky/LICENSE.md",
+      "bytes": 749,
+      "sha256": "06a17f53b9f400a3db120629682ebff4500200f4cc5cae30738c50387dd1598a"
+    },
+    {
+      "path": "site/assets/harbor/sky/night-clouds-reference-v2.png",
+      "bytes": 1560195,
+      "sha256": "8d34d6ab3ddb60849f45e2ecb9570ada2365933adb1eff5dc59a0ea969475d7a"
+    },
+    {
+      "path": "site/assets/harbor/sky/partly-cloudy-4k.jpg",
+      "bytes": 583569,
+      "sha256": "6b8acad209e96902b5d4303b7a52159e9f62c77b90ea3fc73fcf34a1045dabe1"
+    },
+    {
+      "path": "site/assets/harbor/sky/source.json",
+      "bytes": 466,
+      "sha256": "7ef5c1ffbb2cd26d6c0233cfd19de52a5b5147dfa358e111cc8c77dba746defc"
+    },
+    {
+      "path": "site/assets/harbor-scene-gpu-0E95mxHf.js",
+      "bytes": 952434,
+      "sha256": "aa16019bce9018c840292f20160a84e56b67c8482fdc76c88c2d895f5cd008e1"
+    },
+    {
+      "path": "site/assets/home-sea-art.webp",
+      "bytes": 170800,
+      "sha256": "3d2e73db81ebdadd0642624fd798cbe53ea2bfaf3cac18e1d47f42473549baa2"
+    },
+    {
+      "path": "site/assets/hotspot-anchor-BjSRaZC4.css",
+      "bytes": 37248,
+      "sha256": "18cba6699b6ff7033dca89960a6fd1d2d52d704ab2bb8e9af8bbf6b14b6c2bbf"
+    },
+    {
+      "path": "site/assets/hotspot-anchor-Bwp5qvWE.js",
+      "bytes": 5069332,
+      "sha256": "e4325ad989041791ab65b6f7ca7871bf2f75bb8cd43e24bd3d4a36395d10f4c5"
+    },
+    {
+      "path": "site/assets/interaction-diagnostics-D06C9_Cz.js",
+      "bytes": 588254,
+      "sha256": "f42bfc516e0af1be92a342ea71587483c59037042ca83880620a382f0b06da74"
+    },
+    {
+      "path": "site/assets/metadata.json",
+      "bytes": 8772,
+      "sha256": "849618485303d1669202fd981cb09b484646752b0590b7257afdc62a556b2e77"
+    },
+    {
+      "path": "site/assets/music/mist-over-the-celecean-2.mp3",
+      "bytes": 4147307,
+      "sha256": "1809732dddf2d07b32c2d4e7595a0f3546b26f77491df438741709abebaf1a26"
+    },
+    {
+      "path": "site/assets/music/mist-over-the-celecean.mp3",
+      "bytes": 4282842,
+      "sha256": "dfff491fe6a28eacedda257ccd34a82fa03ac7a09d83ccf87171c49dd32fe1fc"
+    },
+    {
+      "path": "site/assets/music-player-DA0Xzur7.js",
+      "bytes": 3567,
+      "sha256": "01c42087a43663c449fb42013ac51d02b86a1610c7c4d612a6b0531e13a94289"
+    },
+    {
+      "path": "site/assets/palace/day-nautical-parchment.png",
+      "bytes": 2847237,
+      "sha256": "ca4dae0ff9a94e0303b7c83f275cabfefdc04edbd3626e2a2d3e7520a08a580b"
+    },
+    {
+      "path": "site/assets/photos/caisson.webp",
+      "bytes": 136722,
+      "sha256": "8a877f654fb861e684fbf2a72fc255de4a561634de2de3eb2597fa81d70338b3"
+    },
+    {
+      "path": "site/assets/photos/carp-relief.webp",
+      "bytes": 228172,
+      "sha256": "6e5af60d7af4f9de815f5ac6131117798814a88e927021e82890d4f60b8e9d98"
+    },
+    {
+      "path": "site/assets/photos/courtyard-detail.webp",
+      "bytes": 1031980,
+      "sha256": "ab0632b9ecc21e36f528a26d25da5be4bbb688a62d431c561686bfc7f74b7d6c"
+    },
+    {
+      "path": "site/assets/photos/gallery-east-ground.jpg",
+      "bytes": 289302,
+      "sha256": "a414e49062be31698c64565c219cb12ccc6d9b57c5466d0dec3bbad1d3358b88"
+    },
+    {
+      "path": "site/assets/photos/gallery-west-aerial.jpg",
+      "bytes": 581540,
+      "sha256": "4cc5c87d0976bf2409bc004ad4fb6276d489851a0c769ccbf3ad2a5a3a60a897"
+    },
+    {
+      "path": "site/assets/photos/gate-tower.webp",
+      "bytes": 282234,
+      "sha256": "cf7cb3f63fc26ccc699bbe8dd740310e781f83f9f304fc763d44565fe470026a"
+    },
+    {
+      "path": "site/assets/photos/gate-window.webp",
+      "bytes": 1956306,
+      "sha256": "6a1feeaa160945f60cefff7ee2e2aa6df188228f6f98d640b31ce326120545e0"
+    },
+    {
+      "path": "site/assets/photos/hall-detail.webp",
+      "bytes": 3305798,
+      "sha256": "c1afc9c431466fd73294248a4d1a5595d0b23d9e99959e0a2a628b8517549e65"
+    },
+    {
+      "path": "site/assets/photos/stage.webp",
+      "bytes": 430780,
+      "sha256": "63c7889e3c244e526fd2e05623193440c339ee765826eb027cf9d60ed9003351"
+    },
+    {
+      "path": "site/assets/photos/stone-column.webp",
+      "bytes": 318128,
+      "sha256": "a70ca2fd1d93a24d7ff29bc56964398faaad1d905a1cc8dec245cb88cb2f6809"
+    },
+    {
+      "path": "site/assets/photos/timber-detail.webp",
+      "bytes": 682678,
+      "sha256": "21c3309fd4677b4e7778f90f47548f420d079a0042ac0f2203a6d6872038d9e9"
+    },
+    {
+      "path": "site/assets/photos/tower-detail.webp",
+      "bytes": 1090268,
+      "sha256": "dc3b50476a506820e7b13852e3dc973a5eced12dc2ecb668d2fe641968287d41"
+    },
+    {
+      "path": "site/assets/quanzhou-B57Utw2m.js",
+      "bytes": 36131,
+      "sha256": "6ca2d59980ee41b0a6a6d9372429bccbe66164387fe34d44c88e805cc5342a85"
+    },
+    {
+      "path": "site/assets/scan/bedchamber-balanced.spz",
+      "bytes": 1039710,
+      "sha256": "a5b97ea774696755a77b78103ca29d9f634d8e3644be7e25a76fdb12c502721c"
+    },
+    {
+      "path": "site/assets/scan/bedchamber-preview.spz",
+      "bytes": 448391,
+      "sha256": "7e772f3b6e1ce36f946d4067d21793ac877bbd836eabdc62ab12541141a91845"
+    },
+    {
+      "path": "site/assets/scan/bedchamber.spz",
+      "bytes": 2300948,
+      "sha256": "689449d1a16f1bf218678b9a167a88c94aecc564045a52269458c652f27ca62d"
+    },
+    {
+      "path": "site/assets/scan/bell-tower-preview.spz",
+      "bytes": 189202,
+      "sha256": "3fd5eef9fb2c80c675db628c7db8cb5c0f3e45e9e36b4630df9dd2ee67499986"
+    },
+    {
+      "path": "site/assets/scan/bell-tower.spz",
+      "bytes": 947415,
+      "sha256": "a1f35d74d12e62a03700e9b370afb519c6610737fbf08442cebdc5608bca7f1d"
+    },
+    {
+      "path": "site/assets/scan/chi-window-preview.spz",
+      "bytes": 20233,
+      "sha256": "f9baedbc97d8cbe0d8e66a1da42ccd5639402fe5d74068ae9a3928c25b88b334"
+    },
+    {
+      "path": "site/assets/scan/chi-window.spz",
+      "bytes": 95766,
+      "sha256": "89581224d85bc2f085ad427fc21bda33bbf14c8f222abbd25d17e89b37410764"
+    },
+    {
+      "path": "site/assets/scan/courtyard-preview.spz",
+      "bytes": 181560,
+      "sha256": "8f55483049c695000924ce966922ad7213dcdb89731eede47382e0695d033d4a"
+    },
+    {
+      "path": "site/assets/scan/courtyard.spz",
+      "bytes": 909617,
+      "sha256": "e3ebc860d6d274079b3097f096b7938f84b7793555505cf871bd49fb004f7673"
+    },
+    {
+      "path": "site/assets/scan/dragon-column-preview.spz",
+      "bytes": 14492,
+      "sha256": "3e34d9d9d7998c54d487bca7289f6c4a3cc426eb707614cc2bcbc6f82ee41bf3"
+    },
+    {
+      "path": "site/assets/scan/dragon-column.spz",
+      "bytes": 65366,
+      "sha256": "24146ff84c9ae0cb14dc4277c4372b0712f8697f7cd3af68bca1ef6db2e03ce8"
+    },
+    {
+      "path": "site/assets/scan/drum-tower-preview.spz",
+      "bytes": 201166,
+      "sha256": "a3d1880d96f1cdf6a71c8bcfeda785cee7fafaf64c4cbdcbd6b0a9a4a64512e2"
+    },
+    {
+      "path": "site/assets/scan/drum-tower.spz",
+      "bytes": 1021073,
+      "sha256": "cc5fc45db26f083b63ec058990c1119c19f5644af3123c191742beac2080e71b"
+    },
+    {
+      "path": "site/assets/scan/east-gallery-balanced.spz",
+      "bytes": 1114452,
+      "sha256": "1b7387d231a85cc960f47491ec7425c5d394e97d66c23ba06cbc510a112ead6e"
+    },
+    {
+      "path": "site/assets/scan/east-gallery-detail.spz",
+      "bytes": 675856,
+      "sha256": "0027eab31f8103f57c7c9b2ae10d5eb8e0be223622878f9286b55736062db0c0"
+    },
+    {
+      "path": "site/assets/scan/east-gallery-preview.spz",
+      "bytes": 483363,
+      "sha256": "2eef8ec63fc50bcecf2ce341880c700302b27efcf5c76744d5f98cb5dd925913"
+    },
+    {
+      "path": "site/assets/scan/east-gallery.spz",
+      "bytes": 2469890,
+      "sha256": "c7ee2de2eff63cf6a6e3dd0e8b922fb37853af96df08f9cbf870aa57c16403b4"
+    },
+    {
+      "path": "site/assets/scan/gallery-exhibits.meta.json",
+      "bytes": 1388,
+      "sha256": "3cc718db9c125ca4b08f673c1f6531d7a039d039a647ef299b9ee0fda0251533"
+    },
+    {
+      "path": "site/assets/scan/gate-balanced.spz",
+      "bytes": 599292,
+      "sha256": "b28c8f8f62b5011ecf0a5513c9057671bb54a67b97d440ea1830a4c60a1a957e"
+    },
+    {
+      "path": "site/assets/scan/gate-preview.spz",
+      "bytes": 260487,
+      "sha256": "e396580ad8d43b0a10a28f0f23d825aefda707fdf70879862c00bfc836437f24"
+    },
+    {
+      "path": "site/assets/scan/gate.spz",
+      "bytes": 1323934,
+      "sha256": "b684c2612987218f9dc68d16af7eb71134bcf47a85f4a91edd2279c8d611941b"
+    },
+    {
+      "path": "site/assets/scan/hall-balanced.spz",
+      "bytes": 1580690,
+      "sha256": "138f95cc2746716cad4ec1f59a8b3e5143f0cca4f40efc358a6d7ce6f1462b87"
+    },
+    {
+      "path": "site/assets/scan/hall-preview.spz",
+      "bytes": 677616,
+      "sha256": "ae0c94ed621d9624282e4eb0b074f9bccbf09ab3d4614044dc47274f3ff151ef"
+    },
+    {
+      "path": "site/assets/scan/hall.spz",
+      "bytes": 3507852,
+      "sha256": "3f2eae4e4256d01d48429fa7d090fba2408629ffbbf1537a995d2e00b0a7f545"
+    },
+    {
+      "path": "site/assets/scan/manifest.json",
+      "bytes": 7683,
+      "sha256": "873d4aa21c317e7c115f57e0ad660b7ff6f26459a007eed7456c9b365dcdd38d"
+    },
+    {
+      "path": "site/assets/scan/stone-relief-preview.spz",
+      "bytes": 11782,
+      "sha256": "d3b1d985257ab26c4cabf9a5b62934239e449e2d166b4d273747a401bc39030f"
+    },
+    {
+      "path": "site/assets/scan/stone-relief.spz",
+      "bytes": 55822,
+      "sha256": "9289391877427fe03492d23b690279b44d82d3d75a838e51cca4d59af5dc0ada"
+    },
+    {
+      "path": "site/assets/scan/timber-bracket-preview.spz",
+      "bytes": 15251,
+      "sha256": "c059019711ee114f8f387ec06ec3dc17a38b27178e010bf79b3f9673d314f408"
+    },
+    {
+      "path": "site/assets/scan/timber-bracket.spz",
+      "bytes": 67417,
+      "sha256": "af311ef8a097c1f0b3e59105e681068a279eb519b7742100d3313aa4193ca897"
+    },
+    {
+      "path": "site/assets/scan/tower-balanced.spz",
+      "bytes": 1557118,
+      "sha256": "08a21af9a9aebea38e7baac73a489661ab30fbdeb934cb812cd95a29e19b7b8b"
+    },
+    {
+      "path": "site/assets/scan/tower-preview.spz",
+      "bytes": 664896,
+      "sha256": "8ffded8aefa2052f2a5454dbc73453842227a9e886bd006cf78623dd7d7a12f6"
+    },
+    {
+      "path": "site/assets/scan/tower.spz",
+      "bytes": 3451920,
+      "sha256": "5ed8cad203db340de88be2070000aba5f00b1d761a798cbf7be5f6a965fd7ca6"
+    },
+    {
+      "path": "site/assets/scan/west-gallery-balanced.spz",
+      "bytes": 990649,
+      "sha256": "c46861ee573b648168388c15a10b1ba085a69b9ea3541898aec58e4aa23f13f3"
+    },
+    {
+      "path": "site/assets/scan/west-gallery-detail.spz",
+      "bytes": 680590,
+      "sha256": "fd42e408d9bc8fd27bcd54c9c9aaad9d8877df41a872f526d1288fbc554841d4"
+    },
+    {
+      "path": "site/assets/scan/west-gallery-preview.spz",
+      "bytes": 426772,
+      "sha256": "ad4dd096d12ce3c1c1c97f4d008d78942be41a21169f4ee1dcf758a84539a426"
+    },
+    {
+      "path": "site/assets/scan/west-gallery.spz",
+      "bytes": 2194976,
+      "sha256": "e9d5d6059977a2e80a6e9c26bea8adb2a34519ed2be8139cd52aaa9256873853"
+    },
+    {
+      "path": "site/assets/scene-assets.json",
+      "bytes": 7407,
+      "sha256": "edb9962c7871f6016244ed3cf5492fcc2638ce1d8be79a61db76c1a2cea377f4"
+    },
+    {
+      "path": "site/assets/temple-detail-0.spz",
+      "bytes": 9732534,
+      "sha256": "0b23e9f286c8e9bc7db3c835476951b13aac696beb6f9578b52ecf5908df09e0"
+    },
+    {
+      "path": "site/assets/temple-detail-1.spz",
+      "bytes": 9733694,
+      "sha256": "56d57d565401a35aa6f688720ff1c8aaf938ab36c59d7466cc9910d837a50b39"
+    },
+    {
+      "path": "site/assets/temple-particles.bin",
+      "bytes": 1000012,
+      "sha256": "2bc51651e9b7de313e91b9e337b4bd8e8b85b6feb66b80801a4f3ab9f9fd0c3d"
+    },
+    {
+      "path": "site/assets/temple-preview.spz",
+      "bytes": 3746755,
+      "sha256": "201a1093dca28d644b3e785ab8d13b46643075bacca57df9e98ca646741b31c5"
+    },
+    {
+      "path": "site/assets/temple-trees.bin",
+      "bytes": 512012,
+      "sha256": "352525ce37dd98269d6a798d1b975262882a8cec46af268c7c957614d3b46936"
+    },
+    {
+      "path": "site/assets/tower.webp",
+      "bytes": 212650,
+      "sha256": "f8d804a4b18df902870e75f186ac433d470676e0183f4a09fb480201d59a5c47"
+    },
+    {
+      "path": "site/assets/trees/courtyard-banyan.glb",
+      "bytes": 4582524,
+      "sha256": "54cd4011a5e529037c7717f4e5543ab638d2853ad2bd5801c24227926f9d5e28"
+    },
+    {
+      "path": "site/assets/trees/palace-trees.glb",
+      "bytes": 34745400,
+      "sha256": "d9b2795c19740b78a09a0abbd21b5c16ff7c577b63bbe804b49aef0dcefe2953"
+    },
+    {
+      "path": "site/assets/trees.json",
+      "bytes": 5870,
+      "sha256": "dea95963877596d336c83bbbe9df32b5b6275b8375dc6f1851cc16dada2665e7"
+    },
+    {
+      "path": "site/assets/voyage/china.json",
+      "bytes": 582521,
+      "sha256": "206cf7fd5acba4bb08d9586899acc144cea2b29d9e93ff70f93895c5e5ffde77"
+    },
+    {
+      "path": "site/assets/voyage/earth-particles.bin",
+      "bytes": 2012392,
+      "sha256": "1a15b4a276a6c23ab7bd3fe44692539e5cd9995c4bb97f90d1aa71b16fbf585c"
+    },
+    {
+      "path": "site/assets/voyage/globe-land.webp",
+      "bytes": 11332,
+      "sha256": "c869c6a1709643f3b7340d818cc074669042c176caf5cfe32894f6a5e34c3519"
+    },
+    {
+      "path": "site/assets/voyage/macau.webp",
+      "bytes": 165142,
+      "sha256": "22a5c2a4c71516ae468a697c23ffee8e9ab13a9533b6f8ff1ff9ab796af5e693"
+    },
+    {
+      "path": "site/assets/voyage/shenzhen.webp",
+      "bytes": 111580,
+      "sha256": "2053d0e04936d221eec941ebe91a5c27caa75b0c0affd50dfc20bd0d49d78f03"
+    },
+    {
+      "path": "site/assets/voyage/world.json",
+      "bytes": 232782,
+      "sha256": "26e846543f1d220e9879e8e6f6909c2ff6cb2a4ffef6ef2f95c7b73aac679113"
+    },
+    {
+      "path": "site/assets/voyage-DostxW-O.js",
+      "bytes": 8102,
+      "sha256": "4028bb497e9a84112f2037bd69e6a195e0d3438a27232bd1e1bdc45817dbe9e9"
+    },
+    {
+      "path": "site/assets/voyage-p9BAKhLf.css",
+      "bytes": 11242,
+      "sha256": "a702ce160c5234db9c591be669922f60ecc56ef119b7b265b6b5a418d273d1bf"
+    },
+    {
+      "path": "site/assets/water-pro/0dc5e7b1f333b682e8bf.jpg",
+      "bytes": 88714,
+      "sha256": "0dc5e7b1f333b682e8bfbce8f4326964a151f48fee6c59c77dec491e5b0d6130"
+    },
+    {
+      "path": "site/assets/water-pro/0e75b55c13ab364e00f6.jpg",
+      "bytes": 460995,
+      "sha256": "0e75b55c13ab364e00f6bad44481363436a57deb6f8b53fc92abf0cc6fed3157"
+    },
+    {
+      "path": "site/assets/water-pro/16c649ed4313f06532c2.jpg",
+      "bytes": 458490,
+      "sha256": "16c649ed4313f06532c2c6b3b97dd92793898e07f260f5c6b0be55ba1e39a44f"
+    },
+    {
+      "path": "site/assets/water-pro/3b4485356260f6da12c4.jpg",
+      "bytes": 260582,
+      "sha256": "3b4485356260f6da12c48e2615c211ec7299bc0f0eaa9fa5428abe3a433ef2ec"
+    },
+    {
+      "path": "site/assets/water-pro/3f18c099d1db1d1cec8f.jpg",
+      "bytes": 60113,
+      "sha256": "3f18c099d1db1d1cec8faf4ba3e8136400ed93308998a7f8deadee6fcf5b1edd"
+    },
+    {
+      "path": "site/assets/water-pro/3fff2e67abd8685517ff.jpg",
+      "bytes": 69027,
+      "sha256": "3fff2e67abd8685517ff837e14b597c50652b7c00da8c984b07bcba3beca8e1c"
+    },
+    {
+      "path": "site/assets/water-pro/45930c54c14a71b1e1a0.png",
+      "bytes": 150133,
+      "sha256": "45930c54c14a71b1e1a098c82e40335a97fc78edca8882f5ee96578a8c2105ee"
+    },
+    {
+      "path": "site/assets/water-pro/47987c2c290c7c3bcd29.jpg",
+      "bytes": 53349,
+      "sha256": "47987c2c290c7c3bcd291315f31e04762f0972fb23e6c1f76a91980da03e96d2"
+    },
+    {
+      "path": "site/assets/water-pro/7858f23247bed5beacfd.jpg",
+      "bytes": 85336,
+      "sha256": "7858f23247bed5beacfd9654e5269045a30cbb90977625333fbaf134bb064dd4"
+    },
+    {
+      "path": "site/assets/water-pro/7d7d560cf1af2899ab91.jpg",
+      "bytes": 77638,
+      "sha256": "7d7d560cf1af2899ab9109f4406f131e27fc72087c64e7bbbfbb5f2bc0f34a3d"
+    },
+    {
+      "path": "site/assets/water-pro/a2722615eb8ca64357c5.jpg",
+      "bytes": 96271,
+      "sha256": "a2722615eb8ca64357c5d643b8a6ee0ccd397c17875e5d991208ea1d64548a70"
+    },
+    {
+      "path": "site/assets/water-pro/d7579e8b5465ed498b53.jpg",
+      "bytes": 751034,
+      "sha256": "d7579e8b5465ed498b5374b72d5eeb92ddaca7ca5bc501bb0e41f7342803e46c"
+    },
+    {
+      "path": "site/assets/water-pro/dff97fb9208c0f9ad6b6.jpg",
+      "bytes": 49106,
+      "sha256": "dff97fb9208c0f9ad6b69f1b1ecdb4187b103b5addae5b09f851bf5f74566d1d"
+    },
+    {
+      "path": "site/assets/water-pro/e0ecf1bbc3bea24fa789.jpg",
+      "bytes": 486060,
+      "sha256": "e0ecf1bbc3bea24fa78936eae30512154bc3e5d8ac6851c4cb4474323eef37a4"
+    },
+    {
+      "path": "site/assets/water-pro/e9663f91e27411bf860e.jpg",
+      "bytes": 587805,
+      "sha256": "e9663f91e27411bf860e3299f3ac0884221d9492b6f7121405c5886f9f15751a"
+    },
+    {
+      "path": "site/assets/water-pro/eabecddc2f9a18028337.jpg",
+      "bytes": 63616,
+      "sha256": "eabecddc2f9a18028337065ede26ddce511140a65af2d644a5314ab68666bb50"
+    },
+    {
+      "path": "site/assets/water-pro/f0c7a6c20cdd5be936f7.jpg",
+      "bytes": 435614,
+      "sha256": "f0c7a6c20cdd5be936f7dbe4026dfd196108758657390c3f87fd0e2babf79a87"
+    },
+    {
+      "path": "site/assets/water-pro/fb378faad55dc0ba2180.jpg",
+      "bytes": 146316,
+      "sha256": "fb378faad55dc0ba2180bc06ad15dbc01e4630907c156718921ee17f460abef3"
+    },
+    {
+      "path": "site/assets/water-pro/ffc593e017d23412d154.jpg",
+      "bytes": 45527,
+      "sha256": "ffc593e017d23412d154c89b05adbdb0ae82d6e683d602de142954f34924dc3a"
+    },
+    {
+      "path": "site/favicon.svg",
+      "bytes": 245,
+      "sha256": "59ee10d412f23fcf46e7b177b52ec12bb129cd123709c1743ccf8b47871aca53"
+    },
+    {
+      "path": "site/index.html",
+      "bytes": 2608,
+      "sha256": "c5eaf6bdefc8da680125590ac48b278e80d81287f5e376e2f06ca5a2bac5e1c2"
+    },
+    {
+      "path": "site/macau.html",
+      "bytes": 9077,
+      "sha256": "92ca6b1e3b17b5f10f4fe3785ab35fdf8e6c46c66d733f3d728bb8e55eea9233"
+    },
+    {
+      "path": "site/quanzhou.html",
+      "bytes": 8498,
+      "sha256": "d0a3a7e2df0a0c8976f2797614ca0e68cea5d9f1a9f29dd7e080e607d6d76a73"
+    },
+    {
+      "path": "site/shenzhen.html",
+      "bytes": 9086,
+      "sha256": "9182e7b9037db56e84ea9fc730d036994636e3e53083c143fe7a289a0964ceae"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 720,
+      "sha256": "7a495b036dc04100a2fe8443931bfa27c11bc2761b57cad16470ac445f3d3281"
+    },
+    {
+      "path": "verify.mjs",
+      "bytes": 537,
+      "sha256": "c11b26af261194d1027c5e1785894959216fb407aeebd448144e50bc8d3d4440"
+    },
+    {
+      "path": "启动体验.cmd",
+      "bytes": 253,
+      "sha256": "0e8daa97a81c60a52ccb37ad88544dc66713b603946c56dc7afc9e6d802b830e"
+    }
+  ]
+}

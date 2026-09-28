@@ -1,0 +1,7 @@
+Asset: after-rain-sky.png
+Method: Built-in image_gen tool (imagegen skill), generated environmental backdrop.
+Provenance: AI-generated sky inspired by the client's memory of sunshine after rain. This is not a site photograph of Quanzhou Tianhou Palace. The temple model and building photographs remain the user's original assets.
+Saved asset: E:/Program Files/2026-09-18/fu-j/outputs/tianhou-palace/public/assets/after-rain-sky.png
+
+Final prompt:
+Create a photorealistic natural sky texture for the background of a minimalist premium interactive heritage website about Quanzhou Tianhou Palace after a rain shower. Landscape 16:9 composition, ideally 2048x1152. A beautiful crystal-clear fresh blue sky after rain, natural rich azure at the top gradually becoming luminous pale atmospheric blue toward the bottom, sculptural soft white cumulus clouds entering from the far upper left and far right edges. Keep the central 55 percent spacious and mostly clear sky for a website title and a separate interactive 3D temple which will be added by code. Clouds have delicate silver sunlight edges and subtle cool grey undersides, believable fine wisps, gentle coastal southern China daylight, refined calm cinematic photography, realistic restrained color. Bottom quarter is almost entirely clean pale blue atmospheric haze. Sky ONLY: no buildings, no temple, no city, no ocean, no ground, no horizon line, no trees, no sun disk, no rainbow, no birds, no rain streaks, no text, no labels, no logo, no UI. This is an environmental backdrop asset, not a website mockup.

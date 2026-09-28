@@ -1,0 +1,1129 @@
+{
+  "schemaVersion": 1,
+  "format": "THP1",
+  "filename": "shenzhen-particles.bin",
+  "pointCount": 80000,
+  "stride": 16,
+  "byteLength": 1280012,
+  "sha256": "206244f6ec1fb804c64b3c903fae5e12b4f2475e3c9d8fba84b1320c574279f7",
+  "seed": 1398407169,
+  "colorSpace": "sRGB bytes converted from Three.js linear material.color after baked directional shading",
+  "shading": {
+    "method": "baked directional shading per world-space triangle normal, retaining source material RGB",
+    "linearAmbient": 0.3,
+    "skyFacingWeight": 0.26,
+    "keyWeight": 0.4,
+    "keyDirection": [
+      -0.55,
+      0.75,
+      0.55
+    ],
+    "fillWeight": 0.12,
+    "fillDirection": [
+      0.55,
+      0.35,
+      -0.8
+    ],
+    "clamp": [
+      0.3,
+      1
+    ],
+    "sRGBGrainRange": [
+      0.982,
+      1.018
+    ],
+    "grain": "deterministic integer hash, independent of geometry RNG",
+    "roofNormalCorrection": "upper roof shell winding oriented skyward; geometry unchanged",
+    "occlusion": "directional approximation, no ray-traced ambient occlusion"
+  },
+  "coordinateSystem": {
+    "up": "+Y",
+    "front": "+Z",
+    "groundY": 0,
+    "units": "factory relative units, nominal width 20",
+    "normalized": false
+  },
+  "bounds": {
+    "min": [
+      -10,
+      -9.349246427380405e-17,
+      -13.68421052631579
+    ],
+    "max": [
+      10,
+      10.294736573570653,
+      16.57894736842105
+    ],
+    "size": [
+      20,
+      10.294736573570653,
+      30.263157894736842
+    ]
+  },
+  "sampleBounds": {
+    "min": [
+      -10,
+      0,
+      -13.684210777282717
+    ],
+    "max": [
+      10,
+      10.285470615747586,
+      16.578947067260746
+    ]
+  },
+  "sampling": {
+    "method": "deterministic uniform triangle-surface sampling with per-layer minimum detail allocation",
+    "totalArea": 5507.9446022985585,
+    "minimumDetailSamples": 5934,
+    "surfaceCount": 64,
+    "sourceTriangles": 168624
+  },
+  "source": {
+    "name": "深圳罗湖笋岗村天后宫",
+    "identity": "笋岗村220号；不是赤湾天后宫",
+    "referenceFootprintMeters": [
+      17,
+      23.9
+    ],
+    "references": [
+      "codex-clipboard-e647916d-fdd7-4f6b-8e21-42f7d2fb669f.jpg",
+      "codex-clipboard-44a7e7f8-296d-410f-9d3e-ef6213aba7ed.jpg",
+      "codex-clipboard-9fa83ca4-b243-4cc6-8954-44ca9c0ce0b0.jpg"
+    ],
+    "method": "front/oblique/side reference-guided procedural volumetric geometry"
+  },
+  "approximation": [
+    "Front porch width, three openings, paired dragon columns, lanterns and stone façade follow supplied photographs.",
+    "Long rectangular shell and two high gables follow side photograph and approximate 17 × 23.9 m footprint.",
+    "Unseen interior courtyard/rear door placement is inferred; this is not a surveyed reconstruction.",
+    "Coiling dragons and relief patterns are volumetric approximations, not exact carvings or invented literal inscriptions.",
+    "Source material palette is approximate; intended display is recolored particles."
+  ],
+  "layers": [
+    {
+      "name": "shenzhen-stone-platform-and-front-steps/stone",
+      "area": 1278.9727570239074,
+      "pointCount": 17223,
+      "minimumPoints": 24,
+      "triangles": 84,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-stone-platform-and-front-steps/stoneDark",
+      "area": 24.328578320663638,
+      "pointCount": 351,
+      "minimumPoints": 24,
+      "triangles": 2760,
+      "sRGB": [
+        116,
+        110,
+        94
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9040807227922173
+      ]
+    },
+    {
+      "name": "shenzhen-stone-platform-and-front-steps/bronze",
+      "area": 33.292195416737215,
+      "pointCount": 472,
+      "minimumPoints": 24,
+      "triangles": 1432,
+      "sRGB": [
+        99,
+        92,
+        66
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.904499356060614
+      ]
+    },
+    {
+      "name": "shenzhen-enclosed-rear-and-open-courtyard/stone",
+      "area": 700.5014102645174,
+      "pointCount": 9444,
+      "minimumPoints": 24,
+      "triangles": 2100,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-enclosed-rear-and-open-courtyard/wood",
+      "area": 153.1355286762552,
+      "pointCount": 2083,
+      "minimumPoints": 24,
+      "triangles": 1236,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-enclosed-rear-and-open-courtyard/dark",
+      "area": 43.708697113396354,
+      "pointCount": 612,
+      "minimumPoints": 24,
+      "triangles": 84,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-enclosed-rear-and-open-courtyard/stoneDark",
+      "area": 230.2049939216339,
+      "pointCount": 3120,
+      "minimumPoints": 24,
+      "triangles": 12,
+      "sRGB": [
+        116,
+        110,
+        94
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110151
+      ]
+    },
+    {
+      "name": "shenzhen-front-high-gable--1/stone",
+      "area": 133.10022642068432,
+      "pointCount": 1814,
+      "minimumPoints": 24,
+      "triangles": 84,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8886659050331777
+      ]
+    },
+    {
+      "name": "shenzhen-front-high-gable--1/dark",
+      "area": 6.491915516990775,
+      "pointCount": 111,
+      "minimumPoints": 24,
+      "triangles": 432,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8888095973518351
+      ]
+    },
+    {
+      "name": "shenzhen-front-high-gable--1/jade",
+      "area": 4.249156505989325,
+      "pointCount": 81,
+      "minimumPoints": 24,
+      "triangles": 432,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8888095655439411
+      ]
+    },
+    {
+      "name": "shenzhen-front-high-gable--1/stoneDark",
+      "area": 32.11896317817214,
+      "pointCount": 456,
+      "minimumPoints": 24,
+      "triangles": 624,
+      "sRGB": [
+        116,
+        110,
+        94
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-rear-high-gable--1/stone",
+      "area": 130.0285143946827,
+      "pointCount": 1773,
+      "minimumPoints": 24,
+      "triangles": 84,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8882908440463669
+      ]
+    },
+    {
+      "name": "shenzhen-rear-high-gable--1/dark",
+      "area": 6.69653362097614,
+      "pointCount": 114,
+      "minimumPoints": 24,
+      "triangles": 432,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8887542455860887
+      ]
+    },
+    {
+      "name": "shenzhen-rear-high-gable--1/jade",
+      "area": 4.382933876761465,
+      "pointCount": 83,
+      "minimumPoints": 24,
+      "triangles": 432,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8887548625400458
+      ]
+    },
+    {
+      "name": "shenzhen-rear-high-gable--1/stoneDark",
+      "area": 30.092489099475497,
+      "pointCount": 429,
+      "minimumPoints": 24,
+      "triangles": 600,
+      "sRGB": [
+        116,
+        110,
+        94
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-court-side-connector--1-shell/jade",
+      "area": 31.261492184988754,
+      "pointCount": 444,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9001419222671528
+      ]
+    },
+    {
+      "name": "shenzhen-court-side-connector--1-shell/wood",
+      "area": 40.90750024225687,
+      "pointCount": 574,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9001419222003023
+      ]
+    },
+    {
+      "name": "shenzhen-court-side-connector--1-ribs-and-ridges/jadeLight",
+      "area": 47.025107964085244,
+      "pointCount": 762,
+      "minimumPoints": 130,
+      "triangles": 13792,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9034781391362097
+      ]
+    },
+    {
+      "name": "shenzhen-court-side-connector--1-ribs-and-ridges/dark",
+      "area": 19.05333177655707,
+      "pointCount": 386,
+      "minimumPoints": 130,
+      "triangles": 2420,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9037892305703554
+      ]
+    },
+    {
+      "name": "shenzhen-front-high-gable-1/stone",
+      "area": 133.10022642068432,
+      "pointCount": 1814,
+      "minimumPoints": 24,
+      "triangles": 84,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8886659050331777
+      ]
+    },
+    {
+      "name": "shenzhen-front-high-gable-1/dark",
+      "area": 6.4919155169907805,
+      "pointCount": 111,
+      "minimumPoints": 24,
+      "triangles": 432,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8888095973518351
+      ]
+    },
+    {
+      "name": "shenzhen-front-high-gable-1/jade",
+      "area": 4.249156505989325,
+      "pointCount": 81,
+      "minimumPoints": 24,
+      "triangles": 432,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8888095655439411
+      ]
+    },
+    {
+      "name": "shenzhen-front-high-gable-1/stoneDark",
+      "area": 32.11896317817213,
+      "pointCount": 456,
+      "minimumPoints": 24,
+      "triangles": 624,
+      "sRGB": [
+        116,
+        110,
+        94
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-rear-high-gable-1/stone",
+      "area": 130.0285143946827,
+      "pointCount": 1773,
+      "minimumPoints": 24,
+      "triangles": 84,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8882908440463669
+      ]
+    },
+    {
+      "name": "shenzhen-rear-high-gable-1/dark",
+      "area": 6.696533620976139,
+      "pointCount": 114,
+      "minimumPoints": 24,
+      "triangles": 432,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8887542455860887
+      ]
+    },
+    {
+      "name": "shenzhen-rear-high-gable-1/jade",
+      "area": 4.382933876761465,
+      "pointCount": 83,
+      "minimumPoints": 24,
+      "triangles": 432,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8887548625400458
+      ]
+    },
+    {
+      "name": "shenzhen-rear-high-gable-1/stoneDark",
+      "area": 30.092489099475497,
+      "pointCount": 429,
+      "minimumPoints": 24,
+      "triangles": 600,
+      "sRGB": [
+        116,
+        110,
+        94
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-court-side-connector-1-shell/jade",
+      "area": 31.261492184988754,
+      "pointCount": 444,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9001419222671527
+      ]
+    },
+    {
+      "name": "shenzhen-court-side-connector-1-shell/wood",
+      "area": 40.90750024225688,
+      "pointCount": 574,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.900141922200302
+      ]
+    },
+    {
+      "name": "shenzhen-court-side-connector-1-ribs-and-ridges/jadeLight",
+      "area": 47.025107964085215,
+      "pointCount": 762,
+      "minimumPoints": 130,
+      "triangles": 13792,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9034781391362097
+      ]
+    },
+    {
+      "name": "shenzhen-court-side-connector-1-ribs-and-ridges/dark",
+      "area": 19.053331776557073,
+      "pointCount": 386,
+      "minimumPoints": 130,
+      "triangles": 2420,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9037892305703553
+      ]
+    },
+    {
+      "name": "shenzhen-recessed-three-door-front-facade/stone",
+      "area": 270.24240347935597,
+      "pointCount": 3719,
+      "minimumPoints": 85,
+      "triangles": 8340,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8981808562028799
+      ]
+    },
+    {
+      "name": "shenzhen-recessed-three-door-front-facade/stoneDark",
+      "area": 94.85609650799539,
+      "pointCount": 1361,
+      "minimumPoints": 85,
+      "triangles": 84,
+      "sRGB": [
+        116,
+        110,
+        94
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-recessed-three-door-front-facade/dark",
+      "area": 35.2418988924744,
+      "pointCount": 559,
+      "minimumPoints": 85,
+      "triangles": 60,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-recessed-three-door-front-facade/gold",
+      "area": 3.5103086038548934,
+      "pointCount": 132,
+      "minimumPoints": 85,
+      "triangles": 3612,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048439017048672
+      ]
+    },
+    {
+      "name": "shenzhen-recessed-three-door-front-facade/wood",
+      "area": 25.67312793256169,
+      "pointCount": 430,
+      "minimumPoints": 85,
+      "triangles": 12,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-recessed-three-door-front-facade/jadeLight",
+      "area": 20.704049553969977,
+      "pointCount": 363,
+      "minimumPoints": 85,
+      "triangles": 24,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-recessed-three-door-front-facade/jade",
+      "area": 0.6320891986456233,
+      "pointCount": 93,
+      "minimumPoints": 85,
+      "triangles": 480,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9040792605655142
+      ]
+    },
+    {
+      "name": "shenzhen-recessed-three-door-front-facade/bronze",
+      "area": 0.277318684856048,
+      "pointCount": 89,
+      "minimumPoints": 85,
+      "triangles": 200,
+      "sRGB": [
+        99,
+        92,
+        66
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9034367508039667
+      ]
+    },
+    {
+      "name": "shenzhen-dragon-column--1/stoneDark",
+      "area": 17.015501559304397,
+      "pointCount": 509,
+      "minimumPoints": 280,
+      "triangles": 312,
+      "sRGB": [
+        116,
+        110,
+        94
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9029942396643053
+      ]
+    },
+    {
+      "name": "shenzhen-dragon-column--1/stone",
+      "area": 11.536779830665223,
+      "pointCount": 435,
+      "minimumPoints": 280,
+      "triangles": 3580,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9080931446588407
+      ]
+    },
+    {
+      "name": "shenzhen-dragon-column--1/dark",
+      "area": 0.07402167642923753,
+      "pointCount": 281,
+      "minimumPoints": 280,
+      "triangles": 200,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9025830473928254
+      ]
+    },
+    {
+      "name": "shenzhen-red-lantern--1/red",
+      "area": 5.035624981921138,
+      "pointCount": 198,
+      "minimumPoints": 130,
+      "triangles": 180,
+      "sRGB": [
+        172,
+        53,
+        41
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.903021269303635
+      ]
+    },
+    {
+      "name": "shenzhen-red-lantern--1/gold",
+      "area": 4.00331496155044,
+      "pointCount": 184,
+      "minimumPoints": 130,
+      "triangles": 1988,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8826296612431621
+      ]
+    },
+    {
+      "name": "shenzhen-red-lantern--1/bronze",
+      "area": 0.10059567480606431,
+      "pointCount": 131,
+      "minimumPoints": 130,
+      "triangles": 32,
+      "sRGB": [
+        99,
+        92,
+        66
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-dragon-column-1/stoneDark",
+      "area": 17.0155015593044,
+      "pointCount": 509,
+      "minimumPoints": 280,
+      "triangles": 312,
+      "sRGB": [
+        116,
+        110,
+        94
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9029942396643053
+      ]
+    },
+    {
+      "name": "shenzhen-dragon-column-1/stone",
+      "area": 11.53678057968465,
+      "pointCount": 435,
+      "minimumPoints": 280,
+      "triangles": 3580,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9080931637861036
+      ]
+    },
+    {
+      "name": "shenzhen-dragon-column-1/dark",
+      "area": 0.07402167642923754,
+      "pointCount": 281,
+      "minimumPoints": 280,
+      "triangles": 200,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9025830473928258
+      ]
+    },
+    {
+      "name": "shenzhen-red-lantern-1/red",
+      "area": 5.035624981921136,
+      "pointCount": 198,
+      "minimumPoints": 130,
+      "triangles": 180,
+      "sRGB": [
+        172,
+        53,
+        41
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.903021261667397
+      ]
+    },
+    {
+      "name": "shenzhen-red-lantern-1/gold",
+      "area": 4.0033149615504415,
+      "pointCount": 184,
+      "minimumPoints": 130,
+      "triangles": 1988,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8826296612431621
+      ]
+    },
+    {
+      "name": "shenzhen-red-lantern-1/bronze",
+      "area": 0.10059567480606431,
+      "pointCount": 131,
+      "minimumPoints": 130,
+      "triangles": 32,
+      "sRGB": [
+        99,
+        92,
+        66
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-front-green-tiled-roof-shell/jade",
+      "area": 183.2709416782182,
+      "pointCount": 2488,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9033635584734622
+      ]
+    },
+    {
+      "name": "shenzhen-front-green-tiled-roof-shell/wood",
+      "area": 201.1846292038465,
+      "pointCount": 2729,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9033635543907736
+      ]
+    },
+    {
+      "name": "shenzhen-front-green-tiled-roof-ribs-and-ridges/jadeLight",
+      "area": 298.0749593883802,
+      "pointCount": 4138,
+      "minimumPoints": 130,
+      "triangles": 30944,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9072160051503417
+      ]
+    },
+    {
+      "name": "shenzhen-front-green-tiled-roof-ribs-and-ridges/dark",
+      "area": 42.06782721251061,
+      "pointCount": 696,
+      "minimumPoints": 130,
+      "triangles": 2420,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.900137049350081
+      ]
+    },
+    {
+      "name": "shenzhen-rear-green-tiled-roof-shell/jade",
+      "area": 192.43237464376668,
+      "pointCount": 2612,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.903328886238921
+      ]
+    },
+    {
+      "name": "shenzhen-rear-green-tiled-roof-shell/wood",
+      "area": 210.21710177338545,
+      "pointCount": 2851,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8993448094781695
+      ]
+    },
+    {
+      "name": "shenzhen-rear-green-tiled-roof-ribs-and-ridges/jadeLight",
+      "area": 313.3788729606858,
+      "pointCount": 4344,
+      "minimumPoints": 130,
+      "triangles": 30720,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8969564815985216
+      ]
+    },
+    {
+      "name": "shenzhen-rear-green-tiled-roof-ribs-and-ridges/dark",
+      "area": 42.14816076609903,
+      "pointCount": 697,
+      "minimumPoints": 130,
+      "triangles": 2420,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9001975358501777
+      ]
+    },
+    {
+      "name": "shenzhen-swalllowtail-ridge-and-paired-ceramic-dragons/dark",
+      "area": 12.81287351744397,
+      "pointCount": 452,
+      "minimumPoints": 280,
+      "triangles": 872,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9056424472488421
+      ]
+    },
+    {
+      "name": "shenzhen-swalllowtail-ridge-and-paired-ceramic-dragons/jadeLight",
+      "area": 11.367432516765886,
+      "pointCount": 433,
+      "minimumPoints": 280,
+      "triangles": 2556,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9085941897679308
+      ]
+    },
+    {
+      "name": "shenzhen-swalllowtail-ridge-and-paired-ceramic-dragons/gold",
+      "area": 6.99221521524883,
+      "pointCount": 374,
+      "minimumPoints": 280,
+      "triangles": 2420,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9075305585519711
+      ]
+    },
+    {
+      "name": "shenzhen-courtyard-altar-and-door-step/stone",
+      "area": 29.168664720677896,
+      "pointCount": 477,
+      "minimumPoints": 85,
+      "triangles": 48,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "shenzhen-courtyard-altar-and-door-step/bronze",
+      "area": 3.199087429090041,
+      "pointCount": 128,
+      "minimumPoints": 85,
+      "triangles": 392,
+      "sRGB": [
+        99,
+        92,
+        66
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9028519508742804
+      ]
+    }
+  ]
+}

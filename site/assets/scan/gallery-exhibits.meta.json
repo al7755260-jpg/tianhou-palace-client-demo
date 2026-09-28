@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "exhibits": [
+    {
+      "id": "east-gallery",
+      "source": "east-gallery.spz",
+      "url": "./assets/scan/east-gallery-detail.spz",
+      "crop": {
+        "x": [
+          -3,
+          1
+        ]
+      },
+      "sourceCount": 173121,
+      "count": 48921,
+      "bytes": 675856,
+      "storageScale": 64,
+      "sha256": "0027eab31f8103f57c7c9b2ae10d5eb8e0be223622878f9286b55736062db0c0",
+      "maxPositionError": 0,
+      "maxAttributeError": 0,
+      "maxRotationErrorDegrees": 0.11163307045440708,
+      "center": [
+        -1,
+        0.79736328125,
+        -3.691162109375
+      ],
+      "size": [
+        4.04,
+        1.63033203125,
+        1.69380859375
+      ]
+    },
+    {
+      "id": "west-gallery",
+      "source": "west-gallery.spz",
+      "url": "./assets/scan/west-gallery-detail.spz",
+      "crop": {
+        "x": [
+          -3,
+          1
+        ]
+      },
+      "sourceCount": 156106,
+      "count": 49374,
+      "bytes": 680590,
+      "storageScale": 64,
+      "sha256": "fd42e408d9bc8fd27bcd54c9c9aaad9d8877df41a872f526d1288fbc554841d4",
+      "maxPositionError": 0,
+      "maxAttributeError": 0,
+      "maxRotationErrorDegrees": 0.11145920017950177,
+      "center": [
+        -1,
+        0.7867431640625,
+        3.6534423828125
+      ],
+      "size": [
+        4.04,
+        1.611044921875,
+        1.618857421875
+      ]
+    }
+  ]
+}

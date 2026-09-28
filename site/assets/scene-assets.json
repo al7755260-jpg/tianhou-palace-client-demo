@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "storageScale": 64,
+  "particleCount": 62500,
+  "sources": [
+    {
+      "file": "temple-preview.spz",
+      "sha256": "201a1093dca28d644b3e785ab8d13b46643075bacca57df9e98ca646741b31c5",
+      "count": 250000
+    },
+    {
+      "file": "temple-detail-0.spz",
+      "sha256": "0b23e9f286c8e9bc7db3c835476951b13aac696beb6f9578b52ecf5908df09e0",
+      "count": 650000
+    },
+    {
+      "file": "temple-detail-1.spz",
+      "sha256": "56d57d565401a35aa6f688720ff1c8aaf938ab36c59d7466cc9910d837a50b39",
+      "count": 650000
+    }
+  ],
+  "buildings": {
+    "gate": {
+      "preview": {
+        "url": "./assets/buildings/gate-preview.spz",
+        "count": 44005,
+        "bytes": 651576,
+        "sha256": "f10abd84de2f2690d74c22f4b2863b2181e6027bcf3f5f3e784ca20f86e47e5d",
+        "errors": {
+          "position": 0,
+          "scaleRelative": 5.1098553591681895e-08,
+          "color": 2.9181520422305596e-08,
+          "alpha": 2.3374369106932136e-10,
+          "rotationDegrees": 0.11152120621807723
+        },
+        "splatScale": 2.2
+      },
+      "detail": {
+        "url": "./assets/buildings/gate-detail.spz",
+        "count": 227648,
+        "bytes": 3348039,
+        "sha256": "898acf97792fc0d30a9d629620ee69a09b62b2fa54e1f0fde635549932c4bc7e",
+        "errors": {
+          "position": 0,
+          "scaleRelative": 5.1098553591681895e-08,
+          "color": 2.9181520422305596e-08,
+          "alpha": 2.3374369106932136e-10,
+          "rotationDegrees": 0.11194777563623276
+        },
+        "splatScale": 2.2
+      }
+    },
+    "courtyard": {
+      "preview": {
+        "url": "./assets/buildings/courtyard-preview.spz",
+        "count": 15430,
+        "bytes": 208724,
+        "sha256": "5e8c8b293ce9c17282551ecea777908e322b73c498e590c80f172ef22c65c44d",
+        "errors": {
+          "position": 0,
+          "scaleRelative": 5.1098553591681895e-08,
+          "color": 2.9181520422305596e-08,
+          "alpha": 2.3374369106932136e-10,
+          "rotationDegrees": 0.11146152412702642
+        },
+        "splatScale": 1.3
+      },
+      "detail": {
+        "url": "./assets/buildings/courtyard-detail.spz",
+        "count": 80226,
+        "bytes": 1055642,
+        "sha256": "f2438ffccd62c0819d1f095de79ca4eaeeebc86979d5e796f113f0a8d2fa67ac",
+        "errors": {
+          "position": 0,
+          "scaleRelative": 5.1098553591681895e-08,
+          "color": 2.9181520422305596e-08,
+          "alpha": 2.3374369106932136e-10,
+          "rotationDegrees": 0.11146152412702642
+        },
+        "splatScale": 1.3
+      }
+    },
+    "hall": {
+      "preview": {
+        "url": "./assets/buildings/hall-preview.spz",
+        "count": 47361,
+        "bytes": 675682,
+        "sha256": "74586f5f10240be8e207c37aa39e1f874d20e683c26f0aa78fac4a4d7630f086",
+        "errors": {
+          "position": 0,
+          "scaleRelative": 5.1098553591681895e-08,
+          "color": 2.9181520422305596e-08,
+          "alpha": 2.3374369106932136e-10,
+          "rotationDegrees": 0.11194777563623276
+        },
+        "splatScale": 1.3
+      },
+      "detail": {
+        "url": "./assets/buildings/hall-detail.spz",
+        "count": 247059,
+        "bytes": 3497883,
+        "sha256": "db8cdf2ec60967897d47493f450f1d876f2f849605c323bf4e649ee74b0d7412",
+        "errors": {
+          "position": 0,
+          "scaleRelative": 5.1098553591681895e-08,
+          "color": 2.9181520422305596e-08,
+          "alpha": 2.3374369106932136e-10,
+          "rotationDegrees": 0.11194777563623276
+        },
+        "splatScale": 1.3
+      }
+    },
+    "bedchamber": {
+      "preview": {
+        "url": "./assets/buildings/bedchamber-preview.spz",
+        "count": 29070,
+        "bytes": 408405,
+        "sha256": "4d5c43dbd19b26462b7e127c1c4d0cecaddd4092b84341109aeef9ae913924f3",
+        "errors": {
+          "position": 0,
+          "scaleRelative": 5.1098553591681895e-08,
+          "color": 2.9181520422305596e-08,
+          "alpha": 2.3374369106932136e-10,
+          "rotationDegrees": 0.11173043242926933
+        },
+        "splatScale": 1.3
+      },
+      "detail": {
+        "url": "./assets/buildings/bedchamber-detail.spz",
+        "count": 151592,
+        "bytes": 2097054,
+        "sha256": "2e5b29f1ba3f9022a1b113aa0e675b0c4a980e60b7b2d8dffda1864ba4ffdc53",
+        "errors": {
+          "position": 0,
+          "scaleRelative": 5.2167587802150205e-08,
+          "color": 2.9181520422305596e-08,
+          "alpha": 2.3374369106932136e-10,
+          "rotationDegrees": 0.11173043242926933
+        },
+        "splatScale": 1.3
+      }
+    },
+    "tower": {
+      "preview": {
+        "url": "./assets/buildings/tower-preview.spz",
+        "count": 38901,
+        "bytes": 569412,
+        "sha256": "c306530f246f604e8fec8a4063dfbe09c0389fade39f04ac845455148c16e445",
+        "errors": {
+          "position": 0,
+          "scaleRelative": 5.1098553591681895e-08,
+          "color": 2.9181520422305596e-08,
+          "alpha": 2.3374369106932136e-10,
+          "rotationDegrees": 0.1119084088488439
+        },
+        "splatScale": 1.3
+      },
+      "detail": {
+        "url": "./assets/buildings/tower-detail.spz",
+        "count": 203869,
+        "bytes": 2962798,
+        "sha256": "dbcf1bc09c740f7939df3eafec1c1846ad322e73d08ea3249a043fbfe1f3e74f",
+        "errors": {
+          "position": 0,
+          "scaleRelative": 5.1098553591681895e-08,
+          "color": 2.9181520422305596e-08,
+          "alpha": 2.3374369106932136e-10,
+          "rotationDegrees": 0.11194777563623276
+        },
+        "splatScale": 1.3
+      }
+    },
+    "bell-tower": {
+      "preview": {
+        "url": "./assets/buildings/bell-tower-preview.spz",
+        "count": 14106,
+        "bytes": 211374,
+        "sha256": "8e9377396e717bbf13fea8e9b40cbb0c354ae83b895bc7a8013716109e7c5bdb",
+        "errors": {
+          "position": 0,
+          "scaleRelative": 5.1098553591681895e-08,
+          "color": 2.9181520422305596e-08,
+          "alpha": 2.3374369106932136e-10,
+          "rotationDegrees": 0.11146152412702642
+        },
+        "splatScale": 2.2
+      },
+      "detail": {
+        "url": "./assets/buildings/bell-tower-detail.spz",
+        "count": 72770,
+        "bytes": 1062193,
+        "sha256": "9eeddacf3ef39de81cc95f2cf88d93cfd384de1abf0e3689fdf64cc77a33af4a",
+        "errors": {
+          "position": 0,
+          "scaleRelative": 5.1098553591681895e-08,
+          "color": 2.9181520422305596e-08,
+          "alpha": 2.3374369106932136e-10,
+          "rotationDegrees": 0.11152120621807723
+        },
+        "splatScale": 2.2
+      }
+    }
+  },
+  "particleSha256": "2bc51651e9b7de313e91b9e337b4bd8e8b85b6feb66b80801a4f3ab9f9fd0c3d",
+  "provenance": {
+    "type": "mesh-derived surface Gaussians",
+    "generation": "64b77ba7-97db-4847-a355-0dbe353ca9af",
+    "rodinUrl": "https://hyper3d.ai/workspace/rodin/64b77ba7-97db-4847-a355-0dbe353ca9af",
+    "corrections": [
+      "no-tree references",
+      "compact pool passage",
+      "right pool surface repaired",
+      "original gate and twin towers preserved"
+    ],
+    "separateTrees": 7,
+    "originalGatePreserved": true,
+    "finalMeshSha256": "52575c734c7d172949ea87836fe132248944ca2e3287ddaabde9db8933bd8ccc"
+  }
+}

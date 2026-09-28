@@ -1,0 +1,555 @@
+{
+  "format": 1,
+  "method": "TripoSplat",
+  "sourceCount": 262144,
+  "partitionedCount": 262144,
+  "sourceSha256": "91fc9aed03a7aada1c5d941a6b71da13b10389387dd1895c4ff97787020887ac",
+  "seed": 42,
+  "storageScale": 64,
+  "normalization": {
+    "rotation": "Rx(pi)",
+    "factor": 20.163517447101043,
+    "offset": [
+      0.0013232827186584473,
+      -0.10129117965698242,
+      0.00033169984817504883
+    ]
+  },
+  "bounds": {
+    "min": [
+      -10,
+      0,
+      -5.578291417184859
+    ],
+    "max": [
+      10,
+      3.774944775484401,
+      5.578291417184859
+    ]
+  },
+  "particles": "./assets/cities/macau/particles.bin",
+  "particleCount": 120000,
+  "regions": [
+    {
+      "id": "mountain-gate",
+      "core": {
+        "center": [
+          7.75,
+          1.15,
+          0
+        ],
+        "size": [
+          2.05,
+          2.7,
+          4.6
+        ]
+      },
+      "center": [
+        7.750003814697266,
+        1.118700847029686,
+        -0.0020238161087036133
+      ],
+      "size": [
+        2.1297169494628907,
+        2.1023205387592316,
+        5.308354215621948
+      ],
+      "ground": true,
+      "count": 10874,
+      "bytes": 165482,
+      "url": "./assets/cities/macau/mountain-gate.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "east-tower",
+      "core": {
+        "center": [
+          7.25,
+          1.4,
+          -4.2
+        ],
+        "size": [
+          2.7,
+          3.3,
+          2.5
+        ]
+      },
+      "center": [
+        7.382537841796875,
+        1.250730361789465,
+        -4.117544770240784
+      ],
+      "size": [
+        3.044754104614258,
+        2.5426401141285897,
+        3.0610616970062257
+      ],
+      "ground": true,
+      "count": 12456,
+      "bytes": 193269,
+      "url": "./assets/cities/macau/east-tower.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "west-tower",
+      "core": {
+        "center": [
+          7.25,
+          1.4,
+          4.2
+        ],
+        "size": [
+          2.7,
+          3.3,
+          2.5
+        ]
+      },
+      "center": [
+        7.38345742225647,
+        1.2502250270918012,
+        4.127941131591797
+      ],
+      "size": [
+        3.0465884971618653,
+        2.524522460922599,
+        3.06388671875
+      ],
+      "ground": true,
+      "count": 11448,
+      "bytes": 174538,
+      "url": "./assets/cities/macau/west-tower.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "altar",
+      "core": {
+        "center": [
+          3.1,
+          0.6,
+          0
+        ],
+        "size": [
+          3.5,
+          1.5,
+          4.4
+        ]
+      },
+      "center": [
+        3.099788248538971,
+        0.48923029750585556,
+        -0.000053763389587402344
+      ],
+      "size": [
+        3.579550700187683,
+        1.2833283263444901,
+        4.479431943893433
+      ],
+      "ground": true,
+      "count": 14218,
+      "bytes": 214812,
+      "url": "./assets/cities/macau/altar.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "terrace",
+      "core": {
+        "center": [
+          0.5,
+          0.6,
+          0
+        ],
+        "size": [
+          2.1,
+          1.6,
+          5.8
+        ]
+      },
+      "center": [
+        0.4999248683452606,
+        1.1854348331689835,
+        0.000007271766662597656
+      ],
+      "size": [
+        2.1796769070625306,
+        1.874453114271164,
+        6.749227361679077
+      ],
+      "ground": true,
+      "count": 7636,
+      "bytes": 114483,
+      "url": "./assets/cities/macau/terrace.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "main-hall",
+      "core": {
+        "center": [
+          -2.35,
+          1.6,
+          0
+        ],
+        "size": [
+          4.4,
+          3.7,
+          6.8
+        ]
+      },
+      "center": [
+        -2.379289850592613,
+        2.02889521420002,
+        0.00020432472229003906
+      ],
+      "size": [
+        5.394829379320145,
+        3.6064404714107514,
+        7.249485569000244
+      ],
+      "ground": true,
+      "count": 34241,
+      "bytes": 527526,
+      "url": "./assets/cities/macau/main-hall.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "dressing-tower",
+      "core": {
+        "center": [
+          -7.7,
+          1.85,
+          0
+        ],
+        "size": [
+          4.35,
+          4.3,
+          7
+        ]
+      },
+      "center": [
+        -7.565576791763306,
+        2.155714115826413,
+        0.008023262023925781
+      ],
+      "size": [
+        5.135924892425537,
+        4.4001788240112365,
+        11.370816307067871
+      ],
+      "ground": true,
+      "count": 50330,
+      "bytes": 775328,
+      "url": "./assets/cities/macau/dressing-tower.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "east-gallery",
+      "core": {
+        "center": [
+          -0.15,
+          1.35,
+          -4.72
+        ],
+        "size": [
+          14.6,
+          3.3,
+          1.9
+        ]
+      },
+      "center": [
+        -1.1262390613555908,
+        1.4396045755129308,
+        -4.474074482917786
+      ],
+      "size": [
+        16.857740001678465,
+        2.9510678913630546,
+        2.425993757247925
+      ],
+      "ground": true,
+      "count": 45472,
+      "bytes": 680813,
+      "url": "./assets/cities/macau/east-gallery.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "west-gallery",
+      "core": {
+        "center": [
+          -0.15,
+          1.35,
+          4.72
+        ],
+        "size": [
+          14.6,
+          3.3,
+          1.9
+        ]
+      },
+      "center": [
+        -1.142043113708496,
+        1.3697560887085274,
+        4.485206604003906
+      ],
+      "size": [
+        16.879461364746092,
+        2.8262809362914414,
+        2.402052001953125
+      ],
+      "ground": true,
+      "count": 44091,
+      "bytes": 658436,
+      "url": "./assets/cities/macau/west-gallery.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "approach",
+      "core": {
+        "center": [
+          9.1,
+          0.2,
+          0
+        ],
+        "size": [
+          2.1,
+          0.8,
+          5.8
+        ]
+      },
+      "center": [
+        8.896498203277588,
+        0.48950464837253094,
+        -0.016495585441589355
+      ],
+      "size": [
+        2.3965102005004884,
+        0.9753312374651432,
+        6.32917197227478
+      ],
+      "ground": true,
+      "count": 9680,
+      "bytes": 145847,
+      "url": "./assets/cities/macau/approach.spz",
+      "splatScale": 1
+    },
+    {
+      "id": "courtyard",
+      "core": {
+        "center": [
+          4.2,
+          0.25,
+          0
+        ],
+        "size": [
+          5.9,
+          0.7,
+          8.4
+        ]
+      },
+      "center": [
+        4.135852426290512,
+        1.1807725690305233,
+        0.00007414817810058594
+      ],
+      "size": [
+        6.675057308673859,
+        2.562511468231678,
+        7.619723873138428
+      ],
+      "ground": true,
+      "count": 21698,
+      "bytes": 326402,
+      "url": "./assets/cities/macau/courtyard.spz",
+      "splatScale": 1
+    }
+  ],
+  "hotspots": {
+    "mountain-gate": {
+      "id": "mountain-gate",
+      "regions": [
+        "mountain-gate"
+      ],
+      "position": [
+        7.8,
+        2.1,
+        0
+      ],
+      "volume": {
+        "center": [
+          7.75,
+          1.15,
+          0
+        ],
+        "size": [
+          2.05,
+          2.7,
+          4.6
+        ]
+      }
+    },
+    "altar": {
+      "id": "altar",
+      "regions": [
+        "altar",
+        "courtyard"
+      ],
+      "position": [
+        3,
+        0.85,
+        0
+      ],
+      "volume": {
+        "center": [
+          3.1,
+          0.6,
+          0
+        ],
+        "size": [
+          3.5,
+          1.5,
+          4.4
+        ]
+      }
+    },
+    "main-hall": {
+      "id": "main-hall",
+      "regions": [
+        "main-hall",
+        "east-gallery",
+        "west-gallery"
+      ],
+      "position": [
+        -2.2,
+        2.9,
+        0
+      ],
+      "volume": {
+        "center": [
+          -2.35,
+          1.6,
+          0
+        ],
+        "size": [
+          4.4,
+          3.7,
+          6.8
+        ]
+      }
+    },
+    "roof-dragons": {
+      "id": "roof-dragons",
+      "regions": [
+        "main-hall"
+      ],
+      "position": [
+        -2.35,
+        3.3,
+        0
+      ],
+      "volume": {
+        "center": [
+          -2.35,
+          1.6,
+          0
+        ],
+        "size": [
+          4.4,
+          3.7,
+          6.8
+        ]
+      }
+    },
+    "dressing-tower": {
+      "id": "dressing-tower",
+      "regions": [
+        "dressing-tower"
+      ],
+      "position": [
+        -7.4,
+        3.2,
+        0
+      ],
+      "volume": {
+        "center": [
+          -7.7,
+          1.85,
+          0
+        ],
+        "size": [
+          4.35,
+          4.3,
+          7
+        ]
+      }
+    },
+    "twin-towers": {
+      "id": "twin-towers",
+      "regions": [
+        "east-tower",
+        "west-tower"
+      ],
+      "position": [
+        7.3,
+        2.35,
+        -4.2
+      ],
+      "volume": {
+        "center": [
+          7.25,
+          1.4,
+          -4.2
+        ],
+        "size": [
+          2.7,
+          3.3,
+          2.5
+        ]
+      }
+    },
+    "terrace": {
+      "id": "terrace",
+      "regions": [
+        "terrace"
+      ],
+      "position": [
+        0.5,
+        0.8,
+        0
+      ],
+      "volume": {
+        "center": [
+          0.5,
+          0.6,
+          0
+        ],
+        "size": [
+          2.1,
+          1.6,
+          5.8
+        ]
+      }
+    },
+    "approach": {
+      "id": "approach",
+      "regions": [
+        "approach"
+      ],
+      "position": [
+        9.1,
+        0.25,
+        0
+      ],
+      "volume": {
+        "center": [
+          9.1,
+          0.2,
+          0
+        ],
+        "size": [
+          2.1,
+          0.8,
+          5.8
+        ]
+      }
+    }
+  },
+  "provenance": "User photography → ImageGen → Rodin GLB → Cycles reference render → TripoSplat CUDA inference. Not a survey. Hidden geometry inferred."
+}

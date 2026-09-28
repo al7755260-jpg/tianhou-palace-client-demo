@@ -1,0 +1,83 @@
+{
+  "engine": "Cycles OPTIX",
+  "samples": 32,
+  "cloudSource": "Lazy Cloud 2.0.1 / LC_Shaders_Preset_1",
+  "sky": "lazy-cloud-cycles.hdr",
+  "lightmaps": [
+    {
+      "object": "Temple shore",
+      "map": "light-00.png",
+      "resolution": 1024,
+      "bake": "Cycles diffuse color + direct + indirect"
+    },
+    {
+      "object": "Far temple island",
+      "map": "light-01.png",
+      "resolution": 1024,
+      "bake": "Cycles diffuse color + direct + indirect"
+    },
+    {
+      "object": "Surrounding mountains",
+      "map": "light-02.png",
+      "resolution": 4096,
+      "bake": "Cycles diffuse color + direct + indirect"
+    },
+    {
+      "object": "Boat_01_Mesh",
+      "map": "light-03.png",
+      "resolution": 1024,
+      "bake": "Cycles diffuse color + direct + indirect"
+    },
+    {
+      "object": "Boat_02_Mesh",
+      "map": "light-04.png",
+      "resolution": 1024,
+      "bake": "Cycles diffuse color + direct + indirect"
+    },
+    {
+      "object": "Boat_03_Mesh",
+      "map": "light-05.png",
+      "resolution": 1024,
+      "bake": "Cycles diffuse color + direct + indirect"
+    },
+    {
+      "object": "HeroTemple_model",
+      "map": "light-11.png",
+      "resolution": 2048,
+      "bake": "Cycles diffuse color + direct + indirect"
+    },
+    {
+      "object": "ShoreGate_model",
+      "map": "light-12.png",
+      "resolution": 2048,
+      "bake": "Cycles diffuse color + direct + indirect"
+    },
+    {
+      "object": "IslandTemple_Rodin 无树宫庙 · 水池补面",
+      "map": "light-14.png",
+      "resolution": 1024,
+      "bake": "Cycles diffuse color + direct + indirect"
+    },
+    {
+      "object": "IslandTemple_原模型山门与钟鼓双阙 · 保留完整贴图",
+      "map": "light-15.png",
+      "resolution": 1024,
+      "bake": "Cycles diffuse color + direct + indirect"
+    },
+    {
+      "object": "Laptop stone plinth",
+      "map": "light-16.png",
+      "resolution": 1024,
+      "bake": "Cycles diffuse color + direct + indirect"
+    }
+  ],
+  "dynamicExclusions": [
+    "Three.js animated ocean reflections",
+    "interactive camera",
+    "boat bobbing",
+    "Laptop PBR materials and screen emission",
+    "Tree pigment materials use the baked sky environment lighting"
+  ],
+  "modelBytes": 32010000,
+  "compression": "EXT_meshopt_compression; hero geometry preserved; separate 24K-per-tree preview"
+}

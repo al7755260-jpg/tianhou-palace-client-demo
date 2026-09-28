@@ -1,0 +1,328 @@
+{
+  "source": {
+    "path": "泉州天后高斯.ply",
+    "sha256": "61551e36ca324d1ffbc1f24041703219c32f520f9c011b83d196e7a4c00393ef",
+    "bytes": 543999814,
+    "vertex_count": 7999990,
+    "format": "binary_little_endian",
+    "header_bytes": 494,
+    "header": [
+      "ply",
+      "format binary_little_endian 1.0",
+      "comment Converted from GLB triangle surfaces; original coordinates preserved",
+      "element vertex 7999990",
+      "property float x",
+      "property float y",
+      "property float z",
+      "property float nx",
+      "property float ny",
+      "property float nz",
+      "property float f_dc_0",
+      "property float f_dc_1",
+      "property float f_dc_2",
+      "property float opacity",
+      "property float scale_0",
+      "property float scale_1",
+      "property float scale_2",
+      "property float rot_0",
+      "property float rot_1",
+      "property float rot_2",
+      "property float rot_3",
+      "end_header"
+    ],
+    "properties": [
+      {
+        "name": "x",
+        "type": "float32",
+        "min": -0.489166259765625,
+        "max": 0.489013671875
+      },
+      {
+        "name": "y",
+        "type": "float32",
+        "min": -0.06967099756002426,
+        "max": 0.0671946182847023
+      },
+      {
+        "name": "z",
+        "type": "float32",
+        "min": -0.22536468505859375,
+        "max": 0.2252858430147171
+      },
+      {
+        "name": "nx",
+        "type": "float32",
+        "min": -1.0,
+        "max": 1.0
+      },
+      {
+        "name": "ny",
+        "type": "float32",
+        "min": -1.0,
+        "max": 1.0
+      },
+      {
+        "name": "nz",
+        "type": "float32",
+        "min": -1.0,
+        "max": 1.0
+      },
+      {
+        "name": "f_dc_0",
+        "type": "float32",
+        "min": -1.6882613897323608,
+        "max": 1.772453784942627
+      },
+      {
+        "name": "f_dc_1",
+        "type": "float32",
+        "min": -1.772453784942627,
+        "max": 1.7632665634155273
+      },
+      {
+        "name": "f_dc_2",
+        "type": "float32",
+        "min": -1.772453784942627,
+        "max": 1.750518560409546
+      },
+      {
+        "name": "opacity",
+        "type": "float32",
+        "min": 5.293304920196533,
+        "max": 5.293304920196533
+      },
+      {
+        "name": "scale_0",
+        "type": "float32",
+        "min": -9.50790023803711,
+        "max": -6.755115509033203
+      },
+      {
+        "name": "scale_1",
+        "type": "float32",
+        "min": -12.962279319763184,
+        "max": -7.331695079803467
+      },
+      {
+        "name": "scale_2",
+        "type": "float32",
+        "min": -16.651159286499023,
+        "max": -11.020574569702148
+      },
+      {
+        "name": "rot_0",
+        "type": "float32",
+        "min": 3.16200328143168E-08,
+        "max": 0.999828040599823
+      },
+      {
+        "name": "rot_1",
+        "type": "float32",
+        "min": -0.9994906187057495,
+        "max": 0.9996029138565063
+      },
+      {
+        "name": "rot_2",
+        "type": "float32",
+        "min": -0.9999985694885254,
+        "max": 0.9999967813491821
+      },
+      {
+        "name": "rot_3",
+        "type": "float32",
+        "min": -0.9999995827674866,
+        "max": 1.0
+      }
+    ],
+    "invalid_vertex_count": 0,
+    "bounds": [
+      [
+        -0.489166259765625,
+        -0.06967099756002426,
+        -0.22536468505859375
+      ],
+      [
+        0.489013671875,
+        0.0671946182847023,
+        0.2252858430147171
+      ]
+    ],
+    "provenance_note": "Header reports conversion from GLB triangle surfaces; no claim of photogrammetry or model inference."
+  },
+  "coordinate_system": {
+    "source_up": "+Y",
+    "target_up": "+Y",
+    "rotation": "identity",
+    "source_up_evidence": "Y has the smallest range and the largest mean absolute normal; architectural side diagnostics confirm rooftops rise in +Y.",
+    "formula": "world_position = (source_position + translation_before_scale) * uniform_scale",
+    "translation_before_scale": [
+      7.62939453125E-05,
+      0.06967099756002426,
+      3.9421021938323975E-05
+    ],
+    "uniform_scale": 20.44613608710573,
+    "world_translation_after_scale": [
+      0.0015599163884815774,
+      1.4245026974366675,
+      0.0008060075792437525
+    ],
+    "bounds": [
+      [
+        -10.0,
+        0.0,
+        -4.6070310123564875
+      ],
+      [
+        10.0,
+        2.7983730072068136,
+        4.6070310123564875
+      ]
+    ],
+    "size": [
+      20.0,
+      2.7983730072068136,
+      9.214062024712975
+    ],
+    "ground_y": 0,
+    "horizontal_center_xz": [
+      0,
+      0
+    ],
+    "longest_horizontal_edge": 20,
+    "source_to_world_matrix_column_major": [
+      20.44613608710573,
+      0,
+      0,
+      0,
+      0,
+      20.44613608710573,
+      0,
+      0,
+      0,
+      0,
+      20.44613608710573,
+      0,
+      0.0015599163884815774,
+      1.4245026974366675,
+      0.0008060075792437525,
+      1
+    ]
+  },
+  "sampling": {
+    "method": "uniform random without replacement",
+    "seed": 20260918,
+    "generator": "numpy.default_rng PCG64",
+    "preview_nested_in_high": true,
+    "high_count": 1300000,
+    "preview_count": 250000,
+    "full_source_coverage": "Equal selection probability over every source vertex; no prefix selection.",
+    "scale_density_compensation": 1.0,
+    "scale_note": "Source Gaussian shape and size retained apart from coordinate scaling; reducing count can reveal gaps."
+  },
+  "format": {
+    "name": "splat",
+    "bytes_per_point": 32,
+    "layout": [
+      "position xyz float32 little endian (12 bytes)",
+      "positive linear scales xyz float32 little endian (12 bytes)",
+      "color rgba uint8 (4 bytes)",
+      "unit quaternion wxyz encoded as clamp(round(q*128+128),0,255) uint8 (4 bytes)"
+    ],
+    "color": "clamp(0.5 + 0.28209479177387814 * f_dc, 0, 1)",
+    "opacity": "sigmoid(opacity)",
+    "scale": "exp(log_scale) * uniform_scale",
+    "rotation": "normalized source quaternion; standard splat uint8 quantization",
+    "normals": "Not represented in standard .splat; source PLY retains them."
+  },
+  "lod": {
+    "preview": {
+      "file": "temple-preview.splat",
+      "count": 250000,
+      "bytes": 8000000,
+      "sha256": "7a4a3e7882c45348e425da045e07f5e69b402ad9897663c107ee43e53b29bd81",
+      "bounds": [
+        [
+          -10.0,
+          6.504729471500327E-05,
+          -4.606719029078792
+        ],
+        [
+          10.0,
+          2.7924453249305836,
+          4.606511243341107
+        ]
+      ],
+      "max_position_roundtrip_error": 4.76822281214595E-07
+    },
+    "high": [
+      {
+        "file": "temple-detail-0.splat",
+        "count": 650000,
+        "bytes": 20800000,
+        "sha256": "5c008bfac5f5c3e4a3397033966227708acce2350bb23e4b37248eef32545b8b",
+        "bounds": [
+          [
+            -10.0,
+            6.504729471500327E-05,
+            -4.606719029078792
+          ],
+          [
+            10.0,
+            2.7931733366904035,
+            4.606719029078792
+          ]
+        ],
+        "max_position_roundtrip_error": 4.76822281214595E-07
+      },
+      {
+        "file": "temple-detail-1.splat",
+        "count": 650000,
+        "bytes": 20800000,
+        "sha256": "af15851b54b0bd19928ef42134b2a9a832fdae38fed16f883f8855038c22bf1d",
+        "bounds": [
+          [
+            -10.0,
+            1.3100860293888248E-05,
+            -4.60687502071764
+          ],
+          [
+            10.0,
+            2.7954091660686986,
+            4.6070310123564875
+          ]
+        ],
+        "max_position_roundtrip_error": 4.76822281214595E-07
+      }
+    ],
+    "load_high": "Load both high chunks additively at identity transform; remove preview when all high chunks are ready.",
+    "each_high_chunk_below_24_mib": true
+  },
+  "linear_scale_world_percentiles_0_50_99_100": [
+    [
+      0.0018513391988874111,
+      4.79915598237648E-05,
+      1.199788380556159E-06
+    ],
+    [
+      0.010567449553368507,
+      0.003772813263117635,
+      9.432028322728535E-05
+    ],
+    [
+      0.018834289682781592,
+      0.009054304174400432,
+      0.0002263574894035482
+    ],
+    [
+      0.0238178116681004,
+      0.012704274019536603,
+      0.0003176066876762285
+    ]
+  ],
+  "diagnostics": {
+    "top": "diagnostic-top.png",
+    "side_z": "diagnostic-side-z.png",
+    "side_x": "diagnostic-side-x.png",
+    "type": "Orthographic RGB point projections for orientation and hotspot planning, not Gaussian renderer screenshots."
+  }
+}

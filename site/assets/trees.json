@@ -1,0 +1,262 @@
+{
+  "sourceBlend": "泉州天后宫_地面补全.blend",
+  "sourceScenePreserved": true,
+  "sourceTreeCount": 7,
+  "particleCount": 32000,
+  "bytes": 512012,
+  "sha256": "352525ce37dd98269d6a798d1b975262882a8cec46af268c7c957614d3b46936",
+  "sampling": "Seeded triangle-area surface sampling; 26% wood, 74% leaves; canopy normals and height pigment; alpha encodes tree index",
+  "color": "Live Leaf_0 viewport pigment; bark pigment approximation; procedural shader network is not baked",
+  "alignment": {
+    "scale": 0.11041931953942696,
+    "sourceBounds": [
+      [
+        -42.037574768066406,
+        -87.19049835205078,
+        -6.502422332763672
+      ],
+      [
+        41.411827087402344,
+        93.93722534179688,
+        18.844608306884766
+      ]
+    ],
+    "formula": "x=-(Blender.y-center.y)*scale; y=(Blender.z-min.z)*scale; z=-(Blender.x-center.x)*scale; each tree first translated by inverse courtyard edit at its root",
+    "inverseCourtyardMaxError": 7.62939453125e-06
+  },
+  "trees": [
+    {
+      "id": "tree-0",
+      "sourceObject": "前院_右前大树",
+      "sourceTriangles": 119346,
+      "count": 4305,
+      "materials": {
+        "Wood_material": 1119,
+        "Leaf_0": 3186
+      },
+      "root": [
+        7.728951791081108,
+        0.2559575088393289,
+        -1.9096303224836024
+      ],
+      "bounds": [
+        [
+          6.414032459259033,
+          0.25755054235458374,
+          -2.807314395904541
+        ],
+        [
+          8.464930534362793,
+          2.144198303222656,
+          -0.6784094572067261
+        ]
+      ],
+      "courtyardTranslation": 0.0
+    },
+    {
+      "id": "tree-1",
+      "sourceObject": "前院_右后大树",
+      "sourceTriangles": 158382,
+      "count": 6103,
+      "materials": {
+        "Wood_material": 1586,
+        "Leaf_0": 4517
+      },
+      "root": [
+        6.439167334610377,
+        0.2555480866187466,
+        -2.066334781938229
+      ],
+      "bounds": [
+        [
+          4.838400840759277,
+          0.26067543506622315,
+          -3.491014003753662
+        ],
+        [
+          7.5239362716674805,
+          3.193822269439697,
+          -1.0493849515914917
+        ]
+      ],
+      "courtyardTranslation": 0.0
+    },
+    {
+      "id": "tree-2",
+      "sourceObject": "前院_左前大树",
+      "sourceTriangles": 158382,
+      "count": 3780,
+      "materials": {
+        "Wood_material": 982,
+        "Leaf_0": 2798
+      },
+      "root": [
+        6.9717873129067875,
+        0.2550232511384528,
+        1.4374643572052184
+      ],
+      "bounds": [
+        [
+          6.122147083282471,
+          0.2592458474636078,
+          0.6475732326507568
+        ],
+        [
+          8.168052673339844,
+          1.79028094291687,
+          2.5792105197906494
+        ]
+      ],
+      "courtyardTranslation": 0.0
+    },
+    {
+      "id": "tree-3",
+      "sourceObject": "前院_左后大树",
+      "sourceTriangles": 119346,
+      "count": 5975,
+      "materials": {
+        "Wood_material": 1553,
+        "Leaf_0": 4422
+      },
+      "root": [
+        6.0691726423566745,
+        0.25495164437147855,
+        2.0195047987696104
+      ],
+      "bounds": [
+        [
+          4.741797924041748,
+          0.25655261158943177,
+          0.07834825664758682
+        ],
+        [
+          7.87343692779541,
+          2.27729905128479,
+          3.0850765705108643
+        ]
+      ],
+      "courtyardTranslation": 0.0
+    },
+    {
+      "id": "tree-4",
+      "sourceObject": "后院_右侧小树",
+      "sourceTriangles": 81422,
+      "count": 1914,
+      "materials": {
+        "Wood_material": 497,
+        "Leaf_0": 1417
+      },
+      "root": [
+        -7.175808913214411,
+        0.2737664991994996,
+        -2.936177773150015
+      ],
+      "bounds": [
+        [
+          -7.636787414550781,
+          0.27936017513275146,
+          -3.428011178970337
+        ],
+        [
+          -6.656756401062012,
+          1.512085199356079,
+          -2.4736328125
+        ]
+      ],
+      "courtyardTranslation": 13.0
+    },
+    {
+      "id": "tree-5",
+      "sourceObject": "后院_大榕树冠",
+      "sourceTriangles": 119346,
+      "count": 7571,
+      "materials": {
+        "Wood_material": 1968,
+        "Leaf_0": 5603
+      },
+      "root": [
+        -6.4757444724512805,
+        0.27461567121255914,
+        -1.028321192405993
+      ],
+      "bounds": [
+        [
+          -7.4347021102905275,
+          0.2787071466445923,
+          -2.797595977783203
+        ],
+        [
+          -4.425008487701416,
+          3.285351037979126,
+          0.6604698896408081
+        ]
+      ],
+      "courtyardTranslation": 16.529411764705884
+    },
+    {
+      "id": "tree-6",
+      "sourceObject": "后院_左侧小树",
+      "sourceTriangles": 158382,
+      "count": 2352,
+      "materials": {
+        "Wood_material": 611,
+        "Leaf_0": 1741
+      },
+      "root": [
+        -6.593123944963178,
+        0.2684355860064034,
+        2.6547027344054888
+      ],
+      "bounds": [
+        [
+          -7.171443176269531,
+          0.27423757314682007,
+          1.9308546781539917
+        ],
+        [
+          -5.9845911979675295,
+          1.3478188514709473,
+          3.046104669570923
+        ]
+      ],
+      "courtyardTranslation": 13.97813056497013
+    }
+  ],
+  "rodinAlignmentShifts": [
+    [
+      0,
+      -0.12,
+      0
+    ],
+    [
+      0,
+      -0.12,
+      0
+    ],
+    [
+      0,
+      -0.12,
+      0
+    ],
+    [
+      0,
+      -0.12,
+      0
+    ],
+    [
+      1.5,
+      -0.25,
+      0
+    ],
+    [
+      1.05,
+      -0.25,
+      0
+    ],
+    [
+      1.05,
+      -0.25,
+      0
+    ]
+  ]
+}

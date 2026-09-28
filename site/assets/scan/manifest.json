@@ -1,0 +1,345 @@
+{
+  "format": 2,
+  "ownership": "adjacent-architecture",
+  "sourceCount": 1300000,
+  "partitionedCount": 1300000,
+  "attachedGroundCount": 132867,
+  "regions": [
+    {
+      "id": "gate",
+      "center": [
+        8.5377197265625,
+        1.5,
+        0
+      ],
+      "size": [
+        2.964560546875,
+        3.24,
+        9.26
+      ],
+      "count": 92613,
+      "attachedGroundCount": 0,
+      "url": "./assets/scan/gate.spz",
+      "bytes": 1323934,
+      "splatScale": 2.2,
+      "preview": {
+        "url": "./assets/scan/gate-preview.spz",
+        "count": 17886,
+        "splatScale": 3.8500000000000005
+      },
+      "balanced": {
+        "url": "./assets/scan/gate-balanced.spz",
+        "count": 41676,
+        "splatScale": 3.279566366999692,
+        "sourceCount": 92613
+      }
+    },
+    {
+      "id": "courtyard",
+      "center": [
+        6.0501953125,
+        0.5874658203125,
+        0.0001220703125
+      ],
+      "size": [
+        3.5896093749999993,
+        1.474931640625,
+        6.166708984375
+      ],
+      "count": 69421,
+      "attachedGroundCount": 6811,
+      "url": "./assets/scan/courtyard.spz",
+      "bytes": 909617,
+      "splatScale": 1.3,
+      "preview": {
+        "url": "./assets/scan/courtyard-preview.spz",
+        "count": 13355,
+        "splatScale": 2.275
+      }
+    },
+    {
+      "id": "hall",
+      "center": [
+        1.418701171875,
+        1.35,
+        0.0001220703125
+      ],
+      "size": [
+        5.85201171875,
+        2.9399999999999995,
+        6.114951171875
+      ],
+      "count": 247324,
+      "attachedGroundCount": 21472,
+      "url": "./assets/scan/hall.spz",
+      "bytes": 3507852,
+      "splatScale": 1.3,
+      "preview": {
+        "url": "./assets/scan/hall-preview.spz",
+        "count": 47458,
+        "splatScale": 2.275
+      },
+      "balanced": {
+        "url": "./assets/scan/hall-balanced.spz",
+        "count": 111296,
+        "splatScale": 1.9379255804998177,
+        "sourceCount": 247324
+      }
+    },
+    {
+      "id": "bedchamber",
+      "center": [
+        -3.71240234375,
+        1.4,
+        0
+      ],
+      "size": [
+        4.48970703125,
+        3.04,
+        6.54
+      ],
+      "count": 166760,
+      "attachedGroundCount": 32387,
+      "url": "./assets/scan/bedchamber.spz",
+      "bytes": 2300948,
+      "splatScale": 1.3,
+      "preview": {
+        "url": "./assets/scan/bedchamber-preview.spz",
+        "count": 32091,
+        "splatScale": 2.275
+      },
+      "balanced": {
+        "url": "./assets/scan/bedchamber-balanced.spz",
+        "count": 75042,
+        "splatScale": 1.9379255804998177,
+        "sourceCount": 166760
+      }
+    },
+    {
+      "id": "tower",
+      "center": [
+        -7.9683837890625,
+        1.4,
+        0.042724609375
+      ],
+      "size": [
+        4.101767578125,
+        3.04,
+        9.02583984375
+      ],
+      "count": 237515,
+      "attachedGroundCount": 45081,
+      "url": "./assets/scan/tower.spz",
+      "bytes": 3451920,
+      "splatScale": 1.3,
+      "preview": {
+        "url": "./assets/scan/tower-preview.spz",
+        "count": 45381,
+        "splatScale": 2.275
+      },
+      "balanced": {
+        "url": "./assets/scan/tower-balanced.spz",
+        "count": 106882,
+        "splatScale": 1.9379255804998177,
+        "sourceCount": 237515
+      }
+    },
+    {
+      "id": "bell-tower",
+      "center": [
+        8.85302734375,
+        1.45,
+        -3.6
+      ],
+      "size": [
+        2.3339453125,
+        3.14,
+        2.24
+      ],
+      "count": 65036,
+      "attachedGroundCount": 87,
+      "url": "./assets/scan/bell-tower.spz",
+      "bytes": 947415,
+      "splatScale": 2.2,
+      "preview": {
+        "url": "./assets/scan/bell-tower-preview.spz",
+        "count": 12657,
+        "splatScale": 3.8500000000000005
+      }
+    },
+    {
+      "id": "drum-tower",
+      "center": [
+        8.8446044921875,
+        1.45,
+        3.6
+      ],
+      "size": [
+        2.350791015625,
+        3.14,
+        2.24
+      ],
+      "count": 70914,
+      "attachedGroundCount": 53,
+      "url": "./assets/scan/drum-tower.spz",
+      "bytes": 1021073,
+      "splatScale": 2.2,
+      "preview": {
+        "url": "./assets/scan/drum-tower-preview.spz",
+        "count": 13667,
+        "splatScale": 3.8500000000000005
+      }
+    },
+    {
+      "id": "east-gallery",
+      "center": [
+        -0.5848876953125002,
+        1.25,
+        -3.5871093750000003
+      ],
+      "size": [
+        17.909775390625,
+        3.1399999999999997,
+        2.3157812500000006
+      ],
+      "count": 173121,
+      "attachedGroundCount": 11400,
+      "url": "./assets/scan/east-gallery.spz",
+      "bytes": 2469890,
+      "splatScale": 1.3,
+      "preview": {
+        "url": "./assets/scan/east-gallery-preview.spz",
+        "count": 33465,
+        "splatScale": 2.275
+      },
+      "balanced": {
+        "url": "./assets/scan/east-gallery-balanced.spz",
+        "count": 77905,
+        "splatScale": 1.9379255804998177,
+        "sourceCount": 173121
+      }
+    },
+    {
+      "id": "west-gallery",
+      "center": [
+        -0.6233398437500002,
+        1.25,
+        3.5933349609375003
+      ],
+      "size": [
+        17.9866796875,
+        3.1399999999999997,
+        2.3033300781250006
+      ],
+      "count": 156106,
+      "attachedGroundCount": 15576,
+      "url": "./assets/scan/west-gallery.spz",
+      "bytes": 2194976,
+      "splatScale": 1.3,
+      "preview": {
+        "url": "./assets/scan/west-gallery-preview.spz",
+        "count": 30006,
+        "splatScale": 2.275
+      },
+      "balanced": {
+        "url": "./assets/scan/west-gallery-balanced.spz",
+        "count": 70248,
+        "splatScale": 1.9379255804998177,
+        "sourceCount": 156106
+      }
+    },
+    {
+      "id": "dragon-column",
+      "center": [
+        3.65,
+        1,
+        1.65
+      ],
+      "size": [
+        0.7199999999999998,
+        2.09,
+        0.7200000000000002
+      ],
+      "count": 4888,
+      "attachedGroundCount": 0,
+      "url": "./assets/scan/dragon-column.spz",
+      "bytes": 65366,
+      "splatScale": 1.3,
+      "preview": {
+        "url": "./assets/scan/dragon-column-preview.spz",
+        "count": 948,
+        "splatScale": 2.275
+      }
+    },
+    {
+      "id": "chi-window",
+      "center": [
+        9.3,
+        1.05,
+        -2.55
+      ],
+      "size": [
+        0.8900000000000015,
+        1.54,
+        1.14
+      ],
+      "count": 6735,
+      "attachedGroundCount": 0,
+      "url": "./assets/scan/chi-window.spz",
+      "bytes": 95766,
+      "splatScale": 1.3,
+      "preview": {
+        "url": "./assets/scan/chi-window-preview.spz",
+        "count": 1273,
+        "splatScale": 2.275
+      }
+    },
+    {
+      "id": "stone-relief",
+      "center": [
+        1.2999999999999998,
+        0.35,
+        2.5
+      ],
+      "size": [
+        2.0399999999999996,
+        0.74,
+        0.6900000000000004
+      ],
+      "count": 4789,
+      "attachedGroundCount": 0,
+      "url": "./assets/scan/stone-relief.spz",
+      "bytes": 55822,
+      "splatScale": 1.3,
+      "preview": {
+        "url": "./assets/scan/stone-relief-preview.spz",
+        "count": 880,
+        "splatScale": 2.275
+      }
+    },
+    {
+      "id": "timber-bracket",
+      "center": [
+        -2.7,
+        1.55,
+        2.45
+      ],
+      "size": [
+        1.4400000000000004,
+        1.3900000000000001,
+        1.14
+      ],
+      "count": 4778,
+      "attachedGroundCount": 0,
+      "url": "./assets/scan/timber-bracket.spz",
+      "bytes": 67417,
+      "splatScale": 1.3,
+      "preview": {
+        "url": "./assets/scan/timber-bracket-preview.spz",
+        "count": 933,
+        "splatScale": 2.275
+      }
+    }
+  ],
+  "previewCount": 250000
+}

@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-09-27",
+  "photos": [
+    {
+      "id": "shenzhen-front",
+      "temple": "shenzhen",
+      "file": "photos/shenzhen-front.webp",
+      "source": "user-provided photograph",
+      "originalFilename": "codex-clipboard-e647916d-fdd7-4f6b-8e21-42f7d2fb669f.jpg",
+      "originalSize": [
+        6240,
+        3512
+      ],
+      "exportSize": [
+        1600,
+        901
+      ],
+      "bytes": 300486,
+      "sha256": "c805d164b9db3e64737819ed134b0f6ac18c35d3c4b59541b89d4b9c3b146aa5",
+      "processing": "EXIF orientation applied; proportional resize to 1600 px long edge; WebP quality 88; no crop, redraw or generative edits"
+    },
+    {
+      "id": "shenzhen-angle",
+      "temple": "shenzhen",
+      "file": "photos/shenzhen-angle.webp",
+      "source": "user-provided photograph",
+      "originalFilename": "codex-clipboard-44a7e7f8-296d-410f-9d3e-ef6213aba7ed.jpg",
+      "originalSize": [
+        6240,
+        3512
+      ],
+      "exportSize": [
+        1600,
+        901
+      ],
+      "bytes": 327428,
+      "sha256": "784021fe4baef0abbf77430f80000037bdb4c33a81342fda327dec054a0ae3b5",
+      "processing": "EXIF orientation applied; proportional resize to 1600 px long edge; WebP quality 88; no crop, redraw or generative edits"
+    },
+    {
+      "id": "shenzhen-side",
+      "temple": "shenzhen",
+      "file": "photos/shenzhen-side.webp",
+      "source": "user-provided photograph",
+      "originalFilename": "codex-clipboard-9fa83ca4-b243-4cc6-8954-44ca9c0ce0b0.jpg",
+      "originalSize": [
+        6240,
+        3512
+      ],
+      "exportSize": [
+        1600,
+        901
+      ],
+      "bytes": 306584,
+      "sha256": "8ab5ef9ae7bb7e7184943bb242c31954fd73f2d5afacf9c0ea4d4d48718acf28",
+      "processing": "EXIF orientation applied; proportional resize to 1600 px long edge; WebP quality 88; no crop, redraw or generative edits"
+    },
+    {
+      "id": "macau-front",
+      "temple": "macau",
+      "file": "photos/macau-front.webp",
+      "source": "user-provided photograph",
+      "originalFilename": "DJI_20260903105608_0746_D.JPG",
+      "originalSize": [
+        8064,
+        6048
+      ],
+      "exportSize": [
+        1600,
+        1200
+      ],
+      "bytes": 394558,
+      "sha256": "47ac665a619485ab61d04472441bb696a4a6ce766eb106e33f218f7dfc030029",
+      "processing": "EXIF orientation applied; proportional resize to 1600 px long edge; WebP quality 88; no crop, redraw or generative edits"
+    },
+    {
+      "id": "macau-aerial",
+      "temple": "macau",
+      "file": "photos/macau-aerial.webp",
+      "source": "user-provided photograph",
+      "originalFilename": "DJI_20260903105635_0748_D.JPG",
+      "originalSize": [
+        8064,
+        6048
+      ],
+      "exportSize": [
+        1600,
+        1200
+      ],
+      "bytes": 430658,
+      "sha256": "1709b49f7cfffa70eb2f939db8bdae796d4d965db879332a4512c2b8572751ee",
+      "processing": "EXIF orientation applied; proportional resize to 1600 px long edge; WebP quality 88; no crop, redraw or generative edits"
+    },
+    {
+      "id": "macau-rear",
+      "temple": "macau",
+      "file": "photos/macau-rear.webp",
+      "source": "user-provided photograph",
+      "originalFilename": "DJI_20260903105936_0756_D.JPG",
+      "originalSize": [
+        8064,
+        6048
+      ],
+      "exportSize": [
+        1600,
+        1200
+      ],
+      "bytes": 400900,
+      "sha256": "649bbe3cb84b5ba094a19a30e50f00df4e374e74eb0f08c04be57f3788e4448c",
+      "processing": "EXIF orientation applied; proportional resize to 1600 px long edge; WebP quality 88; no crop, redraw or generative edits"
+    }
+  ],
+  "models": [
+    {
+      "id": "quanzhou",
+      "name": "泉州天后宫",
+      "sourceType": "existing project particle asset",
+      "file": "../temple-particles.bin",
+      "format": "THP1, 62500 points, stride 16, xyz float32 + RGBA uint8",
+      "generationInThisRevision": false,
+      "normalization": {
+        "sourceFront": "+X",
+        "targetFront": "+Z",
+        "rotationYRadians": -1.5707963267948966,
+        "horizontalCenter": [
+          0.0009765625,
+          0.0020751953125
+        ],
+        "groundY": 0.000732421875,
+        "longestHorizontalDimension": 12,
+        "uniformScale": 0.6000732511292882
+      },
+      "limitations": "Existing sampled geometry retained; no new photogrammetry or Rodin generation claimed."
+    },
+    {
+      "id": "shenzhen",
+      "name": "深圳笋岗村天后宫",
+      "sourceType": "ImageGen + Rodin + TripoSplat reconstruction",
+      "references": [
+        "shenzhen-front",
+        "shenzhen-angle",
+        "shenzhen-side"
+      ],
+      "modelingMethod": "Original user photos → independent ImageGen reference → Rodin Gen-2.5 High GLB → Cycles reference render → local TripoSplat CUDA inference → spatial SPZ partitions.",
+      "identifiedBy": "Visible doorplate: 笋岗村220",
+      "limitations": "Unseen interior, rear openings, roof depths and small ornamental details are inferred rather than surveyed.",
+      "supportingReference": "https://www.openstreetmap.org/way/870854468",
+      "file": "../cities/shenzhen/particles.bin",
+      "manifest": "../cities/shenzhen/manifest.json",
+      "gaussianCount": 262144,
+      "particleCount": 120000,
+      "sourceSha256": "a4d588b1148cd8f5720bfd180d13d507daa8709e78c0a675bc76074fe68df61f",
+      "generationInThisRevision": true
+    },
+    {
+      "id": "macau",
+      "name": "澳门妈祖文化村天后宫",
+      "sourceType": "ImageGen + Rodin + TripoSplat reconstruction",
+      "references": [
+        "macau-front",
+        "macau-aerial",
+        "macau-rear"
+      ],
+      "modelingMethod": "Original user photos → independent ImageGen reference → Rodin Gen-2.5 High GLB → Cycles reference render → local TripoSplat CUDA inference → spatial SPZ partitions.",
+      "limitations": "Layout and massing follow photographs; dimensions, tiny roof figures and inscriptions are approximate.",
+      "supportingReference": "https://www.macaotourism.gov.mo/zh-hans/sightseeing/other-attractions/a-ma-cultural-village",
+      "file": "../cities/macau/particles.bin",
+      "manifest": "../cities/macau/manifest.json",
+      "gaussianCount": 262144,
+      "particleCount": 120000,
+      "sourceSha256": "91fc9aed03a7aada1c5d941a6b71da13b10389387dd1895c4ff97787020887ac",
+      "generationInThisRevision": true
+    },
+    {
+      "id": "laptop",
+      "sourceType": "existing project GLB",
+      "file": "../entry/entry-laptop-rodin.glb",
+      "generationInThisRevision": false,
+      "orientation": {
+        "up": "+Y",
+        "front": "+Z"
+      },
+      "limitations": "Existing asset reused; no new model generation claimed."
+    }
+  ]
+}

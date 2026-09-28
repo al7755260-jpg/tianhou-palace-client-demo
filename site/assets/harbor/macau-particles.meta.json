@@ -1,0 +1,2707 @@
+{
+  "schemaVersion": 1,
+  "format": "THP1",
+  "filename": "macau-particles.bin",
+  "pointCount": 120000,
+  "stride": 16,
+  "byteLength": 1920012,
+  "sha256": "21d790fe74e640fc4d562bed4e7a846f0d77d3e342ae081fa1767d898275aecc",
+  "seed": 1296122689,
+  "colorSpace": "sRGB bytes converted from Three.js linear material.color after baked directional shading",
+  "shading": {
+    "method": "baked directional shading per world-space triangle normal, retaining source material RGB",
+    "linearAmbient": 0.3,
+    "skyFacingWeight": 0.26,
+    "keyWeight": 0.4,
+    "keyDirection": [
+      -0.55,
+      0.75,
+      0.55
+    ],
+    "fillWeight": 0.12,
+    "fillDirection": [
+      0.55,
+      0.35,
+      -0.8
+    ],
+    "clamp": [
+      0.3,
+      1
+    ],
+    "sRGBGrainRange": [
+      0.982,
+      1.018
+    ],
+    "grain": "deterministic integer hash, independent of geometry RNG",
+    "roofNormalCorrection": "upper roof shell winding oriented skyward; geometry unchanged",
+    "occlusion": "directional approximation, no ray-traced ambient occlusion"
+  },
+  "coordinateSystem": {
+    "up": "+Y",
+    "front": "+Z",
+    "groundY": 0,
+    "units": "factory relative units, nominal width 20",
+    "normalized": false
+  },
+  "bounds": {
+    "min": [
+      -10,
+      9.654113437431929e-18,
+      -15.043479256007982
+    ],
+    "max": [
+      10,
+      7.868911762341209,
+      17.17391304347826
+    ],
+    "size": [
+      20,
+      7.868911762341209,
+      32.21739229948624
+    ]
+  },
+  "sampleBounds": {
+    "min": [
+      -10.000000000000002,
+      0,
+      -15.04347896575928
+    ],
+    "max": [
+      10.000000000000002,
+      7.828247807208385,
+      17.17391395568848
+    ]
+  },
+  "sampling": {
+    "method": "deterministic uniform triangle-surface sampling with per-layer minimum detail allocation",
+    "totalArea": 7886.406046078103,
+    "minimumDetailSamples": 13403,
+    "surfaceCount": 163,
+    "sourceTriangles": 538720
+  },
+  "source": {
+    "name": "澳門媽祖文化村天后宮",
+    "references": [
+      "DJI_20260903105635_0748_D.JPG",
+      "DJI_20260903105608_0746_D.JPG",
+      "DJI_20260903105936_0756_D.JPG"
+    ],
+    "method": "multi-view reference-guided procedural volumetric geometry"
+  },
+  "approximation": [
+    "Proportions estimated from supplied aerial views; not surveyed dimensions.",
+    "Main arrangement, twin towers, open two-storey galleries and successive roof heights follow photographs.",
+    "Roof figures, stone carvings, inner rooms and inscription relief are simplified or inferred.",
+    "Source material palette is approximate; intended display is recolored particles."
+  ],
+  "layers": [
+    {
+      "name": "macau-terraces-approach-and-courtyard/stone",
+      "area": 1953.9915663200059,
+      "pointCount": 26435,
+      "minimumPoints": 24,
+      "triangles": 15420,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9040808261524304
+      ]
+    },
+    {
+      "name": "macau-terraces-approach-and-courtyard/stoneDark",
+      "area": 39.8393021644563,
+      "pointCount": 563,
+      "minimumPoints": 24,
+      "triangles": 600,
+      "sRGB": [
+        116,
+        110,
+        94
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-raised-sacrificial-stage-and-curved-pool/stone",
+      "area": 151.60581769786666,
+      "pointCount": 2073,
+      "minimumPoints": 24,
+      "triangles": 4468,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9094558459355869
+      ]
+    },
+    {
+      "name": "macau-gate-pillars-openings-and-doors/stone",
+      "area": 59.51153057390566,
+      "pointCount": 889,
+      "minimumPoints": 85,
+      "triangles": 636,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-gate-pillars-openings-and-doors/wood",
+      "area": 25.158768713093373,
+      "pointCount": 425,
+      "minimumPoints": 85,
+      "triangles": 156,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-gate-pillars-openings-and-doors/gold",
+      "area": 1.0028307684156395,
+      "pointCount": 99,
+      "minimumPoints": 85,
+      "triangles": 1212,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9045950244432497
+      ]
+    },
+    {
+      "name": "macau-gate-wing--1-shell/roof",
+      "area": 8.92216965372753,
+      "pointCount": 145,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.906676157438892
+      ]
+    },
+    {
+      "name": "macau-gate-wing--1-shell/wood",
+      "area": 11.484709798026774,
+      "pointCount": 179,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9041813628125692
+      ]
+    },
+    {
+      "name": "macau-gate-wing--1-ribs-and-ridges/tile",
+      "area": 20.25664748677316,
+      "pointCount": 404,
+      "minimumPoints": 130,
+      "triangles": 6944,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9077313840539702
+      ]
+    },
+    {
+      "name": "macau-gate-wing--1-ribs-and-ridges/jade",
+      "area": 8.278551498672078,
+      "pointCount": 242,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9084489532879312
+      ]
+    },
+    {
+      "name": "macau-gate-wing--1-ribs-and-ridges/gold",
+      "area": 0.3122578725270771,
+      "pointCount": 134,
+      "minimumPoints": 130,
+      "triangles": 284,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032310783502477
+      ]
+    },
+    {
+      "name": "macau-gate-wing--1-ribs-and-ridges/jadeLight",
+      "area": 0.1785155586124829,
+      "pointCount": 132,
+      "minimumPoints": 130,
+      "triangles": 210,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048352947852248
+      ]
+    },
+    {
+      "name": "macau-gate-wing-1-shell/roof",
+      "area": 8.922169653727531,
+      "pointCount": 145,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9066761574388921
+      ]
+    },
+    {
+      "name": "macau-gate-wing-1-shell/wood",
+      "area": 11.48470979802678,
+      "pointCount": 179,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9041813628125691
+      ]
+    },
+    {
+      "name": "macau-gate-wing-1-ribs-and-ridges/tile",
+      "area": 20.25664748677316,
+      "pointCount": 404,
+      "minimumPoints": 130,
+      "triangles": 6944,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9077313840539702
+      ]
+    },
+    {
+      "name": "macau-gate-wing-1-ribs-and-ridges/jade",
+      "area": 8.278551498672076,
+      "pointCount": 242,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9084489532879313
+      ]
+    },
+    {
+      "name": "macau-gate-wing-1-ribs-and-ridges/gold",
+      "area": 0.31225787252707693,
+      "pointCount": 134,
+      "minimumPoints": 130,
+      "triangles": 284,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032310783502477
+      ]
+    },
+    {
+      "name": "macau-gate-wing-1-ribs-and-ridges/jadeLight",
+      "area": 0.17851555861248278,
+      "pointCount": 132,
+      "minimumPoints": 130,
+      "triangles": 210,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048352947852248
+      ]
+    },
+    {
+      "name": "macau-gate-central-roof-shell/roof",
+      "area": 14.861681985061514,
+      "pointCount": 225,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9097149716157515
+      ]
+    },
+    {
+      "name": "macau-gate-central-roof-shell/wood",
+      "area": 18.488255689998812,
+      "pointCount": 274,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9096742894448
+      ]
+    },
+    {
+      "name": "macau-gate-central-roof-ribs-and-ridges/tile",
+      "area": 31.019942416767467,
+      "pointCount": 549,
+      "minimumPoints": 130,
+      "triangles": 9056,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.908744864489996
+      ]
+    },
+    {
+      "name": "macau-gate-central-roof-ribs-and-ridges/jade",
+      "area": 10.139420759849347,
+      "pointCount": 267,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9040952355244132
+      ]
+    },
+    {
+      "name": "macau-gate-central-roof-ribs-and-ridges/gold",
+      "area": 0.31225779144162996,
+      "pointCount": 134,
+      "minimumPoints": 130,
+      "triangles": 284,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032310920308243
+      ]
+    },
+    {
+      "name": "macau-gate-central-roof-ribs-and-ridges/jadeLight",
+      "area": 0.17851552188488423,
+      "pointCount": 132,
+      "minimumPoints": 130,
+      "triangles": 210,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048352696441069
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-stone-and-timber/stone",
+      "area": 43.21670578159822,
+      "pointCount": 608,
+      "minimumPoints": 24,
+      "triangles": 900,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-stone-and-timber/wood",
+      "area": 89.78908610198094,
+      "pointCount": 1238,
+      "minimumPoints": 24,
+      "triangles": 3264,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9040806628000898
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-stone-and-timber/dark",
+      "area": 7.537241641515166,
+      "pointCount": 126,
+      "minimumPoints": 24,
+      "triangles": 96,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-lower-roof-shell/roof",
+      "area": 15.451515021765713,
+      "pointCount": 233,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9064969170225823
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-lower-roof-shell/wood",
+      "area": 18.99190031805958,
+      "pointCount": 281,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.906496915340147
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-lower-roof-ribs-and-ridges/tile",
+      "area": 32.49358630975226,
+      "pointCount": 569,
+      "minimumPoints": 130,
+      "triangles": 9408,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9073755431537147
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-lower-roof-ribs-and-ridges/jade",
+      "area": 10.463721128312915,
+      "pointCount": 272,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9073011181661403
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-lower-roof-ribs-and-ridges/gold",
+      "area": 0.3122577462306477,
+      "pointCount": 134,
+      "minimumPoints": 130,
+      "triangles": 284,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032310920308247
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-lower-roof-ribs-and-ridges/jadeLight",
+      "area": 0.17851551692314868,
+      "pointCount": 132,
+      "minimumPoints": 130,
+      "triangles": 210,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048352696441073
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-upper-roof-shell/roof",
+      "area": 13.08336838498906,
+      "pointCount": 201,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9092862173597975
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-upper-roof-shell/wood",
+      "area": 16.330897626345248,
+      "pointCount": 245,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9085508699374711
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-upper-roof-ribs-and-ridges/tile",
+      "area": 28.248170134775645,
+      "pointCount": 512,
+      "minimumPoints": 130,
+      "triangles": 8512,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.90984582285179
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-upper-roof-ribs-and-ridges/jade",
+      "area": 9.64646529701824,
+      "pointCount": 260,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9081538596496517
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-upper-roof-ribs-and-ridges/gold",
+      "area": 0.3122578128631438,
+      "pointCount": 134,
+      "minimumPoints": 130,
+      "triangles": 284,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032310783502482
+      ]
+    },
+    {
+      "name": "macau-west-bell-drum-tower-upper-roof-ribs-and-ridges/jadeLight",
+      "area": 0.17851553364963632,
+      "pointCount": 132,
+      "minimumPoints": 130,
+      "triangles": 210,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048352972076161
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-structure/stone",
+      "area": 293.1320670438163,
+      "pointCount": 3986,
+      "minimumPoints": 24,
+      "triangles": 7212,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-structure/wood",
+      "area": 183.93386164669954,
+      "pointCount": 2510,
+      "minimumPoints": 24,
+      "triangles": 1128,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-balustrades-and-windows/dark",
+      "area": 35.42955895003843,
+      "pointCount": 609,
+      "minimumPoints": 130,
+      "triangles": 552,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-balustrades-and-windows/stone",
+      "area": 98.41793811323144,
+      "pointCount": 1460,
+      "minimumPoints": 130,
+      "triangles": 9036,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9040806774520531
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-1-shell/roof",
+      "area": 24.12852518256709,
+      "pointCount": 350,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591089654
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-1-shell/wood",
+      "area": 29.247174515373747,
+      "pointCount": 419,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591820272
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-1-ribs-and-ridges/tile",
+      "area": 40.8802339459147,
+      "pointCount": 683,
+      "minimumPoints": 130,
+      "triangles": 12448,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8938677167042598
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-1-ribs-and-ridges/jade",
+      "area": 12.20546577879144,
+      "pointCount": 295,
+      "minimumPoints": 130,
+      "triangles": 2420,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9020837106012668
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-2-shell/roof",
+      "area": 24.12852518256709,
+      "pointCount": 350,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591089654
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-2-shell/wood",
+      "area": 29.247174515373747,
+      "pointCount": 419,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591820272
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-2-ribs-and-ridges/tile",
+      "area": 40.88023394591469,
+      "pointCount": 683,
+      "minimumPoints": 130,
+      "triangles": 12448,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8938677167042622
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-2-ribs-and-ridges/jade",
+      "area": 12.205465778791444,
+      "pointCount": 295,
+      "minimumPoints": 130,
+      "triangles": 2420,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9020837106012668
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-3-shell/roof",
+      "area": 24.12852518256709,
+      "pointCount": 350,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591089654
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-3-shell/wood",
+      "area": 29.24717451537375,
+      "pointCount": 419,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591820272
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-3-ribs-and-ridges/tile",
+      "area": 40.88023394591474,
+      "pointCount": 683,
+      "minimumPoints": 130,
+      "triangles": 12448,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8938677167042622
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-3-ribs-and-ridges/jade",
+      "area": 12.205465778791433,
+      "pointCount": 295,
+      "minimumPoints": 130,
+      "triangles": 2420,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.902083710601267
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-4-shell/roof",
+      "area": 24.128525182567092,
+      "pointCount": 350,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591089654
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-4-shell/wood",
+      "area": 29.247174515373743,
+      "pointCount": 419,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591820272
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-4-ribs-and-ridges/tile",
+      "area": 40.880233945914725,
+      "pointCount": 683,
+      "minimumPoints": 130,
+      "triangles": 12448,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8938677167042597
+      ]
+    },
+    {
+      "name": "macau-west-two-level-gallery-roof-4-ribs-and-ridges/jade",
+      "area": 12.205465778791439,
+      "pointCount": 295,
+      "minimumPoints": 130,
+      "triangles": 2420,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.902083710601267
+      ]
+    },
+    {
+      "name": "macau-west-entry-side-hall-walls-doors/stone",
+      "area": 23.65141821196037,
+      "pointCount": 405,
+      "minimumPoints": 85,
+      "triangles": 12,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-west-entry-side-hall-walls-doors/wood",
+      "area": 57.0970622775506,
+      "pointCount": 857,
+      "minimumPoints": 85,
+      "triangles": 648,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-west-entry-side-hall-walls-doors/dark",
+      "area": 15.021895501919133,
+      "pointCount": 288,
+      "minimumPoints": 85,
+      "triangles": 120,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-west-entry-side-hall-walls-doors/gold",
+      "area": 0.43674843425787047,
+      "pointCount": 91,
+      "minimumPoints": 85,
+      "triangles": 12,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-west-entry-side-hall-columns-dougong/stone",
+      "area": 31.919256652967704,
+      "pointCount": 517,
+      "minimumPoints": 85,
+      "triangles": 2808,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-west-entry-side-hall-columns-dougong/wood",
+      "area": 11.860769004606944,
+      "pointCount": 245,
+      "minimumPoints": 85,
+      "triangles": 432,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-west-entry-side-hall-lower-eaves-shell/roof",
+      "area": 22.223465699471028,
+      "pointCount": 324,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9065571091324698
+      ]
+    },
+    {
+      "name": "macau-west-entry-side-hall-lower-eaves-shell/wood",
+      "area": 26.20963049069334,
+      "pointCount": 378,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9056857618270715
+      ]
+    },
+    {
+      "name": "macau-west-entry-side-hall-lower-eaves-ribs-and-ridges/tile",
+      "area": 46.566302316668924,
+      "pointCount": 759,
+      "minimumPoints": 130,
+      "triangles": 10400,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9098972336688115
+      ]
+    },
+    {
+      "name": "macau-west-entry-side-hall-lower-eaves-ribs-and-ridges/jade",
+      "area": 11.77016477238328,
+      "pointCount": 289,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9046475194399045
+      ]
+    },
+    {
+      "name": "macau-west-entry-side-hall-lower-eaves-ribs-and-ridges/gold",
+      "area": 0.3122578411002446,
+      "pointCount": 134,
+      "minimumPoints": 130,
+      "triangles": 284,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032310920308245
+      ]
+    },
+    {
+      "name": "macau-west-entry-side-hall-lower-eaves-ribs-and-ridges/jadeLight",
+      "area": 0.1785154658892243,
+      "pointCount": 132,
+      "minimumPoints": 130,
+      "triangles": 210,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048352658897225
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-stone-and-timber/stone",
+      "area": 43.216705781598236,
+      "pointCount": 608,
+      "minimumPoints": 24,
+      "triangles": 900,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-stone-and-timber/wood",
+      "area": 89.78908610198094,
+      "pointCount": 1238,
+      "minimumPoints": 24,
+      "triangles": 3264,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9040806628000898
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-stone-and-timber/dark",
+      "area": 7.537241641515166,
+      "pointCount": 126,
+      "minimumPoints": 24,
+      "triangles": 96,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-lower-roof-shell/roof",
+      "area": 15.451515021765719,
+      "pointCount": 233,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9064969170225823
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-lower-roof-shell/wood",
+      "area": 18.991900318059596,
+      "pointCount": 281,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.906496915340147
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-lower-roof-ribs-and-ridges/tile",
+      "area": 32.493586309752246,
+      "pointCount": 569,
+      "minimumPoints": 130,
+      "triangles": 9408,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9073755431537145
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-lower-roof-ribs-and-ridges/jade",
+      "area": 10.46372112831292,
+      "pointCount": 272,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9073011181661401
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-lower-roof-ribs-and-ridges/gold",
+      "area": 0.31225774623064767,
+      "pointCount": 134,
+      "minimumPoints": 130,
+      "triangles": 284,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032310920308251
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-lower-roof-ribs-and-ridges/jadeLight",
+      "area": 0.17851551692314854,
+      "pointCount": 132,
+      "minimumPoints": 130,
+      "triangles": 210,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.904835269644107
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-upper-roof-shell/roof",
+      "area": 13.083368384989067,
+      "pointCount": 201,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9092862173597976
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-upper-roof-shell/wood",
+      "area": 16.33089762634525,
+      "pointCount": 245,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9085508699374709
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-upper-roof-ribs-and-ridges/tile",
+      "area": 28.248170134775666,
+      "pointCount": 512,
+      "minimumPoints": 130,
+      "triangles": 8512,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9098458228517903
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-upper-roof-ribs-and-ridges/jade",
+      "area": 9.646465297018247,
+      "pointCount": 260,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9081538596496518
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-upper-roof-ribs-and-ridges/gold",
+      "area": 0.3122578128631439,
+      "pointCount": 134,
+      "minimumPoints": 130,
+      "triangles": 284,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032310783502479
+      ]
+    },
+    {
+      "name": "macau-east-bell-drum-tower-upper-roof-ribs-and-ridges/jadeLight",
+      "area": 0.17851553364963627,
+      "pointCount": 132,
+      "minimumPoints": 130,
+      "triangles": 210,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048352972076161
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-structure/stone",
+      "area": 293.1320670438171,
+      "pointCount": 3986,
+      "minimumPoints": 24,
+      "triangles": 7212,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-structure/wood",
+      "area": 183.93386164669954,
+      "pointCount": 2510,
+      "minimumPoints": 24,
+      "triangles": 1128,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-balustrades-and-windows/dark",
+      "area": 35.42955895003843,
+      "pointCount": 609,
+      "minimumPoints": 130,
+      "triangles": 552,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-balustrades-and-windows/stone",
+      "area": 98.41793811323144,
+      "pointCount": 1460,
+      "minimumPoints": 130,
+      "triangles": 9036,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9040806525683016
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-1-shell/roof",
+      "area": 24.12852518256711,
+      "pointCount": 350,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591089654
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-1-shell/wood",
+      "area": 29.24717451537376,
+      "pointCount": 419,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.903904259182027
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-1-ribs-and-ridges/tile",
+      "area": 40.880233945914675,
+      "pointCount": 683,
+      "minimumPoints": 130,
+      "triangles": 12448,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8938677167042612
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-1-ribs-and-ridges/jade",
+      "area": 12.205465778791442,
+      "pointCount": 295,
+      "minimumPoints": 130,
+      "triangles": 2420,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9020837106012668
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-2-shell/roof",
+      "area": 24.12852518256711,
+      "pointCount": 350,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591089657
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-2-shell/wood",
+      "area": 29.247174515373757,
+      "pointCount": 419,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591820272
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-2-ribs-and-ridges/tile",
+      "area": 40.880233945914675,
+      "pointCount": 683,
+      "minimumPoints": 130,
+      "triangles": 12448,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8938677167042635
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-2-ribs-and-ridges/jade",
+      "area": 12.205465778791442,
+      "pointCount": 295,
+      "minimumPoints": 130,
+      "triangles": 2420,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9020837106012668
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-3-shell/roof",
+      "area": 24.128525182567106,
+      "pointCount": 350,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591089657
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-3-shell/wood",
+      "area": 29.247174515373764,
+      "pointCount": 419,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591820272
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-3-ribs-and-ridges/tile",
+      "area": 40.880233945914696,
+      "pointCount": 683,
+      "minimumPoints": 130,
+      "triangles": 12448,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8938677167042635
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-3-ribs-and-ridges/jade",
+      "area": 12.205465778791437,
+      "pointCount": 295,
+      "minimumPoints": 130,
+      "triangles": 2420,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.902083710601267
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-4-shell/roof",
+      "area": 24.128525182567095,
+      "pointCount": 350,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9039042591089654
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-4-shell/wood",
+      "area": 29.24717451537374,
+      "pointCount": 419,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.903904259182027
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-4-ribs-and-ridges/tile",
+      "area": 40.88023394591469,
+      "pointCount": 683,
+      "minimumPoints": 130,
+      "triangles": 12448,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.893867716704261
+      ]
+    },
+    {
+      "name": "macau-east-two-level-gallery-roof-4-ribs-and-ridges/jade",
+      "area": 12.205465778791446,
+      "pointCount": 295,
+      "minimumPoints": 130,
+      "triangles": 2420,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.902083710601267
+      ]
+    },
+    {
+      "name": "macau-east-entry-side-hall-walls-doors/stone",
+      "area": 23.65141821196037,
+      "pointCount": 405,
+      "minimumPoints": 85,
+      "triangles": 12,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-east-entry-side-hall-walls-doors/wood",
+      "area": 57.0970622775506,
+      "pointCount": 857,
+      "minimumPoints": 85,
+      "triangles": 648,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-east-entry-side-hall-walls-doors/dark",
+      "area": 15.021895501919134,
+      "pointCount": 288,
+      "minimumPoints": 85,
+      "triangles": 120,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-east-entry-side-hall-walls-doors/gold",
+      "area": 0.43674843425787047,
+      "pointCount": 91,
+      "minimumPoints": 85,
+      "triangles": 12,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-east-entry-side-hall-columns-dougong/stone",
+      "area": 31.9192566529677,
+      "pointCount": 517,
+      "minimumPoints": 85,
+      "triangles": 2808,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-east-entry-side-hall-columns-dougong/wood",
+      "area": 11.860769004606944,
+      "pointCount": 245,
+      "minimumPoints": 85,
+      "triangles": 432,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-east-entry-side-hall-lower-eaves-shell/roof",
+      "area": 22.223465699471035,
+      "pointCount": 324,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9065571091324698
+      ]
+    },
+    {
+      "name": "macau-east-entry-side-hall-lower-eaves-shell/wood",
+      "area": 26.209630490693353,
+      "pointCount": 378,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9056857618270715
+      ]
+    },
+    {
+      "name": "macau-east-entry-side-hall-lower-eaves-ribs-and-ridges/tile",
+      "area": 46.56630231666896,
+      "pointCount": 759,
+      "minimumPoints": 130,
+      "triangles": 10400,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9098972336688115
+      ]
+    },
+    {
+      "name": "macau-east-entry-side-hall-lower-eaves-ribs-and-ridges/jade",
+      "area": 11.770164772383271,
+      "pointCount": 289,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9046475194399045
+      ]
+    },
+    {
+      "name": "macau-east-entry-side-hall-lower-eaves-ribs-and-ridges/gold",
+      "area": 0.3122578411002448,
+      "pointCount": 134,
+      "minimumPoints": 130,
+      "triangles": 284,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032310920308247
+      ]
+    },
+    {
+      "name": "macau-east-entry-side-hall-lower-eaves-ribs-and-ridges/jadeLight",
+      "area": 0.178515465889224,
+      "pointCount": 132,
+      "minimumPoints": 130,
+      "triangles": 210,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048352658897225
+      ]
+    },
+    {
+      "name": "macau-main-hall-stairs-and-ceremonial-vessels/stone",
+      "area": 360.9540099110882,
+      "pointCount": 5009,
+      "minimumPoints": 130,
+      "triangles": 4128,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9040807744777826
+      ]
+    },
+    {
+      "name": "macau-main-hall-stairs-and-ceremonial-vessels/bronze",
+      "area": 5.7042717432630425,
+      "pointCount": 207,
+      "minimumPoints": 130,
+      "triangles": 1960,
+      "sRGB": [
+        99,
+        92,
+        66
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9028519892025945
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-walls-doors/stone",
+      "area": 162.542906956231,
+      "pointCount": 2282,
+      "minimumPoints": 85,
+      "triangles": 12,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-walls-doors/wood",
+      "area": 166.39601946860873,
+      "pointCount": 2334,
+      "minimumPoints": 85,
+      "triangles": 1128,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-walls-doors/dark",
+      "area": 52.62103203653871,
+      "pointCount": 796,
+      "minimumPoints": 85,
+      "triangles": 216,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-walls-doors/gold",
+      "area": 1.4058227977500015,
+      "pointCount": 104,
+      "minimumPoints": 85,
+      "triangles": 12,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-columns-dougong/stone",
+      "area": 50.34661793635815,
+      "pointCount": 766,
+      "minimumPoints": 85,
+      "triangles": 4056,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-columns-dougong/wood",
+      "area": 17.132229515907223,
+      "pointCount": 317,
+      "minimumPoints": 85,
+      "triangles": 624,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-lower-eaves-shell/roof",
+      "area": 96.83038501953463,
+      "pointCount": 1333,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9033477147043208
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-lower-eaves-shell/wood",
+      "area": 106.72527421895737,
+      "pointCount": 1467,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9033477140113925
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-lower-eaves-ribs-and-ridges/tile",
+      "area": 188.59466138456136,
+      "pointCount": 2679,
+      "minimumPoints": 130,
+      "triangles": 25280,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.905489045486084
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-lower-eaves-ribs-and-ridges/jade",
+      "area": 24.838826761900275,
+      "pointCount": 466,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9092722261536443
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-lower-eaves-ribs-and-ridges/gold",
+      "area": 0.5833260390101486,
+      "pointCount": 138,
+      "minimumPoints": 130,
+      "triangles": 452,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032310405302348
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-lower-eaves-ribs-and-ridges/jadeLight",
+      "area": 0.5355468944978878,
+      "pointCount": 137,
+      "minimumPoints": 130,
+      "triangles": 630,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048352733984338
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-clerestory/wood",
+      "area": 80.02680828862026,
+      "pointCount": 1106,
+      "minimumPoints": 24,
+      "triangles": 12,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-clerestory/dark",
+      "area": 4.1166960194229505,
+      "pointCount": 80,
+      "minimumPoints": 24,
+      "triangles": 144,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-clerestory/gold",
+      "area": 12.304141811347142,
+      "pointCount": 190,
+      "minimumPoints": 24,
+      "triangles": 1152,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-upper-roof-shell/roof",
+      "area": 68.92676679836329,
+      "pointCount": 956,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9060177275844137
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-upper-roof-shell/wood",
+      "area": 77.0752588764978,
+      "pointCount": 1066,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9060177275844137
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-upper-roof-ribs-and-ridges/tile",
+      "area": 135.04856629331894,
+      "pointCount": 1955,
+      "minimumPoints": 130,
+      "triangles": 20256,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9090119430782104
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-upper-roof-ribs-and-ridges/jade",
+      "area": 20.54438989068749,
+      "pointCount": 408,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.90690197561961
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-upper-roof-ribs-and-ridges/gold",
+      "area": 0.5381478187507598,
+      "pointCount": 137,
+      "minimumPoints": 130,
+      "triangles": 424,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032310405302354
+      ]
+    },
+    {
+      "name": "macau-mazu-main-double-eaved-hall-upper-roof-ribs-and-ridges/jadeLight",
+      "area": 0.47604094300857136,
+      "pointCount": 137,
+      "minimumPoints": 130,
+      "triangles": 560,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048352733984336
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-walls-doors/stone",
+      "area": 68.32363119211,
+      "pointCount": 1009,
+      "minimumPoints": 85,
+      "triangles": 12,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-walls-doors/wood",
+      "area": 125.50278854363022,
+      "pointCount": 1781,
+      "minimumPoints": 85,
+      "triangles": 648,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-walls-doors/dark",
+      "area": 36.878072974715614,
+      "pointCount": 584,
+      "minimumPoints": 85,
+      "triangles": 120,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-walls-doors/gold",
+      "area": 0.8178453776426281,
+      "pointCount": 96,
+      "minimumPoints": 85,
+      "triangles": 12,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110151
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-columns-dougong/stone",
+      "area": 40.55976204439124,
+      "pointCount": 633,
+      "minimumPoints": 85,
+      "triangles": 2808,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-columns-dougong/wood",
+      "area": 11.860766952607467,
+      "pointCount": 245,
+      "minimumPoints": 85,
+      "triangles": 432,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-lower-eaves-shell/roof",
+      "area": 45.110695433160686,
+      "pointCount": 634,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9051110540391712
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-lower-eaves-shell/wood",
+      "area": 51.414480717683,
+      "pointCount": 719,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048737084024409
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-lower-eaves-ribs-and-ridges/tile",
+      "area": 90.63084370443894,
+      "pointCount": 1355,
+      "minimumPoints": 130,
+      "triangles": 16640,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9094129098399752
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-lower-eaves-ribs-and-ridges/jade",
+      "area": 17.047341807726895,
+      "pointCount": 360,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9057723323961295
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-lower-eaves-ribs-and-ridges/gold",
+      "area": 0.44779191917417277,
+      "pointCount": 136,
+      "minimumPoints": 130,
+      "triangles": 368,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032310405302354
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-lower-eaves-ribs-and-ridges/jadeLight",
+      "area": 0.3570312338849341,
+      "pointCount": 135,
+      "minimumPoints": 130,
+      "triangles": 420,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048352658897221
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-clerestory/wood",
+      "area": 34.53423651746099,
+      "pointCount": 491,
+      "minimumPoints": 24,
+      "triangles": 12,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-clerestory/dark",
+      "area": 2.539445007881331,
+      "pointCount": 58,
+      "minimumPoints": 24,
+      "triangles": 144,
+      "sRGB": [
+        48,
+        44,
+        35
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-clerestory/gold",
+      "area": 9.602860313623282,
+      "pointCount": 154,
+      "minimumPoints": 24,
+      "triangles": 1152,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.8783450210110154
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-upper-roof-shell/roof",
+      "area": 31.48749903257061,
+      "pointCount": 450,
+      "minimumPoints": 24,
+      "triangles": 2688,
+      "sRGB": [
+        189,
+        112,
+        42
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9081840373000664
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-upper-roof-shell/wood",
+      "area": 36.4501901020387,
+      "pointCount": 517,
+      "minimumPoints": 24,
+      "triangles": 3328,
+      "sRGB": [
+        112,
+        47,
+        33
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9043810915669108
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-upper-roof-ribs-and-ridges/tile",
+      "area": 64.3639566714136,
+      "pointCount": 1000,
+      "minimumPoints": 130,
+      "triangles": 12576,
+      "sRGB": [
+        215,
+        148,
+        70
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9090890092052497
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-upper-roof-ribs-and-ridges/jade",
+      "area": 13.760629549615324,
+      "pointCount": 316,
+      "minimumPoints": 130,
+      "triangles": 2732,
+      "sRGB": [
+        86,
+        100,
+        87
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9076631443350118
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-upper-roof-ribs-and-ridges/gold",
+      "area": 0.35743573934517836,
+      "pointCount": 135,
+      "minimumPoints": 130,
+      "triangles": 312,
+      "sRGB": [
+        197,
+        162,
+        101
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9032311435306811
+      ]
+    },
+    {
+      "name": "macau-rear-dressing-tower-upper-roof-ribs-and-ridges/jadeLight",
+      "area": 0.2380204733301753,
+      "pointCount": 133,
+      "minimumPoints": 130,
+      "triangles": 280,
+      "sRGB": [
+        120,
+        132,
+        109
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9048352658897224
+      ]
+    },
+    {
+      "name": "macau-rear-court-steps-and-balconies/stone",
+      "area": 24.395950266767812,
+      "pointCount": 354,
+      "minimumPoints": 24,
+      "triangles": 1980,
+      "sRGB": [
+        176,
+        166,
+        140
+      ],
+      "bakedLinearShadeRange": [
+        0.3,
+        0.9040807247129139
+      ]
+    }
+  ]
+}

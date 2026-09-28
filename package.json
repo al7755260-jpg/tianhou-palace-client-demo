@@ -1,0 +1,8 @@
+{
+  "name": "tianhou-palace-client-demo",
+  "version": "2026.9.28",
+  "private": true,
+  "type": "module",
+  "description": "Tianhou Palace client experience and static deployment repository",
+  "scripts": {"start": "node preview.mjs", "verify": "node verify.mjs"}
+}

@@ -1,0 +1,9 @@
+{
+  "file": "partly-cloudy-4k.jpg",
+  "originalFilename": "kloofendal_48d_partly_cloudy_puresky_4k.jpg",
+  "source": "Poly Haven, supplied in the licensed Three.js Water Pro 3.5.1 demo",
+  "license": "CC0 1.0 Universal",
+  "processing": "Original file copied without pixel edits; UltraHDR decoded at runtime",
+  "usage": "360-degree sky, water reflections, and environment lighting",
+  "note": "Image-based sky; not a Lazy Cloud or Sky Pro volumetric cloud asset"
+}

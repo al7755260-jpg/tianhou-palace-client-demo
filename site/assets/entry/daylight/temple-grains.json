@@ -1,0 +1,41 @@
+{
+  "source": "tianhou-daylight-web-preview.blend",
+  "method": "Area-weighted full mesh surface sampling with Cycles baked UV color",
+  "count": 430000,
+  "objects": [
+    {
+      "object": "HeroTemple_model",
+      "samples": 330000,
+      "texture": "light-11.png",
+      "bounds": [
+        [
+          1.8460010290145874,
+          1.154856562614441,
+          -22.11439323425293
+        ],
+        [
+          27.18018341064453,
+          15.536880493164062,
+          3.6596028804779053
+        ]
+      ]
+    },
+    {
+      "object": "ShoreGate_model",
+      "samples": 100000,
+      "texture": "light-12.png",
+      "bounds": [
+        [
+          -4.430255889892578,
+          0.7011451125144958,
+          -13.579501152038574
+        ],
+        [
+          9.350996017456055,
+          8.70661449432373,
+          -4.530642032623291
+        ]
+      ]
+    }
+  ]
+}

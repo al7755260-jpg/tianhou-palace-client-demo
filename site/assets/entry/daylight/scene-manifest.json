@@ -1,0 +1,31 @@
+{
+  "pipeline": "Blender 5.2 / Lazy Cloud 2.0.1 operator / Cycles OPTIX",
+  "lazyCloudPreset": "LC_Shaders_Preset_1.png",
+  "world": "Sky_World_001",
+  "camera": {
+    "position": [
+      27.5,
+      3.8,
+      28
+    ],
+    "target": [
+      -5,
+      6,
+      -16
+    ],
+    "fov": 42
+  },
+  "source": "Full Rodin architecture; editable 3D boats, shore and mountains; reference-inspired artistic bay. Hidden geometry inferred; not a surveyed site.",
+  "heroModel": "ImageGen reference from client entry screenshot → Rodin df6b82be-39c4-4088-b486-ce79c1c65877; 500000 triangles",
+  "sourceObjects": 886,
+  "bakedSourceObjects": 47,
+  "composition": "Low eye-level oblique view from the right front; temple occupies right edge; left sea remains open; laptop in lower right.",
+  "laptopLayout": {
+    "position": [
+      15.5,
+      0.52,
+      7
+    ],
+    "scale": 0.55
+  }
+}
