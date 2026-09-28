@@ -1,7 +1,7 @@
 {
   "version": "2026-09-28",
-  "fileCount": 287,
-  "totalBytes": 762066894,
+  "fileCount": 288,
+  "totalBytes": 771569404,
   "files": [
     {
       "path": ".gitattributes",
@@ -55,8 +55,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3780,
-      "sha256": "d7e802f06ea44b28ff52ad6021955673703f7c71be129f1d8b93bd63c17f30a1"
+      "bytes": 4076,
+      "sha256": "4f9b2556b798ffa5b136a394453a4db9c99fdf79f8a3d660c21ce8df0dedb903"
     },
     {
       "path": "runtime/node.exe",
@@ -429,9 +429,9 @@
       "sha256": "d304a7b6a2b081a2422b8b22012bb23bdeba3d2ddf71a3fc31d4be45cceb1d51"
     },
     {
-      "path": "site/assets/city-palace-experience-C2LRwwtk.js",
+      "path": "site/assets/city-palace-experience-xjy5X11Z.js",
       "bytes": 27034,
-      "sha256": "f97ab6aa2172c03d2b3397b609d624c5a9414d80a85b5475c59f9335a1036a20"
+      "sha256": "303c80b39a91b1dfc4c27ec884e9c7b73afa0ec745e2bc905960a55b7bfc87d0"
     },
     {
       "path": "site/assets/courtyard.webp",
@@ -794,9 +794,9 @@
       "sha256": "b98ef43ef3eb29245948bb1c3fcfb4f3e588c4eae0b2e9bc488fddbfebfaecdd"
     },
     {
-      "path": "site/assets/entry-environment-ChYNFMlZ.js",
+      "path": "site/assets/entry-environment-BCAnttYu.js",
       "bytes": 52909,
-      "sha256": "ea68d114201a5ac72a127129eaa15c681b0ad54a0d80618ee4a4bd81934b9f27"
+      "sha256": "9b320893f7431e4c32142f49e07966940e4ac909632fa9f6a2e8ffe236224881"
     },
     {
       "path": "site/assets/gate.webp",
@@ -884,9 +884,9 @@
       "sha256": "7ef5c1ffbb2cd26d6c0233cfd19de52a5b5147dfa358e111cc8c77dba746defc"
     },
     {
-      "path": "site/assets/harbor-scene-gpu-8K2siLef.js",
-      "bytes": 942011,
-      "sha256": "241fc7f46b631f9edd31db5d3d6ecd40e4ff6c08714529ba836a38ef00766eb8"
+      "path": "site/assets/harbor-scene-gpu-DRFnViEk.js",
+      "bytes": 946177,
+      "sha256": "17f0276bf3f873d7e33a9e2107f27d918b15088427875dd028208024040a79c8"
     },
     {
       "path": "site/assets/home-sea-art.webp",
@@ -894,19 +894,19 @@
       "sha256": "3d2e73db81ebdadd0642624fd798cbe53ea2bfaf3cac18e1d47f42473549baa2"
     },
     {
-      "path": "site/assets/hotspot-anchor-BrmsTf0H.css",
-      "bytes": 36495,
-      "sha256": "9d3a3f184651b69318d5ab89237d607a21ef8b3b0fbd1dedc27075c1d1873c52"
+      "path": "site/assets/hotspot-anchor-CUTdqUaI.css",
+      "bytes": 38886,
+      "sha256": "1e42d8ef108e669d83c5f3bcc271caf36b38f2462259ffb1a84d5eda0d1fe04f"
     },
     {
-      "path": "site/assets/hotspot-anchor-DYAibEFj.js",
-      "bytes": 5069336,
-      "sha256": "96e4b92adb0e6298d02d29005bd60ddb32e288cf9fdbab7defd029afd00bc78e"
+      "path": "site/assets/hotspot-anchor-DiCUZOrV.js",
+      "bytes": 5069608,
+      "sha256": "62bfaf3e0ae3ad9993c916efbedb67093759a4b4600e3754c11a590539746bea"
     },
     {
-      "path": "site/assets/interaction-diagnostics-BMIVGEPx.js",
+      "path": "site/assets/interaction-diagnostics-C7D8pmxE.js",
       "bytes": 631495,
-      "sha256": "370e91f0cffcf6e54c3ac1cd3dec54f6164b606f1ffe3c83e8fe2ddabfd8c292"
+      "sha256": "28a950661993ea259c950f6052a1e9898d87e3182acd88e118465bb365d3b271"
     },
     {
       "path": "site/assets/metadata.json",
@@ -929,9 +929,9 @@
       "sha256": "dfff491fe6a28eacedda257ccd34a82fa03ac7a09d83ccf87171c49dd32fe1fc"
     },
     {
-      "path": "site/assets/official-laptop-Cx2myCSq.js",
-      "bytes": 11445,
-      "sha256": "b0f20d21cec24c685336430d09f5bd056d5c1093a53e7ea6dc93c74763fcd75f"
+      "path": "site/assets/official-laptop-CmFsWxaE.js",
+      "bytes": 11452,
+      "sha256": "228774f195b7c894667920224dcbe88a4cf40c6b7278ea7490af1248afed8e8a"
     },
     {
       "path": "site/assets/palace/day-nautical-parchment.png",
@@ -1029,9 +1029,14 @@
       "sha256": "f0c734abd2351a8410fd50b31e45e0228466c9d4fe892585a9543502a8c3556c"
     },
     {
-      "path": "site/assets/quanzhou-D3uUHlOL.js",
+      "path": "site/assets/product/lantern-study-boat.glb",
+      "bytes": 9495160,
+      "sha256": "05ef40deb7d1fb95ddc66fef6193b54234bb06ba4023f6c12bbc37ee88e85621"
+    },
+    {
+      "path": "site/assets/quanzhou-mGhsTEai.js",
       "bytes": 36120,
-      "sha256": "518cf0c67e5aeac709bbe28aeeb06c24a8103734032a898612ec7539c82b3fe7"
+      "sha256": "723bfde7316f9c9feecc647ae46f17bee4175c4e3a6cdc368957d6bf2035b83c"
     },
     {
       "path": "site/assets/scan/bedchamber-balanced.spz",
@@ -1294,14 +1299,14 @@
       "sha256": "26e846543f1d220e9879e8e6f6909c2ff6cb2a4ffef6ef2f95c7b73aac679113"
     },
     {
-      "path": "site/assets/voyage-BgOFoWrq.js",
-      "bytes": 8073,
-      "sha256": "ed40962c01e842dc90d07d833912ab3014610b7f97b679d80e5346977cbe91b7"
-    },
-    {
       "path": "site/assets/voyage-CdedIQ5s.css",
       "bytes": 10489,
       "sha256": "8b51c1fe5375ebececa63d2639b7f0716c00ac64580d0504767f657e96b40e6e"
+    },
+    {
+      "path": "site/assets/voyage-vNYHd3H1.js",
+      "bytes": 8073,
+      "sha256": "fa03809bf7e1882039ab6b0ed982315236079ad084df6562eba2eb9b1ad7a90c"
     },
     {
       "path": "site/assets/water-pro/0dc5e7b1f333b682e8bf.jpg",
@@ -1406,27 +1411,27 @@
     {
       "path": "site/index.html",
       "bytes": 2294,
-      "sha256": "6fec15728f1358c6f21e173b2b877536d9aa3d6af3dd0367091aae4de41cab8a"
+      "sha256": "588af4dad55a6ce4b5d548341eedc2595595139115efed3ad721b1351621daa9"
     },
     {
       "path": "site/macau.html",
       "bytes": 8714,
-      "sha256": "f790c7f5a16aee97d7db91a07bc7e9781c230cc31b90e699a6bb5e5ea2e0864e"
+      "sha256": "c8c8e27b46a5dd72882808796b8721d7935f274b607de1b166a314338b8fb519"
     },
     {
       "path": "site/quanzhou.html",
       "bytes": 8135,
-      "sha256": "06f7d32afe8d8371c45429e52a422cc90fef44eaa3d1c1b955599377b8952574"
+      "sha256": "2ddb637e7b62f0bcdd63abc15829bffc84ced25a6c88738bf65be738270b195e"
     },
     {
       "path": "site/shenzhen.html",
       "bytes": 8723,
-      "sha256": "d088388526c0115b489c6477255f8c5e60f99858f1c554da05f7b668c69c7ca2"
+      "sha256": "2b65780a9e0335d083442f33ebbfe3c74e67e263ff0c33bd42bbb48a06a4704f"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 1079,
-      "sha256": "3f6d83f738ce91e9152981172bb4c1fb6bd7f1bcbb6a34de5cfe61d595bbc95b"
+      "bytes": 1297,
+      "sha256": "857969b687c4cd952eeacfbe8941be142eeee160771a74aef720cc46e5a37080"
     },
     {
       "path": "verify.mjs",
