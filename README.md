@@ -2,6 +2,16 @@
 
 版本：2026-09-28
 
+## 在线体验
+
+直接打开：https://al7755260-jpg.github.io/tianhou-palace-client-demo/
+
+GitHub 仓库：https://github.com/al7755260-jpg/tianhou-palace-client-demo
+
+页面模型较大，首次打开需要等待资源下载。推荐使用电脑浏览器体验。
+
+下载本仓库的 ZIP 并完整解压后，也可以按下方说明离线启动。
+
 ## Windows 客户：直接体验
 
 1. 将整个压缩包解压到一个文件夹。
@@ -22,6 +32,10 @@
 本包已包含本轮入口性能优化、海面清晰度恢复和详情页切换白闪修复。帧率取决于客户设备与窗口大小。
 
 ## Git 仓库
+
+```sh
+git clone https://github.com/al7755260-jpg/tianhou-palace-client-demo.git
+```
 
 配套 `.bundle` 是此体验版本的完整 Git 仓库归档，可直接克隆：
 

@@ -1,12 +1,17 @@
 {
   "version": "2026-09-28",
-  "fileCount": 281,
-  "totalBytes": 757957287,
+  "fileCount": 282,
+  "totalBytes": 757958392,
   "files": [
     {
       "path": ".gitattributes",
       "bytes": 8,
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "bytes": 667,
+      "sha256": "adfe3d4c310b22d2cb7ef22bea83ce764143bcfecdc865b2b83f1e8652678c4d"
     },
     {
       "path": ".gitignore",
@@ -50,8 +55,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2462,
-      "sha256": "012ea5e6e5af5c3f953671cda5a4d200141a11f564933f8619e978a66b1e3275"
+      "bytes": 2900,
+      "sha256": "8a724e05a55283a6722183df44644fb86c6fbd481e59ef4a36a27ec6ce59d3b9"
     },
     {
       "path": "runtime/node.exe",
