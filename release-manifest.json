@@ -1,7 +1,7 @@
 {
   "version": "2026-09-28",
-  "fileCount": 282,
-  "totalBytes": 757951825,
+  "fileCount": 286,
+  "totalBytes": 760868572,
   "files": [
     {
       "path": ".gitattributes",
@@ -55,8 +55,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3157,
-      "sha256": "08e92a93bc369903c2fb82165ca99d9884e7923408568368e447a4c8b6f5a620"
+      "bytes": 3314,
+      "sha256": "09d53e77a31157beb6beeebc30e7d1d87b641a7597180e859d41d669386b5b78"
     },
     {
       "path": "runtime/node.exe",
@@ -429,9 +429,9 @@
       "sha256": "d304a7b6a2b081a2422b8b22012bb23bdeba3d2ddf71a3fc31d4be45cceb1d51"
     },
     {
-      "path": "site/assets/city-palace-experience-BS4gEgHW.js",
-      "bytes": 27031,
-      "sha256": "33b82dc3cb4d4048c37a9120fbdf2263c61af7b373fd22cf746440de2168f73b"
+      "path": "site/assets/city-palace-experience-C2LRwwtk.js",
+      "bytes": 27034,
+      "sha256": "f97ab6aa2172c03d2b3397b609d624c5a9414d80a85b5475c59f9335a1036a20"
     },
     {
       "path": "site/assets/courtyard.webp",
@@ -794,24 +794,14 @@
       "sha256": "b98ef43ef3eb29245948bb1c3fcfb4f3e588c4eae0b2e9bc488fddbfebfaecdd"
     },
     {
-      "path": "site/assets/entry-environment-C9YB7Pjc.js",
-      "bytes": 51426,
-      "sha256": "9d91a373d61eaabd878a07c6a231f135c3d3427da8c0bd8d95f283768117b07a"
-    },
-    {
-      "path": "site/assets/entry-parallax-BHxjFeC6.js",
-      "bytes": 930,
-      "sha256": "9c1378570f0c4818399f5ce20b5f2af8d703bebf26ccf119b7396da2b9d58cd0"
+      "path": "site/assets/entry-environment-KLRvlPub.js",
+      "bytes": 51812,
+      "sha256": "f3b3fb60862dfceb5cd6643f870d3031a18a1e701e7fef0e5e9fc74e9c47e139"
     },
     {
       "path": "site/assets/gate.webp",
       "bytes": 142470,
       "sha256": "a485a29e17b91d5535709ad12284a012617fa7576a1d31fb038359ec48ef9838"
-    },
-    {
-      "path": "site/assets/GLTFLoader-2DzYOFat.js",
-      "bytes": 46377,
-      "sha256": "43fa7c0d3d7d66488b0432d78498a1c93e7335030808953780b2a3d6f85cfc15"
     },
     {
       "path": "site/assets/hall.webp",
@@ -894,9 +884,9 @@
       "sha256": "7ef5c1ffbb2cd26d6c0233cfd19de52a5b5147dfa358e111cc8c77dba746defc"
     },
     {
-      "path": "site/assets/harbor-scene-gpu-DCB_uE__.js",
-      "bytes": 951498,
-      "sha256": "2f1d46368c18513ab958b0462dd0032af9df42018830fac4c423a04a5f2934de"
+      "path": "site/assets/harbor-scene-gpu-DF5HPLOj.js",
+      "bytes": 941713,
+      "sha256": "f6474ec40be9c9ebd023944aaa253427c78942ba05caec81a50a44f5b5c0775e"
     },
     {
       "path": "site/assets/home-sea-art.webp",
@@ -909,14 +899,14 @@
       "sha256": "9d3a3f184651b69318d5ab89237d607a21ef8b3b0fbd1dedc27075c1d1873c52"
     },
     {
-      "path": "site/assets/hotspot-anchor-Vs1DEh3V.js",
-      "bytes": 5069332,
-      "sha256": "e4325ad989041791ab65b6f7ca7871bf2f75bb8cd43e24bd3d4a36395d10f4c5"
+      "path": "site/assets/hotspot-anchor-DYAibEFj.js",
+      "bytes": 5069336,
+      "sha256": "96e4b92adb0e6298d02d29005bd60ddb32e288cf9fdbab7defd029afd00bc78e"
     },
     {
-      "path": "site/assets/interaction-diagnostics-D06C9_Cz.js",
-      "bytes": 588254,
-      "sha256": "f42bfc516e0af1be92a342ea71587483c59037042ca83880620a382f0b06da74"
+      "path": "site/assets/interaction-diagnostics-BMIVGEPx.js",
+      "bytes": 631495,
+      "sha256": "370e91f0cffcf6e54c3ac1cd3dec54f6164b606f1ffe3c83e8fe2ddabfd8c292"
     },
     {
       "path": "site/assets/metadata.json",
@@ -939,9 +929,19 @@
       "sha256": "dfff491fe6a28eacedda257ccd34a82fa03ac7a09d83ccf87171c49dd32fe1fc"
     },
     {
+      "path": "site/assets/official-laptop-Cnvlrr_5.js",
+      "bytes": 10644,
+      "sha256": "c1072d3b440cf6c84670978c177bef5bf6b37754eaa6692a4701f491c7190c1e"
+    },
+    {
       "path": "site/assets/palace/day-nautical-parchment.png",
       "bytes": 2847237,
       "sha256": "ca4dae0ff9a94e0303b7c83f275cabfefdc04edbd3626e2a2d3e7520a08a580b"
+    },
+    {
+      "path": "site/assets/palace-growth-CSYyz6-8.js",
+      "bytes": 2511,
+      "sha256": "dd062b3a3bea5eabade8cf4f5223eeba7467a2d4310333b89c36837349dd626c"
     },
     {
       "path": "site/assets/photos/caisson.webp",
@@ -1004,9 +1004,29 @@
       "sha256": "dc3b50476a506820e7b13852e3dc973a5eced12dc2ecb668d2fe641968287d41"
     },
     {
-      "path": "site/assets/quanzhou-BaoPma1D.js",
-      "bytes": 36117,
-      "sha256": "4cee4b0ee114bead74803552023577c5dada1a3933f9af877e05df1a80326a50"
+      "path": "site/assets/product/draco/draco_decoder.wasm",
+      "bytes": 192420,
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac"
+    },
+    {
+      "path": "site/assets/product/draco/draco_wasm_wrapper.js",
+      "bytes": 58456,
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6"
+    },
+    {
+      "path": "site/assets/product/draco/LICENSE.txt",
+      "bytes": 13898,
+      "sha256": "d3709b0fb4b8a94bbb1d02b8a2e484f258b0d9c5c5a01f940391f3fe662cd1a4"
+    },
+    {
+      "path": "site/assets/product/gx651-official.glb",
+      "bytes": 2651744,
+      "sha256": "f0c734abd2351a8410fd50b31e45e0228466c9d4fe892585a9543502a8c3556c"
+    },
+    {
+      "path": "site/assets/quanzhou-D3uUHlOL.js",
+      "bytes": 36120,
+      "sha256": "518cf0c67e5aeac709bbe28aeeb06c24a8103734032a898612ec7539c82b3fe7"
     },
     {
       "path": "site/assets/scan/bedchamber-balanced.spz",
@@ -1269,14 +1289,14 @@
       "sha256": "26e846543f1d220e9879e8e6f6909c2ff6cb2a4ffef6ef2f95c7b73aac679113"
     },
     {
-      "path": "site/assets/voyage-BKseYHud.js",
-      "bytes": 8069,
-      "sha256": "e4b467e9b404a48027811d3d104e90abd41f79e2819b45a940b75593fac435d6"
-    },
-    {
       "path": "site/assets/voyage-CdedIQ5s.css",
       "bytes": 10489,
       "sha256": "8b51c1fe5375ebececa63d2639b7f0716c00ac64580d0504767f657e96b40e6e"
+    },
+    {
+      "path": "site/assets/voyage-DysESNtw.js",
+      "bytes": 8073,
+      "sha256": "a4c8e2c1ce3daf6a1ef8bcc9c87be1dcfbcc85094eb4f74d2745d2bcd53e4341"
     },
     {
       "path": "site/assets/water-pro/0dc5e7b1f333b682e8bf.jpg",
@@ -1381,27 +1401,27 @@
     {
       "path": "site/index.html",
       "bytes": 2294,
-      "sha256": "fbe10b9206f4d89314ef2abd26601f9ba66c0185e2a85f5ae7ef9286e1a412d5"
+      "sha256": "8ba38fc7d44b31e0cc038339debaa5bbc6fbc71828889ab1becc97a7c14a7a1e"
     },
     {
       "path": "site/macau.html",
-      "bytes": 8711,
-      "sha256": "4b484aeb957fabb2c4019bf9de598ef0a4da83706e4f367b24c2f88add723a45"
+      "bytes": 8714,
+      "sha256": "f790c7f5a16aee97d7db91a07bc7e9781c230cc31b90e699a6bb5e5ea2e0864e"
     },
     {
       "path": "site/quanzhou.html",
-      "bytes": 8132,
-      "sha256": "0bb1ad421fb3a576d7e9d92cdd5e7d1eeb3d409b910243087343a8efe02657a0"
+      "bytes": 8135,
+      "sha256": "06f7d32afe8d8371c45429e52a422cc90fef44eaa3d1c1b955599377b8952574"
     },
     {
       "path": "site/shenzhen.html",
-      "bytes": 8720,
-      "sha256": "4cc4e9a1362b523c829f34d231c4009ef27a83b8761b6fe816591a794703b702"
+      "bytes": 8723,
+      "sha256": "d088388526c0115b489c6477255f8c5e60f99858f1c554da05f7b668c69c7ca2"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 720,
-      "sha256": "7a495b036dc04100a2fe8443931bfa27c11bc2761b57cad16470ac445f3d3281"
+      "bytes": 1079,
+      "sha256": "3f6d83f738ce91e9152981172bb4c1fb6bd7f1bcbb6a34de5cfe61d595bbc95b"
     },
     {
       "path": "verify.mjs",
