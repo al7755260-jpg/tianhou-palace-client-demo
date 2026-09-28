@@ -1,7 +1,7 @@
 {
   "version": "2026-09-28",
   "fileCount": 282,
-  "totalBytes": 757958392,
+  "totalBytes": 757952692,
   "files": [
     {
       "path": ".gitattributes",
@@ -55,8 +55,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 2900,
-      "sha256": "8a724e05a55283a6722183df44644fb86c6fbd481e59ef4a36a27ec6ce59d3b9"
+      "bytes": 3078,
+      "sha256": "0e6ec585ce216dc3e0c5f7dd03bb728f7993c6377c0b52766b7770de71743559"
     },
     {
       "path": "runtime/node.exe",
@@ -429,9 +429,9 @@
       "sha256": "d304a7b6a2b081a2422b8b22012bb23bdeba3d2ddf71a3fc31d4be45cceb1d51"
     },
     {
-      "path": "site/assets/city-palace-experience-DBSBQ9fb.js",
-      "bytes": 27108,
-      "sha256": "df0ccb580166a3a69a701382be38b068083d166834bfe68cce798b47a25c5e32"
+      "path": "site/assets/city-palace-experience-BS4gEgHW.js",
+      "bytes": 27031,
+      "sha256": "33b82dc3cb4d4048c37a9120fbdf2263c61af7b373fd22cf746440de2168f73b"
     },
     {
       "path": "site/assets/courtyard.webp",
@@ -794,9 +794,9 @@
       "sha256": "b98ef43ef3eb29245948bb1c3fcfb4f3e588c4eae0b2e9bc488fddbfebfaecdd"
     },
     {
-      "path": "site/assets/entry-environment-BGt_TmLH.js",
-      "bytes": 51416,
-      "sha256": "febdbccb4499a40a565c76bf5ed648520b0e6f2db5b4155092c6df4b510c6a45"
+      "path": "site/assets/entry-environment-Cqws0an0.js",
+      "bytes": 51426,
+      "sha256": "48841c9a35122c2332a05ea0a688065a133db20a7cdddda0475a3294f763b9d6"
     },
     {
       "path": "site/assets/entry-parallax-BHxjFeC6.js",
@@ -894,9 +894,9 @@
       "sha256": "7ef5c1ffbb2cd26d6c0233cfd19de52a5b5147dfa358e111cc8c77dba746defc"
     },
     {
-      "path": "site/assets/harbor-scene-gpu-0E95mxHf.js",
-      "bytes": 952434,
-      "sha256": "aa16019bce9018c840292f20160a84e56b67c8482fdc76c88c2d895f5cd008e1"
+      "path": "site/assets/harbor-scene-gpu-d7vyNokb.js",
+      "bytes": 952444,
+      "sha256": "50fe2219ec2cf43a4568cd9821a86ac3273c3cc0bf7b074d5ea1c6524d0a6d96"
     },
     {
       "path": "site/assets/home-sea-art.webp",
@@ -904,12 +904,12 @@
       "sha256": "3d2e73db81ebdadd0642624fd798cbe53ea2bfaf3cac18e1d47f42473549baa2"
     },
     {
-      "path": "site/assets/hotspot-anchor-BjSRaZC4.css",
-      "bytes": 37248,
-      "sha256": "18cba6699b6ff7033dca89960a6fd1d2d52d704ab2bb8e9af8bbf6b14b6c2bbf"
+      "path": "site/assets/hotspot-anchor-BrmsTf0H.css",
+      "bytes": 36495,
+      "sha256": "9d3a3f184651b69318d5ab89237d607a21ef8b3b0fbd1dedc27075c1d1873c52"
     },
     {
-      "path": "site/assets/hotspot-anchor-Bwp5qvWE.js",
+      "path": "site/assets/hotspot-anchor-Vs1DEh3V.js",
       "bytes": 5069332,
       "sha256": "e4325ad989041791ab65b6f7ca7871bf2f75bb8cd43e24bd3d4a36395d10f4c5"
     },
@@ -924,6 +924,11 @@
       "sha256": "849618485303d1669202fd981cb09b484646752b0590b7257afdc62a556b2e77"
     },
     {
+      "path": "site/assets/modulepreload-polyfill-B5Qt9EMX.js",
+      "bytes": 711,
+      "sha256": "d2a32840421496e872ade591618d2fa5c33797605d1aec04301717e5a90757d0"
+    },
+    {
       "path": "site/assets/music/mist-over-the-celecean-2.mp3",
       "bytes": 4147307,
       "sha256": "1809732dddf2d07b32c2d4e7595a0f3546b26f77491df438741709abebaf1a26"
@@ -932,11 +937,6 @@
       "path": "site/assets/music/mist-over-the-celecean.mp3",
       "bytes": 4282842,
       "sha256": "dfff491fe6a28eacedda257ccd34a82fa03ac7a09d83ccf87171c49dd32fe1fc"
-    },
-    {
-      "path": "site/assets/music-player-DA0Xzur7.js",
-      "bytes": 3567,
-      "sha256": "01c42087a43663c449fb42013ac51d02b86a1610c7c4d612a6b0531e13a94289"
     },
     {
       "path": "site/assets/palace/day-nautical-parchment.png",
@@ -1004,9 +1004,9 @@
       "sha256": "dc3b50476a506820e7b13852e3dc973a5eced12dc2ecb668d2fe641968287d41"
     },
     {
-      "path": "site/assets/quanzhou-B57Utw2m.js",
-      "bytes": 36131,
-      "sha256": "6ca2d59980ee41b0a6a6d9372429bccbe66164387fe34d44c88e805cc5342a85"
+      "path": "site/assets/quanzhou-BaoPma1D.js",
+      "bytes": 36117,
+      "sha256": "4cee4b0ee114bead74803552023577c5dada1a3933f9af877e05df1a80326a50"
     },
     {
       "path": "site/assets/scan/bedchamber-balanced.spz",
@@ -1269,14 +1269,14 @@
       "sha256": "26e846543f1d220e9879e8e6f6909c2ff6cb2a4ffef6ef2f95c7b73aac679113"
     },
     {
-      "path": "site/assets/voyage-DostxW-O.js",
-      "bytes": 8102,
-      "sha256": "4028bb497e9a84112f2037bd69e6a195e0d3438a27232bd1e1bdc45817dbe9e9"
+      "path": "site/assets/voyage-BDfwSGY8.js",
+      "bytes": 8069,
+      "sha256": "efa29766fdee6d0d8a0eca0c3d29b9a65012d73451a5a63b77df8a8df94a1b9a"
     },
     {
-      "path": "site/assets/voyage-p9BAKhLf.css",
-      "bytes": 11242,
-      "sha256": "a702ce160c5234db9c591be669922f60ecc56ef119b7b265b6b5a418d273d1bf"
+      "path": "site/assets/voyage-CdedIQ5s.css",
+      "bytes": 10489,
+      "sha256": "8b51c1fe5375ebececa63d2639b7f0716c00ac64580d0504767f657e96b40e6e"
     },
     {
       "path": "site/assets/water-pro/0dc5e7b1f333b682e8bf.jpg",
@@ -1380,23 +1380,23 @@
     },
     {
       "path": "site/index.html",
-      "bytes": 2608,
-      "sha256": "c5eaf6bdefc8da680125590ac48b278e80d81287f5e376e2f06ca5a2bac5e1c2"
+      "bytes": 2294,
+      "sha256": "ecf576b8b8047579ea80d3427d9f59687420b70a82989838dccccd913fb4c252"
     },
     {
       "path": "site/macau.html",
-      "bytes": 9077,
-      "sha256": "92ca6b1e3b17b5f10f4fe3785ab35fdf8e6c46c66d733f3d728bb8e55eea9233"
+      "bytes": 8711,
+      "sha256": "4b484aeb957fabb2c4019bf9de598ef0a4da83706e4f367b24c2f88add723a45"
     },
     {
       "path": "site/quanzhou.html",
-      "bytes": 8498,
-      "sha256": "d0a3a7e2df0a0c8976f2797614ca0e68cea5d9f1a9f29dd7e080e607d6d76a73"
+      "bytes": 8132,
+      "sha256": "0bb1ad421fb3a576d7e9d92cdd5e7d1eeb3d409b910243087343a8efe02657a0"
     },
     {
       "path": "site/shenzhen.html",
-      "bytes": 9086,
-      "sha256": "9182e7b9037db56e84ea9fc730d036994636e3e53083c143fe7a289a0964ceae"
+      "bytes": 8720,
+      "sha256": "4cc4e9a1362b523c829f34d231c4009ef27a83b8761b6fe816591a794703b702"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",

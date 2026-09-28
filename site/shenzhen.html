@@ -5,18 +5,18 @@
 <script>try{document.documentElement.dataset.palaceTheme=localStorage.getItem('tianhou.palace.theme')==='day'?'day':'night';}catch{document.documentElement.dataset.palaceTheme='night';}</script>
 <style id="palace-first-paint">:root{--surface:#080d12;background:var(--surface);color-scheme:dark}:root[data-palace-theme=day]{--surface:#e3bf7e;color-scheme:light}body,#app{margin:0;background:var(--surface)}</style>
 
-  <script type="module" crossorigin src="./assets/music-player-DA0Xzur7.js"></script>
+  <script type="module" crossorigin src="./assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
   <script type="module" crossorigin src="./assets/interaction-diagnostics-D06C9_Cz.js"></script>
   <script type="module" crossorigin src="./assets/GLTFLoader-2DzYOFat.js"></script>
-  <script type="module" crossorigin src="./assets/hotspot-anchor-Bwp5qvWE.js"></script>
-  <script type="module" crossorigin src="./assets/city-palace-experience-DBSBQ9fb.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/hotspot-anchor-BjSRaZC4.css">
+  <script type="module" crossorigin src="./assets/hotspot-anchor-Vs1DEh3V.js"></script>
+  <script type="module" crossorigin src="./assets/city-palace-experience-BS4gEgHW.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/hotspot-anchor-BrmsTf0H.css">
   <link rel="stylesheet" crossorigin href="./assets/city-palace-experience-Bbbx4E4e.css">
 </head>
 <body data-city="shenzhen">
  <div id="app">
   <canvas id="heritage-backdrop" aria-hidden="true"></canvas>
-  <header class="masthead"><button class="brand" id="explore" aria-label="回到天后宫全景"><span class="brand-seal" aria-hidden="true">天<br>后</span><span class="brand-name">深圳天后宫<small>罗湖 · 笋岗村</small></span></button><button id="theme-toggle" class="theme-switch" role="switch" aria-checked="false" aria-label="切换至白天"><span class="theme-thumb" aria-hidden="true"></span><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4.2 4.2l2.1 2.1m11.4 11.4 2.1 2.1m0-15.6-2.1 2.1M6.3 17.7l-2.1 2.1"/></svg><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.8 8.8 0 0 1 9.5 4 8.8 8.8 0 1 0 20 14.5Z"/></svg></button><div class="header-actions"><a class="sea-map-return" href="./#map" aria-label="返回海丝宫庙航图">海路航图 <span>↗</span></a><button id="music-toggle" class="music-toggle" aria-label="开启背景音乐" aria-pressed="false" title="开启背景音乐"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h4l5-4v12l-5-4H4Z"/><path class="music-waves" d="M16 9a5 5 0 0 1 0 6m3-9a9 9 0 0 1 0 12"/><path class="music-slash" d="m17 10 4 4m0-4-4 4"/></svg><span data-music-label>音乐</span></button><button id="sound-toggle" class="sound-toggle" aria-label="开启音效" aria-pressed="false" title="开启音效"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h4l5-4v12l-5-4H4Z"/><path class="sound-waves" d="M16 9a5 5 0 0 1 0 6m3-9a9 9 0 0 1 0 12"/><path class="sound-slash" d="m17 10 4 4m0-4-4 4"/></svg><span>声音</span></button><button id="history" class="about-link">海丝记忆 <span aria-hidden="true">↗</span></button></div></header>
+  <header class="masthead"><button class="brand" id="explore" aria-label="回到天后宫全景"><span class="brand-seal" aria-hidden="true">天<br>后</span><span class="brand-name">深圳天后宫<small>罗湖 · 笋岗村</small></span></button><button id="theme-toggle" class="theme-switch" role="switch" aria-checked="false" aria-label="切换至白天"><span class="theme-thumb" aria-hidden="true"></span><svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4.2 4.2l2.1 2.1m11.4 11.4 2.1 2.1m0-15.6-2.1 2.1M6.3 17.7l-2.1 2.1"/></svg><svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.8 8.8 0 0 1 9.5 4 8.8 8.8 0 1 0 20 14.5Z"/></svg></button><div class="header-actions"><a class="sea-map-return" href="./#map" aria-label="返回海丝宫庙航图">海路航图 <span>↗</span></a><button id="sound-toggle" class="sound-toggle" aria-label="开启音效" aria-pressed="false" title="开启音效"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h4l5-4v12l-5-4H4Z"/><path class="sound-waves" d="M16 9a5 5 0 0 1 0 6m3-9a9 9 0 0 1 0 12"/><path class="sound-slash" d="m17 10 4 4m0-4-4 4"/></svg><span>声音</span></button><button id="history" class="about-link">海丝记忆 <span aria-hidden="true">↗</span></button></div></header>
   <main>
    <div id="scene" role="region" aria-label="天后宫三维交互场景，拖动旋转，滚轮缩放，方向键旋转" tabindex="0"></div>
 <section id="city-intro" aria-label="罗湖 · 笋岗村"><small></small><h1></h1><p></p></section><details id="city-guide"><summary>探索兴趣点 <span id="city-count">0 / 7 已探访</span></summary><nav id="city-interest-list" aria-label="深圳天后宫兴趣点目录"></nav></details>
