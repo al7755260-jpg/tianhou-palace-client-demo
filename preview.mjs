@@ -16,7 +16,7 @@ const server=http.createServer(async(req,res)=>{
  try{
   if(req.method!=='GET'&&req.method!=='HEAD'){res.writeHead(405,{Allow:'GET, HEAD'}).end();return;}
   let pathname;try{pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);}catch{res.writeHead(400).end();return;}
-  if(pathname==='/_demo/health.json'){const body=JSON.stringify({site:'tianhou-palace-client-demo',version:'2026-09-28',ready:true});res.writeHead(200,{'Content-Type':mime['.json'],'Content-Length':Buffer.byteLength(body)});res.end(req.method==='HEAD'?undefined:body);return;}
+  if(pathname==='/_demo/health.json'){const body=JSON.stringify({site:'tianhou-palace-client-demo',version:'2026-10-07',ready:true});res.writeHead(200,{'Content-Type':mime['.json'],'Content-Length':Buffer.byteLength(body)});res.end(req.method==='HEAD'?undefined:body);return;}
   let file=path.resolve(root,'.'+pathname);
   if((file!==root&&!file.startsWith(root+path.sep))||pathname.includes('\0')){res.writeHead(403).end();return;}
   let info=await stat(file).catch(()=>null);
@@ -43,7 +43,7 @@ for(let candidate=firstPort;candidate<firstPort+20;candidate++){
 }
 if(!port)throw Error('可用端口均被占用，请关闭旧的体验窗口后重试。');
 const url=`http://${host}:${port}/`;
-console.log(`\n天后宫 · 客户体验版 2026-09-28\n\n体验地址：${url}\n\n请保持此窗口打开。体验结束后按 Ctrl+C 或关闭此窗口。\n`);
+console.log(`\n天后宫 · 客户体验版 2026-10-07\n\n体验地址：${url}\n\n请保持此窗口打开。体验结束后按 Ctrl+C 或关闭此窗口。\n`);
 if(!noOpen){
  const command=process.platform==='win32'?'cmd.exe':process.platform==='darwin'?'open':'xdg-open';
  const args=process.platform==='win32'?['/d','/s','/c',`start "" "${url}"`]:[url];

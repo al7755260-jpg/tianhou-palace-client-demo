@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "method": "additional original Gaussian centers; no synthetic interpolation",
+  "cities": {
+    "quanzhou": {
+      "file": "temple-particles-hd.bin",
+      "count": 250000,
+      "bytes": 4000012,
+      "sha256": "826cdc9e82a21cd72dbfc6d3ff9c1240ce72dc70f624cd8eea2f3455c3987e31",
+      "sources": [
+        {
+          "file": "temple-preview.spz",
+          "count": 250000,
+          "sha256": "201a1093dca28d644b3e785ab8d13b46643075bacca57df9e98ca646741b31c5"
+        }
+      ]
+    },
+    "macau": {
+      "file": "cities/macau/particles-hd.bin",
+      "count": 240000,
+      "bytes": 3840012,
+      "sha256": "cfbc403c424f42f89145f5d307d59d9728ba02a25761d8e7fa45956dcca51a99",
+      "sources": [
+        {
+          "file": "cities/macau/mountain-gate.spz",
+          "count": 10874,
+          "sha256": "db1ded8aa81a8b9aa7c10dc823a72ab7c455f29fc9d6b1a2a1e710e02374ecec"
+        },
+        {
+          "file": "cities/macau/east-tower.spz",
+          "count": 12456,
+          "sha256": "e8b99506e18cb1ce6837bb604dc1db97bac34378e6ea83f207631d4b4b22618e"
+        },
+        {
+          "file": "cities/macau/west-tower.spz",
+          "count": 11448,
+          "sha256": "4a2b6383c0d4048cd58e798f018c689b5e7102f601b63ea7a7d2aac53ef4960e"
+        },
+        {
+          "file": "cities/macau/altar.spz",
+          "count": 14218,
+          "sha256": "da1113c599869a9b954a41404ccfe1c373901283a3076c220f044aaf2bbe3ddc"
+        },
+        {
+          "file": "cities/macau/terrace.spz",
+          "count": 7636,
+          "sha256": "7d829c2b1d065e4b0982781f85d7a6f6aa9ecea93e9bc454dd7838dbb2f8e9d8"
+        },
+        {
+          "file": "cities/macau/main-hall.spz",
+          "count": 34241,
+          "sha256": "2446b9f7ce813c5d6a12bb728602b86a5fd0d1df7e2b2e596373822f95b8dd38"
+        },
+        {
+          "file": "cities/macau/dressing-tower.spz",
+          "count": 50330,
+          "sha256": "eddbd059138ce9490d09105ee10fda84d183b7aa3fa706d9f39c4de2a685a904"
+        },
+        {
+          "file": "cities/macau/east-gallery.spz",
+          "count": 45472,
+          "sha256": "24655f0e2562c4d2aed75505256c9dc861c9bfe400c98e384a91ecdd72a46fca"
+        },
+        {
+          "file": "cities/macau/west-gallery.spz",
+          "count": 44091,
+          "sha256": "94bd3f38aa1be381e8a6217e3d59d2d86a43264dd8e4db0e33892ba4db25a288"
+        },
+        {
+          "file": "cities/macau/approach.spz",
+          "count": 9680,
+          "sha256": "d2b872d3ef1cf185cf071b51ea12dc590108e91a5f3e24a2dbfadcf5c4e1ea1f"
+        },
+        {
+          "file": "cities/macau/courtyard.spz",
+          "count": 21698,
+          "sha256": "993d452f6a54f9fc838ff428faa29a99d15812479100a533c2972441168687f7"
+        }
+      ]
+    },
+    "shenzhen": {
+      "file": "cities/shenzhen/particles-hd.bin",
+      "count": 240000,
+      "bytes": 3840012,
+      "sha256": "18fc94e8e35eb77e024905e9bb8beb6c61e468ac7e8a7743d809e1788704fd0e",
+      "sources": [
+        {
+          "file": "cities/shenzhen/dragon-column.spz",
+          "count": 1542,
+          "sha256": "b6f45f4ee5871b6d7631985623324407f42ac2fccd7b0dc477f7cf41a5fdb42d"
+        },
+        {
+          "file": "cities/shenzhen/lanterns.spz",
+          "count": 839,
+          "sha256": "0a9d76f7c5f7564aa566f60b885d099cb60fdc6027574aa9e8a3c4e9fc57bf51"
+        },
+        {
+          "file": "cities/shenzhen/vessels.spz",
+          "count": 3775,
+          "sha256": "1036f99534ffb3bb2b38a48f7f1ae188c94f8385b2eefcaca3d43f83195b8dfc"
+        },
+        {
+          "file": "cities/shenzhen/doorway.spz",
+          "count": 29904,
+          "sha256": "9a348ea1bcf085a437ce19e75b93bc09e8fb61d5fbadadcd3354db0f09423d9a"
+        },
+        {
+          "file": "cities/shenzhen/ridge.spz",
+          "count": 2886,
+          "sha256": "cedb2db5677204b1344115788e15b7de8344657ccdd3742b777eb261dca93062"
+        },
+        {
+          "file": "cities/shenzhen/front-hall.spz",
+          "count": 67717,
+          "sha256": "3ff98da99edc96a351e3027abb2e505aa4f0501267d070634d25467b6407e7af"
+        },
+        {
+          "file": "cities/shenzhen/inner-court.spz",
+          "count": 43943,
+          "sha256": "18eec12836401a1143af12a041faec81813a794a5d8ae24b6063e9808d93f449"
+        },
+        {
+          "file": "cities/shenzhen/rear-hall.spz",
+          "count": 92757,
+          "sha256": "baf1755172bb472c025233c537909f686d598536fee5f953e575ce69ed025e45"
+        },
+        {
+          "file": "cities/shenzhen/approach.spz",
+          "count": 18781,
+          "sha256": "3ee5b94fa92d15fa949da01c1696f4fc810e36e3a7677104b120e2f5d067de91"
+        }
+      ]
+    }
+  }
+}
